@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 01975cdf70da89f4dae81b7206ef5850
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7193294155705284801
+    second: drip_light_0
+  - first:
+      213: 9003517662948916403
+    second: drip_light_1
+  - first:
+      213: 4742768636363915518
+    second: drip_light_2
+  - first:
+      213: 3379688255961283657
+    second: drip_light_3
+  - first:
+      213: 1403344532518776363
+    second: drip_light_4
+  - first:
+      213: -3813307716069496936
+    second: drip_light_5
+  - first:
+      213: 8281422630666114856
+    second: drip_light_6
+  - first:
+      213: -3695501438297090061
+    second: drip_light_7
+  - first:
+      213: 633834645000600317
+    second: drip_light_8
+  - first:
+      213: 6446145191627045034
+    second: drip_light_9
+  - first:
+      213: -7849198484474887727
+    second: drip_light_10
+  - first:
+      213: 4762865486437560764
+    second: drip_light_11
+  - first:
+      213: 4731854800246339997
+    second: drip_light_12
+  - first:
+      213: 2729118934081679382
+    second: drip_light_13
+  - first:
+      213: -1372470352128307981
+    second: drip_light_14
+  - first:
+      213: -7827605057735974137
+    second: drip_light_15
+  - first:
+      213: 2454281464496174620
+    second: drip_light_16
+  - first:
+      213: -3608328927951270288
+    second: drip_light_17
+  - first:
+      213: -8794472789835927190
+    second: drip_light_18
+  - first:
+      213: -419415351299186615
+    second: drip_light_19
+  - first:
+      213: 2978653259034163572
+    second: drip_light_20
+  - first:
+      213: 3939585659046858746
+    second: drip_light_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: drip_light_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 329
+        width: 10
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8f4b34ce6b3d360800000000000000
+      internalID: 7193294155705284801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 369
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc760d9c9be2fc70800000000000000
+      internalID: 9003517662948916403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 368
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0c55e42f2b1d140800000000000000
+      internalID: 4742768636363915518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 321
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cb12cff8017ee20800000000000000
+      internalID: 3379688255961283657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 320
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ea446ca6ea97310800000000000000
+      internalID: 1403344532518776363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 277
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897eb6406d8641bc0800000000000000
+      internalID: -3813307716069496936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 272
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8271cb771068de270800000000000000
+      internalID: 8281422630666114856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_7
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 272
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f75b5f7501f6bcc0800000000000000
+      internalID: -3695501438297090061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 188
+        width: 10
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfab89d5045dbc800800000000000000
+      internalID: 633834645000600317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 224
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8b58d06ee457950800000000000000
+      internalID: 6446145191627045034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 177
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d10751b09b021390800000000000000
+      internalID: -7849198484474887727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_11
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 223
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb13418dce8191240800000000000000
+      internalID: 4762865486437560764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 176
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99f861dedceaa140800000000000000
+      internalID: 4731854800246339997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 137
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6103bb70637cfd520800000000000000
+      internalID: 2729118934081679382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_14
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 129
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc03a48c7104fce0800000000000000
+      internalID: -1372470352128307981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 128
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703a8932ca2ce5390800000000000000
+      internalID: -7827605057735974137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 85
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16be161dfb5f0220800000000000000
+      internalID: 2454281464496174620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 80
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ec2b035f3acedc0800000000000000
+      internalID: -3608328927951270288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_18
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 80
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61bdfeb791c3f580800000000000000
+      internalID: -8794472789835927190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 33
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940677cc5ffed2af0800000000000000
+      internalID: -419415351299186615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_20
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 32
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4797ac58b5d465920800000000000000
+      internalID: 2978653259034163572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drip_light_21
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 31
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff06b9b8483ca630800000000000000
+      internalID: 3939585659046858746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      drip_light_0: 7193294155705284801
+      drip_light_1: 9003517662948916403
+      drip_light_10: -7849198484474887727
+      drip_light_11: 4762865486437560764
+      drip_light_12: 4731854800246339997
+      drip_light_13: 2729118934081679382
+      drip_light_14: -1372470352128307981
+      drip_light_15: -7827605057735974137
+      drip_light_16: 2454281464496174620
+      drip_light_17: -3608328927951270288
+      drip_light_18: -8794472789835927190
+      drip_light_19: -419415351299186615
+      drip_light_2: 4742768636363915518
+      drip_light_20: 2978653259034163572
+      drip_light_21: 3939585659046858746
+      drip_light_3: 3379688255961283657
+      drip_light_4: 1403344532518776363
+      drip_light_5: -3813307716069496936
+      drip_light_6: 8281422630666114856
+      drip_light_7: -3695501438297090061
+      drip_light_8: 633834645000600317
+      drip_light_9: 6446145191627045034
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

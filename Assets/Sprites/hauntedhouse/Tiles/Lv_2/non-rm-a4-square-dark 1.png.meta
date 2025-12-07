@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: e28dd7a07cf18e842a9f5b84f526f28c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3018140061722688739
+    second: non-rm-a4-square-dark_0
+  - first:
+      213: 5710099347896394422
+    second: non-rm-a4-square-dark_1
+  - first:
+      213: 9017860472388083118
+    second: non-rm-a4-square-dark_2
+  - first:
+      213: -8370058710034922963
+    second: non-rm-a4-square-dark_3
+  - first:
+      213: -5658859169239183745
+    second: non-rm-a4-square-dark_4
+  - first:
+      213: 4561961372259097179
+    second: non-rm-a4-square-dark_5
+  - first:
+      213: 2647086298180941332
+    second: non-rm-a4-square-dark_6
+  - first:
+      213: -2527507605130130603
+    second: non-rm-a4-square-dark_7
+  - first:
+      213: -6946487381520674546
+    second: non-rm-a4-square-dark_8
+  - first:
+      213: -756077742388805145
+    second: non-rm-a4-square-dark_9
+  - first:
+      213: 6034197009563440449
+    second: non-rm-a4-square-dark_10
+  - first:
+      213: 8389127110265747346
+    second: non-rm-a4-square-dark_11
+  - first:
+      213: 7158338145994378546
+    second: non-rm-a4-square-dark_12
+  - first:
+      213: 5403018611664229870
+    second: non-rm-a4-square-dark_13
+  - first:
+      213: 7304684969053947806
+    second: non-rm-a4-square-dark_14
+  - first:
+      213: -6637166793820654529
+    second: non-rm-a4-square-dark_15
+  - first:
+      213: -3453532265377593142
+    second: non-rm-a4-square-dark_16
+  - first:
+      213: 4972203391662121298
+    second: non-rm-a4-square-dark_17
+  - first:
+      213: -6520179510546837558
+    second: non-rm-a4-square-dark_18
+  - first:
+      213: 7160367657052658919
+    second: non-rm-a4-square-dark_19
+  - first:
+      213: 8149784196829835354
+    second: non-rm-a4-square-dark_20
+  - first:
+      213: 3853381356040630976
+    second: non-rm-a4-square-dark_21
+  - first:
+      213: -2306551707910630641
+    second: non-rm-a4-square-dark_22
+  - first:
+      213: -5226826814607880392
+    second: non-rm-a4-square-dark_23
+  - first:
+      213: -7395240184336452474
+    second: non-rm-a4-square-dark_24
+  - first:
+      213: 5392922032579307939
+    second: non-rm-a4-square-dark_25
+  - first:
+      213: 3409234542045381824
+    second: non-rm-a4-square-dark_26
+  - first:
+      213: -2328177116843398807
+    second: non-rm-a4-square-dark_27
+  - first:
+      213: 8587982527722793140
+    second: non-rm-a4-square-dark_28
+  - first:
+      213: 618747508392403129
+    second: non-rm-a4-square-dark_29
+  - first:
+      213: 6615645322158815292
+    second: non-rm-a4-square-dark_30
+  - first:
+      213: 8713089662274857497
+    second: non-rm-a4-square-dark_31
+  - first:
+      213: -2497267898863079819
+    second: non-rm-a4-square-dark_32
+  - first:
+      213: -266181229565818702
+    second: non-rm-a4-square-dark_33
+  - first:
+      213: -1544396258128193600
+    second: non-rm-a4-square-dark_34
+  - first:
+      213: -4168272948410061103
+    second: non-rm-a4-square-dark_35
+  - first:
+      213: -5140242814997486118
+    second: non-rm-a4-square-dark_36
+  - first:
+      213: 1330733103781293550
+    second: non-rm-a4-square-dark_37
+  - first:
+      213: 8028651998559878683
+    second: non-rm-a4-square-dark_38
+  - first:
+      213: 6011923086496271628
+    second: non-rm-a4-square-dark_39
+  - first:
+      213: -5973116654893028794
+    second: non-rm-a4-square-dark_40
+  - first:
+      213: -6177537562071850006
+    second: non-rm-a4-square-dark_41
+  - first:
+      213: -7471559534044883344
+    second: non-rm-a4-square-dark_42
+  - first:
+      213: 2094446690639301125
+    second: non-rm-a4-square-dark_43
+  - first:
+      213: 7280851250597530762
+    second: non-rm-a4-square-dark_44
+  - first:
+      213: 196339827484592432
+    second: non-rm-a4-square-dark_45
+  - first:
+      213: 9015319497388775236
+    second: non-rm-a4-square-dark_46
+  - first:
+      213: -7530292312703552504
+    second: non-rm-a4-square-dark_47
+  - first:
+      213: 2359490865804053272
+    second: non-rm-a4-square-dark_48
+  - first:
+      213: -6606907234378775934
+    second: non-rm-a4-square-dark_49
+  - first:
+      213: -8963910539597323735
+    second: non-rm-a4-square-dark_50
+  - first:
+      213: 1551860816545691626
+    second: non-rm-a4-square-dark_51
+  - first:
+      213: 3768732174606557352
+    second: non-rm-a4-square-dark_52
+  - first:
+      213: 3497150758622599487
+    second: non-rm-a4-square-dark_53
+  - first:
+      213: 1380536360005045151
+    second: non-rm-a4-square-dark_54
+  - first:
+      213: 6812050754536497547
+    second: non-rm-a4-square-dark_55
+  - first:
+      213: -1610855641137714635
+    second: non-rm-a4-square-dark_56
+  - first:
+      213: 502114260042509706
+    second: non-rm-a4-square-dark_57
+  - first:
+      213: -1167121142910602640
+    second: non-rm-a4-square-dark_58
+  - first:
+      213: 8348295857300863422
+    second: non-rm-a4-square-dark_59
+  - first:
+      213: 6739794714242220228
+    second: non-rm-a4-square-dark_60
+  - first:
+      213: 5123625953556186267
+    second: non-rm-a4-square-dark_61
+  - first:
+      213: 8723295891869182590
+    second: non-rm-a4-square-dark_62
+  - first:
+      213: 223771373238891845
+    second: non-rm-a4-square-dark_63
+  - first:
+      213: 2126238251972218830
+    second: non-rm-a4-square-dark_64
+  - first:
+      213: 668506458903104966
+    second: non-rm-a4-square-dark_65
+  - first:
+      213: -8424015490149101818
+    second: non-rm-a4-square-dark_66
+  - first:
+      213: -7940354487409047185
+    second: non-rm-a4-square-dark_67
+  - first:
+      213: -6515532732225343328
+    second: non-rm-a4-square-dark_68
+  - first:
+      213: -290383040904901938
+    second: non-rm-a4-square-dark_69
+  - first:
+      213: 5186531194229437169
+    second: non-rm-a4-square-dark_70
+  - first:
+      213: -2312120247398037377
+    second: non-rm-a4-square-dark_71
+  - first:
+      213: -3503441024910610542
+    second: non-rm-a4-square-dark_72
+  - first:
+      213: -5804353219519081365
+    second: non-rm-a4-square-dark_73
+  - first:
+      213: -5987339691607299957
+    second: non-rm-a4-square-dark_74
+  - first:
+      213: -2313986981193536352
+    second: non-rm-a4-square-dark_75
+  - first:
+      213: -2975399938149317535
+    second: non-rm-a4-square-dark_76
+  - first:
+      213: -6293258022671026661
+    second: non-rm-a4-square-dark_77
+  - first:
+      213: -9089818468672853626
+    second: non-rm-a4-square-dark_78
+  - first:
+      213: 2406590856619824764
+    second: non-rm-a4-square-dark_79
+  - first:
+      213: 1558072314985164300
+    second: non-rm-a4-square-dark_80
+  - first:
+      213: -5694453607688736502
+    second: non-rm-a4-square-dark_81
+  - first:
+      213: 2088846049394991265
+    second: non-rm-a4-square-dark_82
+  - first:
+      213: -7383464583162558380
+    second: non-rm-a4-square-dark_83
+  - first:
+      213: 8112151238698279813
+    second: non-rm-a4-square-dark_84
+  - first:
+      213: -4413196557742766733
+    second: non-rm-a4-square-dark_85
+  - first:
+      213: 8633711818018581133
+    second: non-rm-a4-square-dark_86
+  - first:
+      213: 8588487221780806376
+    second: non-rm-a4-square-dark_87
+  - first:
+      213: -2533495407261485899
+    second: non-rm-a4-square-dark_88
+  - first:
+      213: -3177659753484079182
+    second: non-rm-a4-square-dark_89
+  - first:
+      213: 585782661118106494
+    second: non-rm-a4-square-dark_90
+  - first:
+      213: 5618515038679815935
+    second: non-rm-a4-square-dark_91
+  - first:
+      213: -3689246150829904289
+    second: non-rm-a4-square-dark_92
+  - first:
+      213: 4458126698255151283
+    second: non-rm-a4-square-dark_93
+  - first:
+      213: -7347020045161064744
+    second: non-rm-a4-square-dark_94
+  - first:
+      213: -6953527462261064547
+    second: non-rm-a4-square-dark_95
+  - first:
+      213: -8594868354662977728
+    second: non-rm-a4-square-dark_96
+  - first:
+      213: -456014963394667373
+    second: non-rm-a4-square-dark_97
+  - first:
+      213: 1322479490493988377
+    second: non-rm-a4-square-dark_98
+  - first:
+      213: -7801242603724837791
+    second: non-rm-a4-square-dark_99
+  - first:
+      213: -3587970174332810601
+    second: non-rm-a4-square-dark_100
+  - first:
+      213: -6601570764188387124
+    second: non-rm-a4-square-dark_101
+  - first:
+      213: -8538575720868324268
+    second: non-rm-a4-square-dark_102
+  - first:
+      213: 3099827799081436522
+    second: non-rm-a4-square-dark_103
+  - first:
+      213: -2272398927973118409
+    second: non-rm-a4-square-dark_104
+  - first:
+      213: 5199056927515910445
+    second: non-rm-a4-square-dark_105
+  - first:
+      213: 6151311453231540426
+    second: non-rm-a4-square-dark_106
+  - first:
+      213: -8569492615389368485
+    second: non-rm-a4-square-dark_107
+  - first:
+      213: -7021261453675548891
+    second: non-rm-a4-square-dark_108
+  - first:
+      213: -2465791948821481016
+    second: non-rm-a4-square-dark_109
+  - first:
+      213: -19751474397833935
+    second: non-rm-a4-square-dark_110
+  - first:
+      213: -7764402837187114755
+    second: non-rm-a4-square-dark_111
+  - first:
+      213: -8153833816865134368
+    second: non-rm-a4-square-dark_112
+  - first:
+      213: -4940827164115403382
+    second: non-rm-a4-square-dark_113
+  - first:
+      213: 1670257829372912906
+    second: non-rm-a4-square-dark_114
+  - first:
+      213: -7742167533301534847
+    second: non-rm-a4-square-dark_115
+  - first:
+      213: -1527933372747209149
+    second: non-rm-a4-square-dark_116
+  - first:
+      213: -6432373533295918039
+    second: non-rm-a4-square-dark_117
+  - first:
+      213: -5535511931319804435
+    second: non-rm-a4-square-dark_118
+  - first:
+      213: -6019282403229017986
+    second: non-rm-a4-square-dark_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 78
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: non-rm-a4-square-dark 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 155
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebc5b791d0732f4da2bc01f71bf59bc
+      internalID: 1375360792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-dark 1_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 155
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb628d35dc4c254bb61b15278367668
+      internalID: -1806507225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-dark 1_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 155
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6a3bb9813359c4ca6873e9ca138538
+      internalID: 76348119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-dark 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d04d1027713b124386a6aba3dc8fe95
+      internalID: -604327718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-dark 1_4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd89fde91a49d0a409387b0bded03f7a
+      internalID: -1778006061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-dark 1_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 78
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1073c4f352d7586448ef49322bea19bf
+      internalID: -767743186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-dark 1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c92f1749a34c945853d1e2a0d15bb5
+      internalID: 1159284837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-dark 1_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d1edd8fd783514a9b513ccefea380a
+      internalID: 265142614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-dark 1_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fa1f2339a3b6245a3f85359017d5c5
+      internalID: -490017880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1e1a8ffd4996e024d97b48658a93f780
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      non-rm-a4-square-dark 1_0: 1375360792
+      non-rm-a4-square-dark 1_1: -1806507225
+      non-rm-a4-square-dark 1_2: 76348119
+      non-rm-a4-square-dark 1_3: -604327718
+      non-rm-a4-square-dark 1_4: -1778006061
+      non-rm-a4-square-dark 1_5: -767743186
+      non-rm-a4-square-dark 1_6: 1159284837
+      non-rm-a4-square-dark 1_7: 265142614
+      non-rm-a4-square-dark 1_8: -490017880
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3237 @@
+fileFormatVersion: 2
+guid: 3db057da6deb5de4c812f06da571524c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3524697790281237069
+    second: non-rm-a4-square-light_0
+  - first:
+      213: -3799236231081517855
+    second: non-rm-a4-square-light_1
+  - first:
+      213: -106874277064283352
+    second: non-rm-a4-square-light_2
+  - first:
+      213: 9032917969323320998
+    second: non-rm-a4-square-light_3
+  - first:
+      213: -7150233747941103320
+    second: non-rm-a4-square-light_4
+  - first:
+      213: -2154477258408554178
+    second: non-rm-a4-square-light_5
+  - first:
+      213: -155973206243587285
+    second: non-rm-a4-square-light_6
+  - first:
+      213: 3396604937712905564
+    second: non-rm-a4-square-light_7
+  - first:
+      213: 4776271509412052174
+    second: non-rm-a4-square-light_8
+  - first:
+      213: -7023999683353358004
+    second: non-rm-a4-square-light_9
+  - first:
+      213: -1796724789873683286
+    second: non-rm-a4-square-light_10
+  - first:
+      213: -4578815957285226550
+    second: non-rm-a4-square-light_11
+  - first:
+      213: 7317745811512897530
+    second: non-rm-a4-square-light_12
+  - first:
+      213: -5973316133054587389
+    second: non-rm-a4-square-light_13
+  - first:
+      213: -487160382054662991
+    second: non-rm-a4-square-light_14
+  - first:
+      213: -538009678258766649
+    second: non-rm-a4-square-light_15
+  - first:
+      213: -3950170124354368665
+    second: non-rm-a4-square-light_16
+  - first:
+      213: -507168715867055962
+    second: non-rm-a4-square-light_17
+  - first:
+      213: 1435139368432179212
+    second: non-rm-a4-square-light_18
+  - first:
+      213: 4648142758403729178
+    second: non-rm-a4-square-light_19
+  - first:
+      213: -6018999698343877385
+    second: non-rm-a4-square-light_20
+  - first:
+      213: 3291661752632458585
+    second: non-rm-a4-square-light_21
+  - first:
+      213: 4627178665556044261
+    second: non-rm-a4-square-light_22
+  - first:
+      213: -3958054974781017745
+    second: non-rm-a4-square-light_23
+  - first:
+      213: -6982482033998807229
+    second: non-rm-a4-square-light_24
+  - first:
+      213: 1222479299333112554
+    second: non-rm-a4-square-light_25
+  - first:
+      213: -8042847560071593259
+    second: non-rm-a4-square-light_26
+  - first:
+      213: 1811882169704552201
+    second: non-rm-a4-square-light_27
+  - first:
+      213: 663427289501186143
+    second: non-rm-a4-square-light_28
+  - first:
+      213: 2020006154758887117
+    second: non-rm-a4-square-light_29
+  - first:
+      213: -5274940649129725987
+    second: non-rm-a4-square-light_30
+  - first:
+      213: 7364428843514845270
+    second: non-rm-a4-square-light_31
+  - first:
+      213: -782347901763084759
+    second: non-rm-a4-square-light_32
+  - first:
+      213: -3182519850424686730
+    second: non-rm-a4-square-light_33
+  - first:
+      213: -6453458689315115836
+    second: non-rm-a4-square-light_34
+  - first:
+      213: 3646747636544694418
+    second: non-rm-a4-square-light_35
+  - first:
+      213: 8890255477800860633
+    second: non-rm-a4-square-light_36
+  - first:
+      213: 4666876166663999870
+    second: non-rm-a4-square-light_37
+  - first:
+      213: 7856374699069555000
+    second: non-rm-a4-square-light_38
+  - first:
+      213: 2877885760104940423
+    second: non-rm-a4-square-light_39
+  - first:
+      213: -2498566753578859326
+    second: non-rm-a4-square-light_40
+  - first:
+      213: 834898951300615888
+    second: non-rm-a4-square-light_41
+  - first:
+      213: -6851287108721134690
+    second: non-rm-a4-square-light_42
+  - first:
+      213: 7451593506545623732
+    second: non-rm-a4-square-light_43
+  - first:
+      213: 5820280186130980144
+    second: non-rm-a4-square-light_44
+  - first:
+      213: 4849535191682609338
+    second: non-rm-a4-square-light_45
+  - first:
+      213: 3285815858879724018
+    second: non-rm-a4-square-light_46
+  - first:
+      213: -6612613798260291232
+    second: non-rm-a4-square-light_47
+  - first:
+      213: 1105381244494489641
+    second: non-rm-a4-square-light_48
+  - first:
+      213: -2389820484195012205
+    second: non-rm-a4-square-light_49
+  - first:
+      213: -6805358946287102492
+    second: non-rm-a4-square-light_50
+  - first:
+      213: -4612760505953859062
+    second: non-rm-a4-square-light_51
+  - first:
+      213: 2697400888446782196
+    second: non-rm-a4-square-light_52
+  - first:
+      213: 6568520667794596345
+    second: non-rm-a4-square-light_53
+  - first:
+      213: -8185604082788631310
+    second: non-rm-a4-square-light_54
+  - first:
+      213: 5653428102584625328
+    second: non-rm-a4-square-light_55
+  - first:
+      213: -6808135259911121038
+    second: non-rm-a4-square-light_56
+  - first:
+      213: -6961650207872757410
+    second: non-rm-a4-square-light_57
+  - first:
+      213: -2030985922411582759
+    second: non-rm-a4-square-light_58
+  - first:
+      213: 5931034192860194925
+    second: non-rm-a4-square-light_59
+  - first:
+      213: 5734815478647530131
+    second: non-rm-a4-square-light_60
+  - first:
+      213: 8203478285850585859
+    second: non-rm-a4-square-light_61
+  - first:
+      213: 5265642849630084461
+    second: non-rm-a4-square-light_62
+  - first:
+      213: -382406114303162832
+    second: non-rm-a4-square-light_63
+  - first:
+      213: 8285452191560821467
+    second: non-rm-a4-square-light_64
+  - first:
+      213: 3376346633144761719
+    second: non-rm-a4-square-light_65
+  - first:
+      213: 66620572284449267
+    second: non-rm-a4-square-light_66
+  - first:
+      213: 1436231458161344941
+    second: non-rm-a4-square-light_67
+  - first:
+      213: 518522235792729368
+    second: non-rm-a4-square-light_68
+  - first:
+      213: 6344411689597466882
+    second: non-rm-a4-square-light_69
+  - first:
+      213: 4518335619412229400
+    second: non-rm-a4-square-light_70
+  - first:
+      213: 6686899459267038356
+    second: non-rm-a4-square-light_71
+  - first:
+      213: -1485297748875749186
+    second: non-rm-a4-square-light_72
+  - first:
+      213: -2928707598564590933
+    second: non-rm-a4-square-light_73
+  - first:
+      213: 1465454923950677909
+    second: non-rm-a4-square-light_74
+  - first:
+      213: -4217719976423968199
+    second: non-rm-a4-square-light_75
+  - first:
+      213: -8816778259548640999
+    second: non-rm-a4-square-light_76
+  - first:
+      213: 7099351597133068385
+    second: non-rm-a4-square-light_77
+  - first:
+      213: 1372378922793806040
+    second: non-rm-a4-square-light_78
+  - first:
+      213: 6832764954603083077
+    second: non-rm-a4-square-light_79
+  - first:
+      213: -6114780662044038486
+    second: non-rm-a4-square-light_80
+  - first:
+      213: 5947901142260899200
+    second: non-rm-a4-square-light_81
+  - first:
+      213: -2962124140921137910
+    second: non-rm-a4-square-light_82
+  - first:
+      213: -5218850861101128136
+    second: non-rm-a4-square-light_83
+  - first:
+      213: 8939837761674504202
+    second: non-rm-a4-square-light_84
+  - first:
+      213: -3799629767584659128
+    second: non-rm-a4-square-light_85
+  - first:
+      213: 2284221335492720995
+    second: non-rm-a4-square-light_86
+  - first:
+      213: -4368161738583383681
+    second: non-rm-a4-square-light_87
+  - first:
+      213: -7594127360714791332
+    second: non-rm-a4-square-light_88
+  - first:
+      213: -4074419085685059841
+    second: non-rm-a4-square-light_89
+  - first:
+      213: 6609492301035216472
+    second: non-rm-a4-square-light_90
+  - first:
+      213: 8063430069067536563
+    second: non-rm-a4-square-light_91
+  - first:
+      213: 6091669732308793391
+    second: non-rm-a4-square-light_92
+  - first:
+      213: -7695965154401644840
+    second: non-rm-a4-square-light_93
+  - first:
+      213: 7602216155379339219
+    second: non-rm-a4-square-light_94
+  - first:
+      213: 8830003275060342157
+    second: non-rm-a4-square-light_95
+  - first:
+      213: -2386006240257241325
+    second: non-rm-a4-square-light_96
+  - first:
+      213: 7570090753540352020
+    second: non-rm-a4-square-light_97
+  - first:
+      213: 8665641642452081572
+    second: non-rm-a4-square-light_98
+  - first:
+      213: -7460906515186609035
+    second: non-rm-a4-square-light_99
+  - first:
+      213: -8145687998187618633
+    second: non-rm-a4-square-light_100
+  - first:
+      213: 7759217220689645407
+    second: non-rm-a4-square-light_101
+  - first:
+      213: -2926520858507340737
+    second: non-rm-a4-square-light_102
+  - first:
+      213: 5514736477366411182
+    second: non-rm-a4-square-light_103
+  - first:
+      213: -5593636185436246343
+    second: non-rm-a4-square-light_104
+  - first:
+      213: 4280456361599104855
+    second: non-rm-a4-square-light_105
+  - first:
+      213: 7550990708961657320
+    second: non-rm-a4-square-light_106
+  - first:
+      213: 3473412869105601596
+    second: non-rm-a4-square-light_107
+  - first:
+      213: -8138521621822863248
+    second: non-rm-a4-square-light_108
+  - first:
+      213: 7898520191532185397
+    second: non-rm-a4-square-light_109
+  - first:
+      213: -1718355440978486558
+    second: non-rm-a4-square-light_110
+  - first:
+      213: -4751662475929772250
+    second: non-rm-a4-square-light_111
+  - first:
+      213: -2727374941239639257
+    second: non-rm-a4-square-light_112
+  - first:
+      213: 8942621864537273080
+    second: non-rm-a4-square-light_113
+  - first:
+      213: -147484439180682937
+    second: non-rm-a4-square-light_114
+  - first:
+      213: 4989502227376686373
+    second: non-rm-a4-square-light_115
+  - first:
+      213: -8125857155819068581
+    second: non-rm-a4-square-light_116
+  - first:
+      213: 812463462207607705
+    second: non-rm-a4-square-light_117
+  - first:
+      213: 8983596407144094090
+    second: non-rm-a4-square-light_118
+  - first:
+      213: 3417746636875878697
+    second: non-rm-a4-square-light_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2047
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdbeadc802c51fc0800000000000000
+      internalID: -3524697790281237069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_1
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 2047
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec979ce6c6664bc0800000000000000
+      internalID: -3799236231081517855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_2
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 2047
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82be4f7496e448ef0800000000000000
+      internalID: -106874277064283352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_3
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 2047
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a662ced80f5b5d70800000000000000
+      internalID: 9032917969323320998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1759
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829e5f03a4445cc90800000000000000
+      internalID: -7150233747941103320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1759
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3196ef2952c912e0800000000000000
+      internalID: -2154477258408554178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_6
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1759
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b4f5ff13fd5ddf0800000000000000
+      internalID: -155973206243587285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_7
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1759
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d27b2e13a232f20800000000000000
+      internalID: 3396604937712905564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1471
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccf25dc1a9b84240800000000000000
+      internalID: 4776271509412052174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_9
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1471
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c415443b08db58e90800000000000000
+      internalID: -7023999683353358004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_10
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1471
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4d074b250c017e0800000000000000
+      internalID: -1796724789873683286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_11
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1471
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7bf1e7527c470c0800000000000000
+      internalID: -4578815957285226550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1183
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff24d36b0bdd8560800000000000000
+      internalID: 7317745811512897530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_13
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1183
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30edb2eff948a1da0800000000000000
+      internalID: -5973316133054587389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_14
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1183
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcfcfea6324d39f0800000000000000
+      internalID: -487160382054662991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_15
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1183
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccf9a15c0b9888f0800000000000000
+      internalID: -538009678258766649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 895
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b4f77633d2e29c0800000000000000
+      internalID: -3950170124354368665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_17
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 895
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a89d817dbc26f8f0800000000000000
+      internalID: -507168715867055962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_18
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 895
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c081492e6a3aae310800000000000000
+      internalID: 1435139368432179212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_19
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 895
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1765fb3635818040800000000000000
+      internalID: 4648142758403729178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 607
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4a7051aa7387ca0800000000000000
+      internalID: -6018999698343877385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_21
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 607
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95db56e8ce45ead20800000000000000
+      internalID: 3291661752632458585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_22
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 607
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9ebb00b7a073040800000000000000
+      internalID: 4627178665556044261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_23
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 607
+        width: 354
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61b5ba98f92219c0800000000000000
+      internalID: -3958054974781017745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_24
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 479
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f34f8b59d391f90800000000000000
+      internalID: -6982482033998807229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_25
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 479
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2c40e127e17f010800000000000000
+      internalID: 1222479299333112554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_26
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 479
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2c057c1c0126090800000000000000
+      internalID: -8042847560071593259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_27
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 479
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9079a1ccb39152910800000000000000
+      internalID: 1811882169704552201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_28
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 479
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58b405da97f43900800000000000000
+      internalID: 663427289501186143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_29
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 479
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6918235e0880c10800000000000000
+      internalID: 2020006154758887117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_30
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 479
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfaa5d6d65abc6b0800000000000000
+      internalID: -5274940649129725987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_31
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 479
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658d757c305b33660800000000000000
+      internalID: 7364428843514845270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_32
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 479
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e93a87aba8425f0800000000000000
+      internalID: -782347901763084759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_33
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 479
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677aec8ce0b65d3d0800000000000000
+      internalID: -3182519850424686730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_34
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 479
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cce6b29385b076a0800000000000000
+      internalID: -6453458689315115836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_35
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 479
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298edb577a9db9230800000000000000
+      internalID: 3646747636544694418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_36
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 479
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db7ac42148806b70800000000000000
+      internalID: 8890255477800860633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_37
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 479
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e719ebcb52314c040800000000000000
+      internalID: 4666876166663999870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_38
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 479
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8314868f923770d60800000000000000
+      internalID: 7856374699069555000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_39
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 479
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783c533e9dd40f720800000000000000
+      internalID: 2877885760104940423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_40
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4c45d86ce435dd0800000000000000
+      internalID: -2498566753578859326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_41
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 415
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de8e973c28269b00800000000000000
+      internalID: 834898951300615888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_42
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93b67e9ca65be0a0800000000000000
+      internalID: -6851287108721134690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_43
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 415
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2624060d0696760800000000000000
+      internalID: 7451593506545623732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_44
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03dd49bfdf9c5c050800000000000000
+      internalID: 5820280186130980144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_45
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 415
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab07ff910920d4340800000000000000
+      internalID: 4849535191682609338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_46
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9fed95d10999d20800000000000000
+      internalID: 3285815858879724018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_47
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 415
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06949dd19c64b34a0800000000000000
+      internalID: -6612613798260291232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_48
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9282973a26a175f00800000000000000
+      internalID: 1105381244494489641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_49
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 415
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391ba927ee6a5ded0800000000000000
+      internalID: -2389820484195012205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_50
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5d78d38128e81a0800000000000000
+      internalID: -6805358946287102492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_51
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 415
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a4ba062ce2cffb0800000000000000
+      internalID: -4612760505953859062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_52
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa81bc01d71f6520800000000000000
+      internalID: 2697400888446782196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_53
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 415
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f165bfeeb2182b50800000000000000
+      internalID: 6568520667794596345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_54
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc7565b474e66e80800000000000000
+      internalID: -8185604082788631310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_55
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 415
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b864c9f7e2057e40800000000000000
+      internalID: 5653428102584625328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_56
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 287
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2779f2a5d05a481a0800000000000000
+      internalID: -6808135259911121038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_57
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 287
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5158353500436f90800000000000000
+      internalID: -6961650207872757410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_58
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 287
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daa6de601d70d3e0800000000000000
+      internalID: -2030985922411582759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_59
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 287
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68a028ac244f4250800000000000000
+      internalID: 5931034192860194925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_60
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 287
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392a2312b48269f40800000000000000
+      internalID: 5734815478647530131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_61
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 287
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b21ce790c98d170800000000000000
+      internalID: 8203478285850585859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_62
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 287
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dd64ee542531940800000000000000
+      internalID: 5265642849630084461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_63
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 287
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036c5054aab61baf0800000000000000
+      internalID: -382406114303162832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_64
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 287
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdae679bed6dbf270800000000000000
+      internalID: 8285452191560821467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_65
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 287
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dfd2bcf513bde20800000000000000
+      internalID: 3376346633144761719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_66
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 287
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f17fb9be0face000800000000000000
+      internalID: 66620572284449267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_67
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 287
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1c2f6d6e48ee310800000000000000
+      internalID: 1436231458161344941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_68
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 287
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8152198e939223700800000000000000
+      internalID: 518522235792729368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_69
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 287
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209fa4b41d0eb0850800000000000000
+      internalID: 6344411689597466882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_70
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 287
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d7f038e4a54be30800000000000000
+      internalID: 4518335619412229400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_71
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 287
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c0d5621a3accc50800000000000000
+      internalID: 6686899459267038356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_72
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8d29c1199236be0800000000000000
+      internalID: -1485297748875749186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_73
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 223
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baaf190c4f32b57d0800000000000000
+      internalID: -2928707598564590933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_74
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f5d603d77565410800000000000000
+      internalID: 1465454923950677909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_75
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 223
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9323e232706a775c0800000000000000
+      internalID: -4217719976423968199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_76
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9196730e2e284a580800000000000000
+      internalID: -8816778259548640999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_77
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 223
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168f7b2e9a6f58260800000000000000
+      internalID: 7099351597133068385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_78
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8ab5eeb5bab0310800000000000000
+      internalID: 1372378922793806040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_79
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 223
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545dad0568bd2de50800000000000000
+      internalID: 6832764954603083077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_80
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaaef67a26fe32ba0800000000000000
+      internalID: -6114780662044038486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_81
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 223
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08dd99753903b8250800000000000000
+      internalID: 5947901142260899200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_82
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0559cfa9cb64e6d0800000000000000
+      internalID: -2962124140921137910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_83
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 223
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8366350eacae297b0800000000000000
+      internalID: -5218850861101128136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_84
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a086b36341fa01c70800000000000000
+      internalID: 8939837761674504202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_85
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 223
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849cd119bd0054bc0800000000000000
+      internalID: -3799629767584659128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_86
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369796ac33f23bf10800000000000000
+      internalID: 2284221335492720995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_87
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 223
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71e842da0c2163c0800000000000000
+      internalID: -4368161738583383681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_88
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 95
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56258d966d3c9690800000000000000
+      internalID: -7594127360714791332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_89
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 95
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe8ba3cd61c477c0800000000000000
+      internalID: -4074419085685059841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_90
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 95
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e12ecaa32a9bb50800000000000000
+      internalID: 6609492301035216472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_91
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 95
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b859f90dee07ef60800000000000000
+      internalID: 8063430069067536563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_92
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 95
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28b343b855f98450800000000000000
+      internalID: 6091669732308793391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_93
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 95
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de0b109770723590800000000000000
+      internalID: -7695965154401644840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_94
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 95
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df0f17a05f708960800000000000000
+      internalID: 7602216155379339219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_95
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 95
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8de18ff1397a8a70800000000000000
+      internalID: 8830003275060342157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_96
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 95
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f0a9157f333eed0800000000000000
+      internalID: -2386006240257241325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_97
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 95
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418ed3aae6d5e0960800000000000000
+      internalID: 7570090753540352020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_98
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 95
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab5039492b824870800000000000000
+      internalID: 8665641642452081572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_99
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 95
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57497e3dd09857890800000000000000
+      internalID: -7460906515186609035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_100
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 95
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be3dd06ce3b4fe80800000000000000
+      internalID: -8145687998187618633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_101
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 95
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fcc4eb3f64eab60800000000000000
+      internalID: 7759217220689645407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_102
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 95
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3416e8d8c8e267d0800000000000000
+      internalID: -2926520858507340737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_103
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 95
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf505b9b97488c40800000000000000
+      internalID: 5514736477366411182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_104
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be2d4496896f52b0800000000000000
+      internalID: -5593636185436246343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_105
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 31
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757fcadc16c376b30800000000000000
+      internalID: 4280456361599104855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_106
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e14fedfa028ac860800000000000000
+      internalID: 7550990708961657320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_107
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 31
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c4f4df99a043030800000000000000
+      internalID: 3473412869105601596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_108
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078896664b92e0f80800000000000000
+      internalID: -8138521621822863248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_109
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 31
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537b68b144e2d9d60800000000000000
+      internalID: 7898520191532185397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_110
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea1e96a4dc2728e0800000000000000
+      internalID: -1718355440978486558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_111
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 31
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f17ad4724be0eb0800000000000000
+      internalID: -4751662475929772250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_112
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7230c12f0fa662ad0800000000000000
+      internalID: -2727374941239639257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_113
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 31
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2b26ca4339a1c70800000000000000
+      internalID: 8942621864537273080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_114
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749dcb81fa704fdf0800000000000000
+      internalID: -147484439180682937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_115
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 31
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525cecc17d54e3540800000000000000
+      internalID: 4989502227376686373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_116
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53a6db28f72b3f80800000000000000
+      internalID: -8125857155819068581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_117
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 31
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9935ed9d633764b00800000000000000
+      internalID: 812463462207607705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_118
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a899c4dc5552cac70800000000000000
+      internalID: 8983596407144094090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: non-rm-a4-square-light_119
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 31
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921d54f45764e6f20800000000000000
+      internalID: 3417746636875878697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      non-rm-a4-square-light_0: -3524697790281237069
+      non-rm-a4-square-light_1: -3799236231081517855
+      non-rm-a4-square-light_10: -1796724789873683286
+      non-rm-a4-square-light_100: -8145687998187618633
+      non-rm-a4-square-light_101: 7759217220689645407
+      non-rm-a4-square-light_102: -2926520858507340737
+      non-rm-a4-square-light_103: 5514736477366411182
+      non-rm-a4-square-light_104: -5593636185436246343
+      non-rm-a4-square-light_105: 4280456361599104855
+      non-rm-a4-square-light_106: 7550990708961657320
+      non-rm-a4-square-light_107: 3473412869105601596
+      non-rm-a4-square-light_108: -8138521621822863248
+      non-rm-a4-square-light_109: 7898520191532185397
+      non-rm-a4-square-light_11: -4578815957285226550
+      non-rm-a4-square-light_110: -1718355440978486558
+      non-rm-a4-square-light_111: -4751662475929772250
+      non-rm-a4-square-light_112: -2727374941239639257
+      non-rm-a4-square-light_113: 8942621864537273080
+      non-rm-a4-square-light_114: -147484439180682937
+      non-rm-a4-square-light_115: 4989502227376686373
+      non-rm-a4-square-light_116: -8125857155819068581
+      non-rm-a4-square-light_117: 812463462207607705
+      non-rm-a4-square-light_118: 8983596407144094090
+      non-rm-a4-square-light_119: 3417746636875878697
+      non-rm-a4-square-light_12: 7317745811512897530
+      non-rm-a4-square-light_13: -5973316133054587389
+      non-rm-a4-square-light_14: -487160382054662991
+      non-rm-a4-square-light_15: -538009678258766649
+      non-rm-a4-square-light_16: -3950170124354368665
+      non-rm-a4-square-light_17: -507168715867055962
+      non-rm-a4-square-light_18: 1435139368432179212
+      non-rm-a4-square-light_19: 4648142758403729178
+      non-rm-a4-square-light_2: -106874277064283352
+      non-rm-a4-square-light_20: -6018999698343877385
+      non-rm-a4-square-light_21: 3291661752632458585
+      non-rm-a4-square-light_22: 4627178665556044261
+      non-rm-a4-square-light_23: -3958054974781017745
+      non-rm-a4-square-light_24: -6982482033998807229
+      non-rm-a4-square-light_25: 1222479299333112554
+      non-rm-a4-square-light_26: -8042847560071593259
+      non-rm-a4-square-light_27: 1811882169704552201
+      non-rm-a4-square-light_28: 663427289501186143
+      non-rm-a4-square-light_29: 2020006154758887117
+      non-rm-a4-square-light_3: 9032917969323320998
+      non-rm-a4-square-light_30: -5274940649129725987
+      non-rm-a4-square-light_31: 7364428843514845270
+      non-rm-a4-square-light_32: -782347901763084759
+      non-rm-a4-square-light_33: -3182519850424686730
+      non-rm-a4-square-light_34: -6453458689315115836
+      non-rm-a4-square-light_35: 3646747636544694418
+      non-rm-a4-square-light_36: 8890255477800860633
+      non-rm-a4-square-light_37: 4666876166663999870
+      non-rm-a4-square-light_38: 7856374699069555000
+      non-rm-a4-square-light_39: 2877885760104940423
+      non-rm-a4-square-light_4: -7150233747941103320
+      non-rm-a4-square-light_40: -2498566753578859326
+      non-rm-a4-square-light_41: 834898951300615888
+      non-rm-a4-square-light_42: -6851287108721134690
+      non-rm-a4-square-light_43: 7451593506545623732
+      non-rm-a4-square-light_44: 5820280186130980144
+      non-rm-a4-square-light_45: 4849535191682609338
+      non-rm-a4-square-light_46: 3285815858879724018
+      non-rm-a4-square-light_47: -6612613798260291232
+      non-rm-a4-square-light_48: 1105381244494489641
+      non-rm-a4-square-light_49: -2389820484195012205
+      non-rm-a4-square-light_5: -2154477258408554178
+      non-rm-a4-square-light_50: -6805358946287102492
+      non-rm-a4-square-light_51: -4612760505953859062
+      non-rm-a4-square-light_52: 2697400888446782196
+      non-rm-a4-square-light_53: 6568520667794596345
+      non-rm-a4-square-light_54: -8185604082788631310
+      non-rm-a4-square-light_55: 5653428102584625328
+      non-rm-a4-square-light_56: -6808135259911121038
+      non-rm-a4-square-light_57: -6961650207872757410
+      non-rm-a4-square-light_58: -2030985922411582759
+      non-rm-a4-square-light_59: 5931034192860194925
+      non-rm-a4-square-light_6: -155973206243587285
+      non-rm-a4-square-light_60: 5734815478647530131
+      non-rm-a4-square-light_61: 8203478285850585859
+      non-rm-a4-square-light_62: 5265642849630084461
+      non-rm-a4-square-light_63: -382406114303162832
+      non-rm-a4-square-light_64: 8285452191560821467
+      non-rm-a4-square-light_65: 3376346633144761719
+      non-rm-a4-square-light_66: 66620572284449267
+      non-rm-a4-square-light_67: 1436231458161344941
+      non-rm-a4-square-light_68: 518522235792729368
+      non-rm-a4-square-light_69: 6344411689597466882
+      non-rm-a4-square-light_7: 3396604937712905564
+      non-rm-a4-square-light_70: 4518335619412229400
+      non-rm-a4-square-light_71: 6686899459267038356
+      non-rm-a4-square-light_72: -1485297748875749186
+      non-rm-a4-square-light_73: -2928707598564590933
+      non-rm-a4-square-light_74: 1465454923950677909
+      non-rm-a4-square-light_75: -4217719976423968199
+      non-rm-a4-square-light_76: -8816778259548640999
+      non-rm-a4-square-light_77: 7099351597133068385
+      non-rm-a4-square-light_78: 1372378922793806040
+      non-rm-a4-square-light_79: 6832764954603083077
+      non-rm-a4-square-light_8: 4776271509412052174
+      non-rm-a4-square-light_80: -6114780662044038486
+      non-rm-a4-square-light_81: 5947901142260899200
+      non-rm-a4-square-light_82: -2962124140921137910
+      non-rm-a4-square-light_83: -5218850861101128136
+      non-rm-a4-square-light_84: 8939837761674504202
+      non-rm-a4-square-light_85: -3799629767584659128
+      non-rm-a4-square-light_86: 2284221335492720995
+      non-rm-a4-square-light_87: -4368161738583383681
+      non-rm-a4-square-light_88: -7594127360714791332
+      non-rm-a4-square-light_89: -4074419085685059841
+      non-rm-a4-square-light_9: -7023999683353358004
+      non-rm-a4-square-light_90: 6609492301035216472
+      non-rm-a4-square-light_91: 8063430069067536563
+      non-rm-a4-square-light_92: 6091669732308793391
+      non-rm-a4-square-light_93: -7695965154401644840
+      non-rm-a4-square-light_94: 7602216155379339219
+      non-rm-a4-square-light_95: 8830003275060342157
+      non-rm-a4-square-light_96: -2386006240257241325
+      non-rm-a4-square-light_97: 7570090753540352020
+      non-rm-a4-square-light_98: 8665641642452081572
+      non-rm-a4-square-light_99: -7460906515186609035
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

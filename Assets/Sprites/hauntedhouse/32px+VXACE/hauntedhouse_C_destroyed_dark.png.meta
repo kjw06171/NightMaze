@@ -1,0 +1,3055 @@
+fileFormatVersion: 2
+guid: f45a8f34332f05e4d9e022755d60727f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1589054844833056867
+    second: hauntedhouse_C_destroyed_dark_0
+  - first:
+      213: 3726335821415865033
+    second: hauntedhouse_C_destroyed_dark_1
+  - first:
+      213: -640829714721686511
+    second: hauntedhouse_C_destroyed_dark_2
+  - first:
+      213: -6856575631025023934
+    second: hauntedhouse_C_destroyed_dark_3
+  - first:
+      213: -4519879621151598937
+    second: hauntedhouse_C_destroyed_dark_4
+  - first:
+      213: -1906420511358768084
+    second: hauntedhouse_C_destroyed_dark_5
+  - first:
+      213: 1720549713583130728
+    second: hauntedhouse_C_destroyed_dark_6
+  - first:
+      213: 4660937955572020713
+    second: hauntedhouse_C_destroyed_dark_7
+  - first:
+      213: 3588871163509833062
+    second: hauntedhouse_C_destroyed_dark_8
+  - first:
+      213: -7930903080951492475
+    second: hauntedhouse_C_destroyed_dark_9
+  - first:
+      213: -6297346329951833347
+    second: hauntedhouse_C_destroyed_dark_10
+  - first:
+      213: -4043909094418204788
+    second: hauntedhouse_C_destroyed_dark_11
+  - first:
+      213: -5375375713036543443
+    second: hauntedhouse_C_destroyed_dark_12
+  - first:
+      213: -6080734706011690420
+    second: hauntedhouse_C_destroyed_dark_13
+  - first:
+      213: 1632202718139862277
+    second: hauntedhouse_C_destroyed_dark_14
+  - first:
+      213: 1843636631765649426
+    second: hauntedhouse_C_destroyed_dark_15
+  - first:
+      213: 2984552732398428464
+    second: hauntedhouse_C_destroyed_dark_16
+  - first:
+      213: 7747133779537270045
+    second: hauntedhouse_C_destroyed_dark_17
+  - first:
+      213: -7371248595486020064
+    second: hauntedhouse_C_destroyed_dark_18
+  - first:
+      213: 5350139271331150623
+    second: hauntedhouse_C_destroyed_dark_19
+  - first:
+      213: 3819797015314263910
+    second: hauntedhouse_C_destroyed_dark_20
+  - first:
+      213: 4321989664746902276
+    second: hauntedhouse_C_destroyed_dark_21
+  - first:
+      213: 54016633944357440
+    second: hauntedhouse_C_destroyed_dark_22
+  - first:
+      213: -1765253780735767075
+    second: hauntedhouse_C_destroyed_dark_23
+  - first:
+      213: 4808494330874687966
+    second: hauntedhouse_C_destroyed_dark_24
+  - first:
+      213: -3978231836100044806
+    second: hauntedhouse_C_destroyed_dark_25
+  - first:
+      213: -6333917476365814109
+    second: hauntedhouse_C_destroyed_dark_26
+  - first:
+      213: -7685826813143934761
+    second: hauntedhouse_C_destroyed_dark_27
+  - first:
+      213: 7376594196279705359
+    second: hauntedhouse_C_destroyed_dark_28
+  - first:
+      213: 1720665461040306246
+    second: hauntedhouse_C_destroyed_dark_29
+  - first:
+      213: -2077039442822941773
+    second: hauntedhouse_C_destroyed_dark_30
+  - first:
+      213: 4500137813105985706
+    second: hauntedhouse_C_destroyed_dark_31
+  - first:
+      213: -6790232469800241023
+    second: hauntedhouse_C_destroyed_dark_32
+  - first:
+      213: -5366429773644356166
+    second: hauntedhouse_C_destroyed_dark_33
+  - first:
+      213: -1796560229774629701
+    second: hauntedhouse_C_destroyed_dark_34
+  - first:
+      213: 4608655200276642879
+    second: hauntedhouse_C_destroyed_dark_35
+  - first:
+      213: 2211177519215012802
+    second: hauntedhouse_C_destroyed_dark_36
+  - first:
+      213: 3551279513766723041
+    second: hauntedhouse_C_destroyed_dark_37
+  - first:
+      213: -5162939680975690883
+    second: hauntedhouse_C_destroyed_dark_38
+  - first:
+      213: 9121368226925020600
+    second: hauntedhouse_C_destroyed_dark_39
+  - first:
+      213: -2101503146358908056
+    second: hauntedhouse_C_destroyed_dark_40
+  - first:
+      213: 2968411902279278236
+    second: hauntedhouse_C_destroyed_dark_41
+  - first:
+      213: -6961094532734224653
+    second: hauntedhouse_C_destroyed_dark_42
+  - first:
+      213: 6656403166507496885
+    second: hauntedhouse_C_destroyed_dark_43
+  - first:
+      213: -5184819986646552609
+    second: hauntedhouse_C_destroyed_dark_44
+  - first:
+      213: -9151785946941350315
+    second: hauntedhouse_C_destroyed_dark_45
+  - first:
+      213: -6854262012231069749
+    second: hauntedhouse_C_destroyed_dark_46
+  - first:
+      213: -5098528897885077006
+    second: hauntedhouse_C_destroyed_dark_47
+  - first:
+      213: 278711747382425938
+    second: hauntedhouse_C_destroyed_dark_48
+  - first:
+      213: -7700929868852526922
+    second: hauntedhouse_C_destroyed_dark_49
+  - first:
+      213: 2831040666612699384
+    second: hauntedhouse_C_destroyed_dark_50
+  - first:
+      213: -7897857343500648142
+    second: hauntedhouse_C_destroyed_dark_51
+  - first:
+      213: 2169974126793146575
+    second: hauntedhouse_C_destroyed_dark_52
+  - first:
+      213: 6226781384644185108
+    second: hauntedhouse_C_destroyed_dark_53
+  - first:
+      213: -566097810210289299
+    second: hauntedhouse_C_destroyed_dark_54
+  - first:
+      213: 988803656316692237
+    second: hauntedhouse_C_destroyed_dark_55
+  - first:
+      213: -2933069949890838369
+    second: hauntedhouse_C_destroyed_dark_56
+  - first:
+      213: -622606703263065125
+    second: hauntedhouse_C_destroyed_dark_57
+  - first:
+      213: 4215257006196345602
+    second: hauntedhouse_C_destroyed_dark_58
+  - first:
+      213: 8350090845508652978
+    second: hauntedhouse_C_destroyed_dark_59
+  - first:
+      213: 3670129793639082167
+    second: hauntedhouse_C_destroyed_dark_60
+  - first:
+      213: -1480814977784566504
+    second: hauntedhouse_C_destroyed_dark_61
+  - first:
+      213: -5708803378519128933
+    second: hauntedhouse_C_destroyed_dark_62
+  - first:
+      213: 3759397188842417542
+    second: hauntedhouse_C_destroyed_dark_63
+  - first:
+      213: -4577342226468853284
+    second: hauntedhouse_C_destroyed_dark_64
+  - first:
+      213: 569269785658393477
+    second: hauntedhouse_C_destroyed_dark_65
+  - first:
+      213: -1111457624955763302
+    second: hauntedhouse_C_destroyed_dark_66
+  - first:
+      213: 6803247970261406362
+    second: hauntedhouse_C_destroyed_dark_67
+  - first:
+      213: -5880962606016895511
+    second: hauntedhouse_C_destroyed_dark_68
+  - first:
+      213: 7825147572601420101
+    second: hauntedhouse_C_destroyed_dark_69
+  - first:
+      213: -916980810582280398
+    second: hauntedhouse_C_destroyed_dark_70
+  - first:
+      213: -5218496865250204404
+    second: hauntedhouse_C_destroyed_dark_71
+  - first:
+      213: -256869118970102095
+    second: hauntedhouse_C_destroyed_dark_72
+  - first:
+      213: -119021526765247436
+    second: hauntedhouse_C_destroyed_dark_73
+  - first:
+      213: 5351882423554485263
+    second: hauntedhouse_C_destroyed_dark_74
+  - first:
+      213: -6327188698921948971
+    second: hauntedhouse_C_destroyed_dark_75
+  - first:
+      213: -2964478588526978478
+    second: hauntedhouse_C_destroyed_dark_76
+  - first:
+      213: 4762638401174414073
+    second: hauntedhouse_C_destroyed_dark_77
+  - first:
+      213: 7884004373662130235
+    second: hauntedhouse_C_destroyed_dark_78
+  - first:
+      213: -7879427514094448099
+    second: hauntedhouse_C_destroyed_dark_79
+  - first:
+      213: 2460130043328382813
+    second: hauntedhouse_C_destroyed_dark_80
+  - first:
+      213: 4640024614397954891
+    second: hauntedhouse_C_destroyed_dark_81
+  - first:
+      213: -1465348796441943419
+    second: hauntedhouse_C_destroyed_dark_82
+  - first:
+      213: -5081402125331300966
+    second: hauntedhouse_C_destroyed_dark_83
+  - first:
+      213: 1487399416196484918
+    second: hauntedhouse_C_destroyed_dark_84
+  - first:
+      213: -3169900757904321820
+    second: hauntedhouse_C_destroyed_dark_85
+  - first:
+      213: -5952888423348350446
+    second: hauntedhouse_C_destroyed_dark_86
+  - first:
+      213: 1527344042458028833
+    second: hauntedhouse_C_destroyed_dark_87
+  - first:
+      213: -5092981182108106798
+    second: hauntedhouse_C_destroyed_dark_88
+  - first:
+      213: -7693780839537205246
+    second: hauntedhouse_C_destroyed_dark_89
+  - first:
+      213: -7794963206875459990
+    second: hauntedhouse_C_destroyed_dark_90
+  - first:
+      213: 3295719980332236844
+    second: hauntedhouse_C_destroyed_dark_91
+  - first:
+      213: 7316463152671513684
+    second: hauntedhouse_C_destroyed_dark_92
+  - first:
+      213: 6310430394621636482
+    second: hauntedhouse_C_destroyed_dark_93
+  - first:
+      213: -1342704202130794143
+    second: hauntedhouse_C_destroyed_dark_94
+  - first:
+      213: -8993811080982839145
+    second: hauntedhouse_C_destroyed_dark_95
+  - first:
+      213: 7180146186794592719
+    second: hauntedhouse_C_destroyed_dark_96
+  - first:
+      213: -4913134916775456089
+    second: hauntedhouse_C_destroyed_dark_97
+  - first:
+      213: 2866637332806796916
+    second: hauntedhouse_C_destroyed_dark_98
+  - first:
+      213: -1673967750606131151
+    second: hauntedhouse_C_destroyed_dark_99
+  - first:
+      213: 6108739129653622172
+    second: hauntedhouse_C_destroyed_dark_100
+  - first:
+      213: -2556305161798115825
+    second: hauntedhouse_C_destroyed_dark_101
+  - first:
+      213: 9214669070204216773
+    second: hauntedhouse_C_destroyed_dark_102
+  - first:
+      213: 7253434143936552331
+    second: hauntedhouse_C_destroyed_dark_103
+  - first:
+      213: -7931968403727512541
+    second: hauntedhouse_C_destroyed_dark_104
+  - first:
+      213: 1746963925503144588
+    second: hauntedhouse_C_destroyed_dark_105
+  - first:
+      213: -1993622017657796882
+    second: hauntedhouse_C_destroyed_dark_106
+  - first:
+      213: -6548745219013574513
+    second: hauntedhouse_C_destroyed_dark_107
+  - first:
+      213: -6337765284026975884
+    second: hauntedhouse_C_destroyed_dark_108
+  - first:
+      213: -5125815949524325519
+    second: hauntedhouse_C_destroyed_dark_109
+  - first:
+      213: 5708583155421138193
+    second: hauntedhouse_C_destroyed_dark_110
+  - first:
+      213: 6985251104383076786
+    second: hauntedhouse_C_destroyed_dark_111
+  - first:
+      213: -8012223654051048031
+    second: hauntedhouse_C_destroyed_dark_112
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 479
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36843e256f47d0610800000000000000
+      internalID: 1589054844833056867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 479
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca5e45cfaa96b330800000000000000
+      internalID: 3726335821415865033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 479
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cbf7c05c05b17f0800000000000000
+      internalID: -640829714721686511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 479
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24457219acc88d0a0800000000000000
+      internalID: -6856575631025023934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 479
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a65bb19e692641c0800000000000000
+      internalID: -4519879621151598937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 481
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c21f345a80b85e0800000000000000
+      internalID: -1906420511358768084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 481
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868c58049de90e710800000000000000
+      internalID: 1720549713583130728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 496
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5710a306afea040800000000000000
+      internalID: 4660937955572020713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 463
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d75adfe4b3ec130800000000000000
+      internalID: 3588871163509833062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_9
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 451
+        width: 20
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580d5d7eaa5cfe190800000000000000
+      internalID: -7930903080951492475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_10
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 469
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df27c9fa0e45b98a0800000000000000
+      internalID: -6297346329951833347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_11
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 486
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c873b3baa1621e7c0800000000000000
+      internalID: -4043909094418204788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_12
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 487
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ad13ad444d665b0800000000000000
+      internalID: -5375375713036543443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_13
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 484
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4aa8c28004ec9ba0800000000000000
+      internalID: -6080734706011690420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_14
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 489
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d472079bfb6a610800000000000000
+      internalID: 1632202718139862277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 399
+        width: 72
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2180a43afb9e59910800000000000000
+      internalID: 1843636631765649426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 415
+        width: 78
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031a704b5e24b6920800000000000000
+      internalID: 2984552732398428464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 447
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d159fbc5029538b60800000000000000
+      internalID: 7747133779537270045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_18
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 420
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e65faf47014b990800000000000000
+      internalID: -7371248595486020064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_19
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 463
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b7f8e22538f3a40800000000000000
+      internalID: 5350139271331150623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_20
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 450
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f67e3b525a20530800000000000000
+      internalID: 3819797015314263910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_21
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 452
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403162283bacafb30800000000000000
+      internalID: 4321989664746902276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 449
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a3736a7d7efb000800000000000000
+      internalID: 54016633944357440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_23
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 447
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd44d40a0f8087e0800000000000000
+      internalID: -1765253780735767075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_24
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 415
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1f3401e143bb240800000000000000
+      internalID: 4808494330874687966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_25
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 431
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af75b1ff83b7ac8c0800000000000000
+      internalID: -3978231836100044806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_26
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 431
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6b3902d976918a0800000000000000
+      internalID: -6333917476365814109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_27
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 416
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d812651c35765590800000000000000
+      internalID: -7685826813143934761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_28
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 400
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fb571b65dee5660800000000000000
+      internalID: 7376594196279705359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_29
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 383
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648579ece1801e710800000000000000
+      internalID: 1720665461040306246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_30
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 390
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b33012a1afdc23e0800000000000000
+      internalID: -2077039442822941773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 319
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa84c7e8f73b37e30800000000000000
+      internalID: 4500137813105985706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_32
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 353
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188bb3f7b8f34c1a0800000000000000
+      internalID: -6790232469800241023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_33
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 393
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab529ddad8c9685b0800000000000000
+      internalID: -5366429773644356166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_34
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 397
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb460b65df55117e0800000000000000
+      internalID: -1796560229774629701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_35
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 395
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cfeb8ac7b35ff30800000000000000
+      internalID: 4608655200276642879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 161
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbe3280d3eafae10800000000000000
+      internalID: 2211177519215012802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_37
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 368
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edff2cf6eda84130800000000000000
+      internalID: 3551279513766723041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73ecaee6bd8958b0800000000000000
+      internalID: -5162939680975690883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_39
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 367
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b58667431c959e70800000000000000
+      internalID: 9121368226925020600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_40
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 368
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b59eac506f5d2e0800000000000000
+      internalID: -2101503146358908056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_41
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 352
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ed566d5eae13920800000000000000
+      internalID: 2968411902279278236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_42
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 331
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f676786769356f90800000000000000
+      internalID: -6961094532734224653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_43
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 333
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5f67da96b406c50800000000000000
+      internalID: 6656403166507496885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_44
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 336
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf269741b1db08b0800000000000000
+      internalID: -5184819986646552609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_45
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 339
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e16246b235ef080800000000000000
+      internalID: -9151785946941350315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_46
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 335
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf438be305c0e0a0800000000000000
+      internalID: -6854262012231069749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_47
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 334
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f10f740bf26e39b0800000000000000
+      internalID: -5098528897885077006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_48
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 290
+        width: 63
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25935798bde2ed300800000000000000
+      internalID: 278711747382425938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_49
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 304
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b089d6e51dc02590800000000000000
+      internalID: -7700929868852526922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_50
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 305
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0922e9c70e94720800000000000000
+      internalID: 2831040666612699384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_51
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 299
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2310fe9379c256290800000000000000
+      internalID: -7897857343500648142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_52
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 302
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc04b47a8fb4d1e10800000000000000
+      internalID: 2169974126793146575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_53
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 303
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c4bbdada8f96650800000000000000
+      internalID: 6226781384644185108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_54
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 289
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d690a4a7a01d428f0800000000000000
+      internalID: -566097810210289299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_55
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 288
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d072d5fbfafe8bd00800000000000000
+      internalID: 988803656316692237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_56
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 272
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90426fab64ab47d0800000000000000
+      internalID: -2933069949890838369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_57
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 239
+        width: 94
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb5a39808e0c57f0800000000000000
+      internalID: -622606703263065125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_58
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 268
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b4f4be9e99f7a30800000000000000
+      internalID: 4215257006196345602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_59
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 265
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfc8c0226b71e370800000000000000
+      internalID: 8350090845508652978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_60
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 267
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b86f652a9beee230800000000000000
+      internalID: 3670129793639082167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_61
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 226
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81da2179f96137be0800000000000000
+      internalID: -1480814977784566504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_62
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 226
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9441d2e29146c0b0800000000000000
+      internalID: -5708803378519128933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_63
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 245
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ded8a33df0c2430800000000000000
+      internalID: 3759397188842417542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_64
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 235
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9adef2f730a70c0800000000000000
+      internalID: -4577342226468853284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 239
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583088b9ad376e700800000000000000
+      internalID: 569269785658393477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_66
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 240
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95cc99cd2f4390f0800000000000000
+      internalID: -1111457624955763302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_67
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 101
+        width: 27
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92145adbfdf96e50800000000000000
+      internalID: 6803247970261406362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_68
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 63
+        width: 41
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5e1032baf926ea0800000000000000
+      internalID: -5880962606016895511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_69
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 191
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549fae30242889c60800000000000000
+      internalID: 7825147572601420101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_70
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 191
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237b467afca3643f0800000000000000
+      internalID: -916980810582280398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_71
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 191
+        width: 6
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05a545ffbc2497b0800000000000000
+      internalID: -5218496865250204404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_72
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 129
+        width: 29
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bef402b5ea6f6cf0800000000000000
+      internalID: -256869118970102095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_73
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 129
+        width: 31
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43468805d86295ef0800000000000000
+      internalID: -119021526765247436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_74
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 173
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c2f9f65b4b54a40800000000000000
+      internalID: 5351882423554485263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_75
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 191
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d824e5b66f4138a0800000000000000
+      internalID: -6327188698921948971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_76
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 159
+        width: 24
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a19922e6e0cd6d0800000000000000
+      internalID: -2964478588526978478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_77
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 107
+        width: 78
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2a2af646a481240800000000000000
+      internalID: 4762638401174414073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_78
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 107
+        width: 86
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30e1c3e43c996d60800000000000000
+      internalID: 7884004373662130235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_79
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 159
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1216f44c66a6a290800000000000000
+      internalID: -7879427514094448099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_80
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 101
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57cad57d33242220800000000000000
+      internalID: 2460130043328382813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_81
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 127
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b424a8dcda46040800000000000000
+      internalID: 4640024614397954891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_82
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 98
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582280c88090aabe0800000000000000
+      internalID: -1465348796441943419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_83
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 51
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d76be70bb3b79b0800000000000000
+      internalID: -5081402125331300966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_84
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 53
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fc38173ed44a410800000000000000
+      internalID: 1487399416196484918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_85
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 69
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e21fd73e004204d0800000000000000
+      internalID: -3169900757904321820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_86
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 69
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21259cac487136da0800000000000000
+      internalID: -5952888423348350446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_87
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 66
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b158c7057323510800000000000000
+      internalID: 1527344042458028833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_88
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 63
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df72b049981259b0800000000000000
+      internalID: -5092981182108106798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_89
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 73
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200adaff6133a3590800000000000000
+      internalID: -7693780839537205246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_90
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 69
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ec2f8434ab2d390800000000000000
+      internalID: -7794963206875459990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_91
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 76
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c204cd25cdfbcbd20800000000000000
+      internalID: 3295719980332236844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_92
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 72
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c583b197c498560800000000000000
+      internalID: 7316463152671513684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_93
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 71
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f20438207239750800000000000000
+      internalID: 6310430394621636482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_94
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 5
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169d19164a1cd5de0800000000000000
+      internalID: -1342704202130794143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_95
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 7
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790cb0d19709f2380800000000000000
+      internalID: -8993811080982839145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_96
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 33
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc964433ae005a360800000000000000
+      internalID: 7180146186794592719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_97
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 33
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2d708f2d901dbb0800000000000000
+      internalID: -4913134916775456089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_98
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 50
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47682d1577758c720800000000000000
+      internalID: 2866637332806796916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_99
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 43
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13079ab233fd4c8e0800000000000000
+      internalID: -1673967750606131151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_100
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 51
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9578887fd996c450800000000000000
+      internalID: 6108739129653622172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_101
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 47
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e968dcffd268cd0800000000000000
+      internalID: -2556305161798115825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_102
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 53
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c52d4ca2b411ef70800000000000000
+      internalID: 9214669070204216773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_103
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 36
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d170f6cef59a460800000000000000
+      internalID: 7253434143936552331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_104
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 39
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c033e13ccfbe190800000000000000
+      internalID: -7931968403727512541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_105
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 15
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8279073f667e3810800000000000000
+      internalID: 1746963925503144588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_106
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 9
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee60c1d665b3554e0800000000000000
+      internalID: -1993622017657796882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_107
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 15
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8088288bee2e15a0800000000000000
+      internalID: -6548745219013574513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_108
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 19
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479f4c79d0cbb08a0800000000000000
+      internalID: -6337765284026975884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_109
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 15
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b22983d817dd8b0800000000000000
+      internalID: -5125815949524325519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_110
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 13
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dc7ad6226f83f40800000000000000
+      internalID: 5708583155421138193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_111
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 12
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b988a7bed890f060800000000000000
+      internalID: 6985251104383076786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_C_destroyed_dark_112
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 19
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a51e47890ddec090800000000000000
+      internalID: -8012223654051048031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hauntedhouse_C_destroyed_dark_0: 1589054844833056867
+      hauntedhouse_C_destroyed_dark_1: 3726335821415865033
+      hauntedhouse_C_destroyed_dark_10: -6297346329951833347
+      hauntedhouse_C_destroyed_dark_100: 6108739129653622172
+      hauntedhouse_C_destroyed_dark_101: -2556305161798115825
+      hauntedhouse_C_destroyed_dark_102: 9214669070204216773
+      hauntedhouse_C_destroyed_dark_103: 7253434143936552331
+      hauntedhouse_C_destroyed_dark_104: -7931968403727512541
+      hauntedhouse_C_destroyed_dark_105: 1746963925503144588
+      hauntedhouse_C_destroyed_dark_106: -1993622017657796882
+      hauntedhouse_C_destroyed_dark_107: -6548745219013574513
+      hauntedhouse_C_destroyed_dark_108: -6337765284026975884
+      hauntedhouse_C_destroyed_dark_109: -5125815949524325519
+      hauntedhouse_C_destroyed_dark_11: -4043909094418204788
+      hauntedhouse_C_destroyed_dark_110: 5708583155421138193
+      hauntedhouse_C_destroyed_dark_111: 6985251104383076786
+      hauntedhouse_C_destroyed_dark_112: -8012223654051048031
+      hauntedhouse_C_destroyed_dark_12: -5375375713036543443
+      hauntedhouse_C_destroyed_dark_13: -6080734706011690420
+      hauntedhouse_C_destroyed_dark_14: 1632202718139862277
+      hauntedhouse_C_destroyed_dark_15: 1843636631765649426
+      hauntedhouse_C_destroyed_dark_16: 2984552732398428464
+      hauntedhouse_C_destroyed_dark_17: 7747133779537270045
+      hauntedhouse_C_destroyed_dark_18: -7371248595486020064
+      hauntedhouse_C_destroyed_dark_19: 5350139271331150623
+      hauntedhouse_C_destroyed_dark_2: -640829714721686511
+      hauntedhouse_C_destroyed_dark_20: 3819797015314263910
+      hauntedhouse_C_destroyed_dark_21: 4321989664746902276
+      hauntedhouse_C_destroyed_dark_22: 54016633944357440
+      hauntedhouse_C_destroyed_dark_23: -1765253780735767075
+      hauntedhouse_C_destroyed_dark_24: 4808494330874687966
+      hauntedhouse_C_destroyed_dark_25: -3978231836100044806
+      hauntedhouse_C_destroyed_dark_26: -6333917476365814109
+      hauntedhouse_C_destroyed_dark_27: -7685826813143934761
+      hauntedhouse_C_destroyed_dark_28: 7376594196279705359
+      hauntedhouse_C_destroyed_dark_29: 1720665461040306246
+      hauntedhouse_C_destroyed_dark_3: -6856575631025023934
+      hauntedhouse_C_destroyed_dark_30: -2077039442822941773
+      hauntedhouse_C_destroyed_dark_31: 4500137813105985706
+      hauntedhouse_C_destroyed_dark_32: -6790232469800241023
+      hauntedhouse_C_destroyed_dark_33: -5366429773644356166
+      hauntedhouse_C_destroyed_dark_34: -1796560229774629701
+      hauntedhouse_C_destroyed_dark_35: 4608655200276642879
+      hauntedhouse_C_destroyed_dark_36: 2211177519215012802
+      hauntedhouse_C_destroyed_dark_37: 3551279513766723041
+      hauntedhouse_C_destroyed_dark_38: -5162939680975690883
+      hauntedhouse_C_destroyed_dark_39: 9121368226925020600
+      hauntedhouse_C_destroyed_dark_4: -4519879621151598937
+      hauntedhouse_C_destroyed_dark_40: -2101503146358908056
+      hauntedhouse_C_destroyed_dark_41: 2968411902279278236
+      hauntedhouse_C_destroyed_dark_42: -6961094532734224653
+      hauntedhouse_C_destroyed_dark_43: 6656403166507496885
+      hauntedhouse_C_destroyed_dark_44: -5184819986646552609
+      hauntedhouse_C_destroyed_dark_45: -9151785946941350315
+      hauntedhouse_C_destroyed_dark_46: -6854262012231069749
+      hauntedhouse_C_destroyed_dark_47: -5098528897885077006
+      hauntedhouse_C_destroyed_dark_48: 278711747382425938
+      hauntedhouse_C_destroyed_dark_49: -7700929868852526922
+      hauntedhouse_C_destroyed_dark_5: -1906420511358768084
+      hauntedhouse_C_destroyed_dark_50: 2831040666612699384
+      hauntedhouse_C_destroyed_dark_51: -7897857343500648142
+      hauntedhouse_C_destroyed_dark_52: 2169974126793146575
+      hauntedhouse_C_destroyed_dark_53: 6226781384644185108
+      hauntedhouse_C_destroyed_dark_54: -566097810210289299
+      hauntedhouse_C_destroyed_dark_55: 988803656316692237
+      hauntedhouse_C_destroyed_dark_56: -2933069949890838369
+      hauntedhouse_C_destroyed_dark_57: -622606703263065125
+      hauntedhouse_C_destroyed_dark_58: 4215257006196345602
+      hauntedhouse_C_destroyed_dark_59: 8350090845508652978
+      hauntedhouse_C_destroyed_dark_6: 1720549713583130728
+      hauntedhouse_C_destroyed_dark_60: 3670129793639082167
+      hauntedhouse_C_destroyed_dark_61: -1480814977784566504
+      hauntedhouse_C_destroyed_dark_62: -5708803378519128933
+      hauntedhouse_C_destroyed_dark_63: 3759397188842417542
+      hauntedhouse_C_destroyed_dark_64: -4577342226468853284
+      hauntedhouse_C_destroyed_dark_65: 569269785658393477
+      hauntedhouse_C_destroyed_dark_66: -1111457624955763302
+      hauntedhouse_C_destroyed_dark_67: 6803247970261406362
+      hauntedhouse_C_destroyed_dark_68: -5880962606016895511
+      hauntedhouse_C_destroyed_dark_69: 7825147572601420101
+      hauntedhouse_C_destroyed_dark_7: 4660937955572020713
+      hauntedhouse_C_destroyed_dark_70: -916980810582280398
+      hauntedhouse_C_destroyed_dark_71: -5218496865250204404
+      hauntedhouse_C_destroyed_dark_72: -256869118970102095
+      hauntedhouse_C_destroyed_dark_73: -119021526765247436
+      hauntedhouse_C_destroyed_dark_74: 5351882423554485263
+      hauntedhouse_C_destroyed_dark_75: -6327188698921948971
+      hauntedhouse_C_destroyed_dark_76: -2964478588526978478
+      hauntedhouse_C_destroyed_dark_77: 4762638401174414073
+      hauntedhouse_C_destroyed_dark_78: 7884004373662130235
+      hauntedhouse_C_destroyed_dark_79: -7879427514094448099
+      hauntedhouse_C_destroyed_dark_8: 3588871163509833062
+      hauntedhouse_C_destroyed_dark_80: 2460130043328382813
+      hauntedhouse_C_destroyed_dark_81: 4640024614397954891
+      hauntedhouse_C_destroyed_dark_82: -1465348796441943419
+      hauntedhouse_C_destroyed_dark_83: -5081402125331300966
+      hauntedhouse_C_destroyed_dark_84: 1487399416196484918
+      hauntedhouse_C_destroyed_dark_85: -3169900757904321820
+      hauntedhouse_C_destroyed_dark_86: -5952888423348350446
+      hauntedhouse_C_destroyed_dark_87: 1527344042458028833
+      hauntedhouse_C_destroyed_dark_88: -5092981182108106798
+      hauntedhouse_C_destroyed_dark_89: -7693780839537205246
+      hauntedhouse_C_destroyed_dark_9: -7930903080951492475
+      hauntedhouse_C_destroyed_dark_90: -7794963206875459990
+      hauntedhouse_C_destroyed_dark_91: 3295719980332236844
+      hauntedhouse_C_destroyed_dark_92: 7316463152671513684
+      hauntedhouse_C_destroyed_dark_93: 6310430394621636482
+      hauntedhouse_C_destroyed_dark_94: -1342704202130794143
+      hauntedhouse_C_destroyed_dark_95: -8993811080982839145
+      hauntedhouse_C_destroyed_dark_96: 7180146186794592719
+      hauntedhouse_C_destroyed_dark_97: -4913134916775456089
+      hauntedhouse_C_destroyed_dark_98: 2866637332806796916
+      hauntedhouse_C_destroyed_dark_99: -1673967750606131151
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

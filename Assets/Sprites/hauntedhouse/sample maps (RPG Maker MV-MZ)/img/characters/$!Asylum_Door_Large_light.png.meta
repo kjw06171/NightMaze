@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 4dbf61f692047904483cf67896651e58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3659834079886749952
+    second: $!Asylum_Door_Large_light_0
+  - first:
+      213: -1127414022635311068
+    second: $!Asylum_Door_Large_light_1
+  - first:
+      213: -6424647105424510616
+    second: $!Asylum_Door_Large_light_2
+  - first:
+      213: 9012575557183171070
+    second: $!Asylum_Door_Large_light_3
+  - first:
+      213: -2490828158365949305
+    second: $!Asylum_Door_Large_light_4
+  - first:
+      213: -8449061885484160917
+    second: $!Asylum_Door_Large_light_5
+  - first:
+      213: -8492458526079113821
+    second: $!Asylum_Door_Large_light_6
+  - first:
+      213: -2018185352295680387
+    second: $!Asylum_Door_Large_light_7
+  - first:
+      213: 4960285621231169747
+    second: $!Asylum_Door_Large_light_8
+  - first:
+      213: -396330748307765315
+    second: $!Asylum_Door_Large_light_9
+  - first:
+      213: 3736905561177402270
+    second: $!Asylum_Door_Large_light_10
+  - first:
+      213: 1074750229414655308
+    second: $!Asylum_Door_Large_light_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 287
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001b48c74b75ac230800000000000000
+      internalID: 3659834079886749952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 287
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42037027bee9a50f0800000000000000
+      internalID: -1127414022635311068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 287
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8613ee13f7117d6a0800000000000000
+      internalID: -6424647105424510616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 191
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef96545f7b9131d70800000000000000
+      internalID: 9012575557183171070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 191
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782ae08acfcce6dd0800000000000000
+      internalID: -2490828158365949305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_5
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 191
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68ac6eeaf6eeba80800000000000000
+      internalID: -8449061885484160917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_6
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 95
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5215b27f9b42a80800000000000000
+      internalID: -8492458526079113821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 95
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76f4896d17fdf3e0800000000000000
+      internalID: -2018185352295680387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_8
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 95
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d036f5ed7976d440800000000000000
+      internalID: 4960285621231169747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_9
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db70d85c843ff7af0800000000000000
+      internalID: -396330748307765315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_10
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b29251fc72cd330800000000000000
+      internalID: 3736905561177402270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Large_light_11
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 0
+        width: 94
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45b78ea3a74aee00800000000000000
+      internalID: 1074750229414655308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      $!Asylum_Door_Large_light_0: 3659834079886749952
+      $!Asylum_Door_Large_light_1: -1127414022635311068
+      $!Asylum_Door_Large_light_10: 3736905561177402270
+      $!Asylum_Door_Large_light_11: 1074750229414655308
+      $!Asylum_Door_Large_light_2: -6424647105424510616
+      $!Asylum_Door_Large_light_3: 9012575557183171070
+      $!Asylum_Door_Large_light_4: -2490828158365949305
+      $!Asylum_Door_Large_light_5: -8449061885484160917
+      $!Asylum_Door_Large_light_6: -8492458526079113821
+      $!Asylum_Door_Large_light_7: -2018185352295680387
+      $!Asylum_Door_Large_light_8: 4960285621231169747
+      $!Asylum_Door_Large_light_9: -396330748307765315
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: ffe5a594156ce7a4492ee1d5a7eead9a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1617705454380179360
+    second: $!Asylum_Door_Med_dark_0
+  - first:
+      213: -4965082178477554447
+    second: $!Asylum_Door_Med_dark_1
+  - first:
+      213: -7950942610961980696
+    second: $!Asylum_Door_Med_dark_2
+  - first:
+      213: -4379278288432992350
+    second: $!Asylum_Door_Med_dark_3
+  - first:
+      213: -1812048091188317414
+    second: $!Asylum_Door_Med_dark_4
+  - first:
+      213: -2078202105846997961
+    second: $!Asylum_Door_Med_dark_5
+  - first:
+      213: 6171596711134353605
+    second: $!Asylum_Door_Med_dark_6
+  - first:
+      213: -2077961879157524460
+    second: $!Asylum_Door_Med_dark_7
+  - first:
+      213: 1378915034155056175
+    second: $!Asylum_Door_Med_dark_8
+  - first:
+      213: 1115497887122079763
+    second: $!Asylum_Door_Med_dark_9
+  - first:
+      213: 5941788730936647006
+    second: $!Asylum_Door_Med_dark_10
+  - first:
+      213: 4250343078699910854
+    second: $!Asylum_Door_Med_dark_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 287
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afda8f2a8e337610800000000000000
+      internalID: 1617705454380179360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 287
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f40937901c781bb0800000000000000
+      internalID: -4965082178477554447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 287
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2281c32d398a190800000000000000
+      internalID: -7950942610961980696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 191
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afee5d599da933c0800000000000000
+      internalID: -4379278288432992350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 191
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13bbc89cdf4ad6e0800000000000000
+      internalID: -1812048091188317414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 191
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c558d023eb823e0800000000000000
+      internalID: -2078202105846997961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 95
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8d120a28ae5a550800000000000000
+      internalID: 6171596711134353605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 95
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41833003ea89923e0800000000000000
+      internalID: -2077961879157524460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_8
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 95
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cf142fae3e22310800000000000000
+      internalID: 1378915034155056175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 78
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3104c9d0b6b0b7f00800000000000000
+      internalID: 1115497887122079763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 78
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dd5edae59757250800000000000000
+      internalID: 5941788730936647006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $!Asylum_Door_Med_dark_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 78
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6c273c2804cfa30800000000000000
+      internalID: 4250343078699910854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      $!Asylum_Door_Med_dark_0: 1617705454380179360
+      $!Asylum_Door_Med_dark_1: -4965082178477554447
+      $!Asylum_Door_Med_dark_10: 5941788730936647006
+      $!Asylum_Door_Med_dark_11: 4250343078699910854
+      $!Asylum_Door_Med_dark_2: -7950942610961980696
+      $!Asylum_Door_Med_dark_3: -4379278288432992350
+      $!Asylum_Door_Med_dark_4: -1812048091188317414
+      $!Asylum_Door_Med_dark_5: -2078202105846997961
+      $!Asylum_Door_Med_dark_6: 6171596711134353605
+      $!Asylum_Door_Med_dark_7: -2077961879157524460
+      $!Asylum_Door_Med_dark_8: 1378915034155056175
+      $!Asylum_Door_Med_dark_9: 1115497887122079763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

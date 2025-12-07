@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4209a4818db8f754989a9f54a39a2752, type: 3}
+  m_Name: Key_C_Acquire_Dialogue
+  m_EditorClassIdentifier: 
+  characterName: "\uC720\uC720\uC720"
+  portrait: {fileID: -3054714914345730600, guid: 426d945e422fedc43b761d519b502d1d, type: 3}
+  sentences:
+  - "3\uBC88\uC9F8 \uC5F4\uC1E0\uB2E4."

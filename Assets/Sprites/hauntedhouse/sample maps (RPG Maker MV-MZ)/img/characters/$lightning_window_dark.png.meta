@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 6a8c9518a4a977445aab312c6841d0ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2495010750587296276
+    second: $lightning_window_dark_0
+  - first:
+      213: 5007621714394976630
+    second: $lightning_window_dark_1
+  - first:
+      213: -5985799705948240708
+    second: $lightning_window_dark_2
+  - first:
+      213: -6913087176859931718
+    second: $lightning_window_dark_3
+  - first:
+      213: 5138506135210453504
+    second: $lightning_window_dark_4
+  - first:
+      213: 1561903058104209606
+    second: $lightning_window_dark_5
+  - first:
+      213: 8990496508552701568
+    second: $lightning_window_dark_6
+  - first:
+      213: 7960527512338720559
+    second: $lightning_window_dark_7
+  - first:
+      213: 16621546832704320
+    second: $lightning_window_dark_8
+  - first:
+      213: 3719054328059659263
+    second: $lightning_window_dark_9
+  - first:
+      213: 2258404863236044320
+    second: $lightning_window_dark_10
+  - first:
+      213: 201689655260755424
+    second: $lightning_window_dark_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: $lightning_window_dark_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 481
+        width: 94
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5a67401f0ff5dd0800000000000000
+      internalID: -2495010750587296276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $lightning_window_dark_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 481
+        width: 77
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6719b00fa65ae7540800000000000000
+      internalID: 5007621714394976630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $lightning_window_dark_2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 481
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4415ea1ea2eeca0800000000000000
+      internalID: -5985799705948240708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $lightning_window_dark_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 335
+        width: 94
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abba4f9f6d7cf00a0800000000000000
+      internalID: -6913087176859931718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $lightning_window_dark_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 335
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a6261ea14af4740800000000000000
+      internalID: 5138506135210453504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $lightning_window_dark_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 335
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0d5e75e8efca510800000000000000
+      internalID: 1561903058104209606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $lightning_window_dark_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 94
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0866caad0f8a4cc70800000000000000
+      internalID: 8990496508552701568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $lightning_window_dark_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 191
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f276ca58899797e60800000000000000
+      internalID: 7960527512338720559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $lightning_window_dark_8
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 191
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043b492753d0b3000800000000000000
+      internalID: 16621546832704320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $lightning_window_dark_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 47
+        width: 94
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3006cf43cbc9330800000000000000
+      internalID: 3719054328059659263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $lightning_window_dark_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 47
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026f230f147775f10800000000000000
+      internalID: 2258404863236044320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: $lightning_window_dark_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 47
+        width: 77
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e530b04cab8cc200800000000000000
+      internalID: 201689655260755424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      $lightning_window_dark_0: -2495010750587296276
+      $lightning_window_dark_1: 5007621714394976630
+      $lightning_window_dark_10: 2258404863236044320
+      $lightning_window_dark_11: 201689655260755424
+      $lightning_window_dark_2: -5985799705948240708
+      $lightning_window_dark_3: -6913087176859931718
+      $lightning_window_dark_4: 5138506135210453504
+      $lightning_window_dark_5: 1561903058104209606
+      $lightning_window_dark_6: 8990496508552701568
+      $lightning_window_dark_7: 7960527512338720559
+      $lightning_window_dark_8: 16621546832704320
+      $lightning_window_dark_9: 3719054328059659263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

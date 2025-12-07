@@ -1,0 +1,2977 @@
+fileFormatVersion: 2
+guid: 85811859bb37d7a488a3ff826b176484
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -751593821597981160
+    second: hauntedhouse_E_destroyed_light_0
+  - first:
+      213: -4278707518298799381
+    second: hauntedhouse_E_destroyed_light_1
+  - first:
+      213: -7070420375185998234
+    second: hauntedhouse_E_destroyed_light_2
+  - first:
+      213: 5055196029036259571
+    second: hauntedhouse_E_destroyed_light_3
+  - first:
+      213: -1888151648657904724
+    second: hauntedhouse_E_destroyed_light_4
+  - first:
+      213: 7717536869872863807
+    second: hauntedhouse_E_destroyed_light_5
+  - first:
+      213: -6707326909894881388
+    second: hauntedhouse_E_destroyed_light_6
+  - first:
+      213: -4666792834591772139
+    second: hauntedhouse_E_destroyed_light_7
+  - first:
+      213: 4010293826300675782
+    second: hauntedhouse_E_destroyed_light_8
+  - first:
+      213: 1563327503656990317
+    second: hauntedhouse_E_destroyed_light_9
+  - first:
+      213: 6272093594865634439
+    second: hauntedhouse_E_destroyed_light_10
+  - first:
+      213: -6903250806172075837
+    second: hauntedhouse_E_destroyed_light_11
+  - first:
+      213: 8556897340300553666
+    second: hauntedhouse_E_destroyed_light_12
+  - first:
+      213: -558062001998382455
+    second: hauntedhouse_E_destroyed_light_13
+  - first:
+      213: -7138638597743299609
+    second: hauntedhouse_E_destroyed_light_14
+  - first:
+      213: 2950003527250081206
+    second: hauntedhouse_E_destroyed_light_15
+  - first:
+      213: 4771765798294197304
+    second: hauntedhouse_E_destroyed_light_16
+  - first:
+      213: 2281163366635216735
+    second: hauntedhouse_E_destroyed_light_17
+  - first:
+      213: -7939822731105373770
+    second: hauntedhouse_E_destroyed_light_18
+  - first:
+      213: 4402464115545115298
+    second: hauntedhouse_E_destroyed_light_19
+  - first:
+      213: 6758221817823519353
+    second: hauntedhouse_E_destroyed_light_20
+  - first:
+      213: 7720152496168529975
+    second: hauntedhouse_E_destroyed_light_21
+  - first:
+      213: 3459801596607127732
+    second: hauntedhouse_E_destroyed_light_22
+  - first:
+      213: -1356685526499261515
+    second: hauntedhouse_E_destroyed_light_23
+  - first:
+      213: 4035087135304397166
+    second: hauntedhouse_E_destroyed_light_24
+  - first:
+      213: -4325410720506076075
+    second: hauntedhouse_E_destroyed_light_25
+  - first:
+      213: 2954560174032468186
+    second: hauntedhouse_E_destroyed_light_26
+  - first:
+      213: 65780322809512356
+    second: hauntedhouse_E_destroyed_light_27
+  - first:
+      213: 3640036784910136456
+    second: hauntedhouse_E_destroyed_light_28
+  - first:
+      213: -1104038700917541066
+    second: hauntedhouse_E_destroyed_light_29
+  - first:
+      213: 8690546394157300977
+    second: hauntedhouse_E_destroyed_light_30
+  - first:
+      213: -3145293286007653893
+    second: hauntedhouse_E_destroyed_light_31
+  - first:
+      213: -2681277986491864233
+    second: hauntedhouse_E_destroyed_light_32
+  - first:
+      213: -8142837202274487860
+    second: hauntedhouse_E_destroyed_light_33
+  - first:
+      213: 8865684765287416093
+    second: hauntedhouse_E_destroyed_light_34
+  - first:
+      213: 2401953854375554937
+    second: hauntedhouse_E_destroyed_light_35
+  - first:
+      213: -8683372332668271921
+    second: hauntedhouse_E_destroyed_light_36
+  - first:
+      213: 700122613097788742
+    second: hauntedhouse_E_destroyed_light_37
+  - first:
+      213: 1766733266739940374
+    second: hauntedhouse_E_destroyed_light_38
+  - first:
+      213: 5634737134182042877
+    second: hauntedhouse_E_destroyed_light_39
+  - first:
+      213: -2100001956591015678
+    second: hauntedhouse_E_destroyed_light_40
+  - first:
+      213: -8916739682154053323
+    second: hauntedhouse_E_destroyed_light_41
+  - first:
+      213: 8164396445509207283
+    second: hauntedhouse_E_destroyed_light_42
+  - first:
+      213: 2773618663271838942
+    second: hauntedhouse_E_destroyed_light_43
+  - first:
+      213: 2588216899789376098
+    second: hauntedhouse_E_destroyed_light_44
+  - first:
+      213: -2544306914023761826
+    second: hauntedhouse_E_destroyed_light_45
+  - first:
+      213: 919665554397365656
+    second: hauntedhouse_E_destroyed_light_46
+  - first:
+      213: 4535753578313808544
+    second: hauntedhouse_E_destroyed_light_47
+  - first:
+      213: 8619471911509286373
+    second: hauntedhouse_E_destroyed_light_48
+  - first:
+      213: -2687645105134270356
+    second: hauntedhouse_E_destroyed_light_49
+  - first:
+      213: -8416288227544870160
+    second: hauntedhouse_E_destroyed_light_50
+  - first:
+      213: 4592862724642125264
+    second: hauntedhouse_E_destroyed_light_51
+  - first:
+      213: -2636327561327893150
+    second: hauntedhouse_E_destroyed_light_52
+  - first:
+      213: -825026213453146260
+    second: hauntedhouse_E_destroyed_light_53
+  - first:
+      213: -4533882515056233752
+    second: hauntedhouse_E_destroyed_light_54
+  - first:
+      213: -1468195894849655748
+    second: hauntedhouse_E_destroyed_light_55
+  - first:
+      213: 8506270528283608277
+    second: hauntedhouse_E_destroyed_light_56
+  - first:
+      213: 6842972571298157042
+    second: hauntedhouse_E_destroyed_light_57
+  - first:
+      213: 4755966456872714286
+    second: hauntedhouse_E_destroyed_light_58
+  - first:
+      213: 3519174652205601432
+    second: hauntedhouse_E_destroyed_light_59
+  - first:
+      213: 7169106188415878932
+    second: hauntedhouse_E_destroyed_light_60
+  - first:
+      213: 4917098795176386937
+    second: hauntedhouse_E_destroyed_light_61
+  - first:
+      213: -2175764469154198976
+    second: hauntedhouse_E_destroyed_light_62
+  - first:
+      213: 5719419625739125602
+    second: hauntedhouse_E_destroyed_light_63
+  - first:
+      213: -881266016928996085
+    second: hauntedhouse_E_destroyed_light_64
+  - first:
+      213: -834660912961362816
+    second: hauntedhouse_E_destroyed_light_65
+  - first:
+      213: -7066195799515625649
+    second: hauntedhouse_E_destroyed_light_66
+  - first:
+      213: -343610393592754974
+    second: hauntedhouse_E_destroyed_light_67
+  - first:
+      213: -94940419359311948
+    second: hauntedhouse_E_destroyed_light_68
+  - first:
+      213: -6705645143034992752
+    second: hauntedhouse_E_destroyed_light_69
+  - first:
+      213: 4000940179509729029
+    second: hauntedhouse_E_destroyed_light_70
+  - first:
+      213: 3679506346801515417
+    second: hauntedhouse_E_destroyed_light_71
+  - first:
+      213: -1964158469906487710
+    second: hauntedhouse_E_destroyed_light_72
+  - first:
+      213: 2063034053796074938
+    second: hauntedhouse_E_destroyed_light_73
+  - first:
+      213: -6683050450787027031
+    second: hauntedhouse_E_destroyed_light_74
+  - first:
+      213: 7864245216707755947
+    second: hauntedhouse_E_destroyed_light_75
+  - first:
+      213: 3140958926366308287
+    second: hauntedhouse_E_destroyed_light_76
+  - first:
+      213: -7476648368856139935
+    second: hauntedhouse_E_destroyed_light_77
+  - first:
+      213: -4066093745358288036
+    second: hauntedhouse_E_destroyed_light_78
+  - first:
+      213: -8077155252794043518
+    second: hauntedhouse_E_destroyed_light_79
+  - first:
+      213: 6995694870666778035
+    second: hauntedhouse_E_destroyed_light_80
+  - first:
+      213: -6334567909139086581
+    second: hauntedhouse_E_destroyed_light_81
+  - first:
+      213: 5095366447050570901
+    second: hauntedhouse_E_destroyed_light_82
+  - first:
+      213: 7372192618820267359
+    second: hauntedhouse_E_destroyed_light_83
+  - first:
+      213: -1665704768401838999
+    second: hauntedhouse_E_destroyed_light_84
+  - first:
+      213: -3916512824565507826
+    second: hauntedhouse_E_destroyed_light_85
+  - first:
+      213: 6017351376424532234
+    second: hauntedhouse_E_destroyed_light_86
+  - first:
+      213: 1192319629286099706
+    second: hauntedhouse_E_destroyed_light_87
+  - first:
+      213: -7538670426236191666
+    second: hauntedhouse_E_destroyed_light_88
+  - first:
+      213: 3821417433804752688
+    second: hauntedhouse_E_destroyed_light_89
+  - first:
+      213: 4842423295086122879
+    second: hauntedhouse_E_destroyed_light_90
+  - first:
+      213: -3134986845169997107
+    second: hauntedhouse_E_destroyed_light_91
+  - first:
+      213: -6796935191694798883
+    second: hauntedhouse_E_destroyed_light_92
+  - first:
+      213: -886522774996802037
+    second: hauntedhouse_E_destroyed_light_93
+  - first:
+      213: 3259665485074591539
+    second: hauntedhouse_E_destroyed_light_94
+  - first:
+      213: 6324518370904301490
+    second: hauntedhouse_E_destroyed_light_95
+  - first:
+      213: 3186859503450116303
+    second: hauntedhouse_E_destroyed_light_96
+  - first:
+      213: 477790014687395501
+    second: hauntedhouse_E_destroyed_light_97
+  - first:
+      213: 7295424204859751173
+    second: hauntedhouse_E_destroyed_light_98
+  - first:
+      213: -8038798731620116260
+    second: hauntedhouse_E_destroyed_light_99
+  - first:
+      213: -5803466727789564504
+    second: hauntedhouse_E_destroyed_light_100
+  - first:
+      213: -8911038237251971489
+    second: hauntedhouse_E_destroyed_light_101
+  - first:
+      213: -5141735988042152100
+    second: hauntedhouse_E_destroyed_light_102
+  - first:
+      213: -7152916575003001627
+    second: hauntedhouse_E_destroyed_light_103
+  - first:
+      213: -378058372029493598
+    second: hauntedhouse_E_destroyed_light_104
+  - first:
+      213: 436391631143377187
+    second: hauntedhouse_E_destroyed_light_105
+  - first:
+      213: 3156746960224355009
+    second: hauntedhouse_E_destroyed_light_106
+  - first:
+      213: -8358317560270739348
+    second: hauntedhouse_E_destroyed_light_107
+  - first:
+      213: -5891281796328089851
+    second: hauntedhouse_E_destroyed_light_108
+  - first:
+      213: 2234967892573437737
+    second: hauntedhouse_E_destroyed_light_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 640
+        width: 23
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8162640c66dc195f0800000000000000
+      internalID: -751593821597981160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 719
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2c1028e2afe94c0800000000000000
+      internalID: -4278707518298799381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 671
+        width: 92
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66eba542122d0ed90800000000000000
+      internalID: -7070420375185998234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 626
+        width: 144
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8ebac310aa72640800000000000000
+      internalID: 5055196029036259571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_4
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 731
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab6da35410fbc5e0800000000000000
+      internalID: -1888151648657904724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 629
+        width: 97
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a80c5d4e23a1b60800000000000000
+      internalID: 7717536869872863807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_6
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 53
+        width: 331
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f0c4f56b9cae2a0800000000000000
+      internalID: -6707326909894881388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_7
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 725
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512b1d584a83c3fb0800000000000000
+      internalID: -4666792834591772139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 674
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c60891dcfc67a730800000000000000
+      internalID: 4010293826300675782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 683
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66b21be41e02b510800000000000000
+      internalID: 1563327503656990317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_10
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 678
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c08ffb4e3fa0750800000000000000
+      internalID: 6272093594865634439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 627
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c83fae77f9b230a0800000000000000
+      internalID: -6903250806172075837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 96
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd691c6bc430c670800000000000000
+      internalID: 8556897340300553666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_13
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 630
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a3e30e09d5148f0800000000000000
+      internalID: -558062001998382455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 155
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e33e9974067eec90800000000000000
+      internalID: -7138638597743299609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_15
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 490
+        width: 46
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5f3e7049480f820800000000000000
+      internalID: 2950003527250081206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 575
+        width: 143
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8341fae26b7b83240800000000000000
+      internalID: 4771765798294197304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 575
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f1deeeef158af10800000000000000
+      internalID: 2281163366635216735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_18
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 601
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b174e40b4510d190800000000000000
+      internalID: -7939822731105373770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_19
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 580
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa887fa9c1b81d30800000000000000
+      internalID: 4402464115545115298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 527
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9726aaccfe60acd50800000000000000
+      internalID: 6758221817823519353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_21
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 529
+        width: 95
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73078f9cacd732b60800000000000000
+      internalID: 7720152496168529975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 527
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0e817a83fa30030800000000000000
+      internalID: 3459801596607127732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_23
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 551
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b30911a3b51c2de0800000000000000
+      internalID: -1356685526499261515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_24
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 530
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e613199ee528ff730800000000000000
+      internalID: 4035087135304397166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 431
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554a190eddd09f3c0800000000000000
+      internalID: -4325410720506076075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_26
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 478
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8b8b803d4b00920800000000000000
+      internalID: 2954560174032468186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_27
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 479
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a18546ead2b9e000800000000000000
+      internalID: 65780322809512356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 508
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8847ced8b22048230800000000000000
+      internalID: 3640036784910136456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_29
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 485
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637b685a6aaada0f0800000000000000
+      internalID: -1104038700917541066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_30
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 439
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc3cc7a6e50b9870800000000000000
+      internalID: 8690546394157300977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_31
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 383
+        width: 96
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9b71dbb6ca954d0800000000000000
+      internalID: -3145293286007653893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_32
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 457
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75be31790ef2acad0800000000000000
+      internalID: -2681277986491864233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_33
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 446
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1f79605b4defe80800000000000000
+      internalID: -8142837202274487860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_34
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 383
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d118c85525d390b70800000000000000
+      internalID: 8865684765287416093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_35
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 383
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f6fe0fd44755120800000000000000
+      internalID: 2401953854375554937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_36
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 383
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc24ad2bed67e7780800000000000000
+      internalID: -8683372332668271921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_37
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 410
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64579e4aec557b900800000000000000
+      internalID: 700122613097788742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_38
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 399
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c46e8ab82b48810800000000000000
+      internalID: 1766733266739940374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_39
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 287
+        width: 38
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc8f95c19b923e40800000000000000
+      internalID: 5634737134182042877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_40
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 287
+        width: 33
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20964c5c85b4bd2e0800000000000000
+      internalID: -2100001956591015678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_41
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 287
+        width: 34
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53104928080614480800000000000000
+      internalID: -8916739682154053323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_42
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 335
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4c9047f43cd4170800000000000000
+      internalID: 8164396445509207283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_43
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 363
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed436be9a7fdd7620800000000000000
+      internalID: 2773618663271838942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_44
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 287
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26acb91be813be320800000000000000
+      internalID: 2588216899789376098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_45
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 340
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e581b0e875ec0bcd0800000000000000
+      internalID: -2544306914023761826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895840af2fe43cc00800000000000000
+      internalID: 919665554397365656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_47
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 287
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aaf91819db32fe30800000000000000
+      internalID: 4535753578313808544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_48
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 287
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edd7fc19048e9770800000000000000
+      internalID: 8619471911509286373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_49
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 287
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c688722440193bad0800000000000000
+      internalID: -2687645105134270356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_50
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 313
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2d2edc276533b80800000000000000
+      internalID: -8416288227544870160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_51
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 292
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d53d6460502dbf30800000000000000
+      internalID: 4592862724642125264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265aa730d02e96bd0800000000000000
+      internalID: -2636327561327893150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_53
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 255
+        width: 50
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c675db0b70bec84f0800000000000000
+      internalID: -825026213453146260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 241
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2f7b4cfd96411c0800000000000000
+      internalID: -4533882515056233752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_55
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 245
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3caccacc9bef9be0800000000000000
+      internalID: -1468195894849655748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_56
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 241
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d408b13af75c0670800000000000000
+      internalID: 8506270528283608277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_57
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 249
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1d7f74c4f17fe50800000000000000
+      internalID: 6842972571298157042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_58
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 256
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2042995b46900240800000000000000
+      internalID: 4755966456872714286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_59
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 242
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892164763be96d030800000000000000
+      internalID: 3519174652205601432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_60
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 144
+        width: 33
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41745954818cd7360800000000000000
+      internalID: 7169106188415878932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_61
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 265
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9716df36d4b0d3440800000000000000
+      internalID: 4917098795176386937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_62
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 246
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ac5253eb12ec1e0800000000000000
+      internalID: -2175764469154198976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_63
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 253
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2630499c8d57f5f40800000000000000
+      internalID: 5719419625739125602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_64
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 206
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05e25c0a3d15c3f0800000000000000
+      internalID: -881266016928996085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_65
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 195
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084e8076250ba64f0800000000000000
+      internalID: -834660912961362816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_66
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 202
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f478380db54dfed90800000000000000
+      internalID: -7066195799515625649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_67
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 195
+        width: 82
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec85c4ea204b3bf0800000000000000
+      internalID: -343610393592754974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_68
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 206
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7f24d0134beaef0800000000000000
+      internalID: -94940419359311948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_69
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 205
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097639b3543c0f2a0800000000000000
+      internalID: -6705645143034992752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_70
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 220
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507d34735e1368730800000000000000
+      internalID: 4000940179509729029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_71
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 205
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b46ed078b301330800000000000000
+      internalID: 3679506346801515417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_72
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 197
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26626a63748edb4e0800000000000000
+      internalID: -1964158469906487710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_73
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 206
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab59c00aa8e51ac10800000000000000
+      internalID: 2063034053796074938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 49
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a733d8f5090143a0800000000000000
+      internalID: -6683050450787027031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_75
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 143
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf3e68ab59632d60800000000000000
+      internalID: 7864245216707755947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 143
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7f724808de69b20800000000000000
+      internalID: 3140958926366308287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_77
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 141
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16773d7ebeb9d3890800000000000000
+      internalID: -7476648368856139935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_78
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 151
+        width: 141
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b4b7c18455297c0800000000000000
+      internalID: -4066093745358288036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_79
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 169
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283d789971e28ef80800000000000000
+      internalID: -8077155252794043518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_80
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 47
+        width: 44
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b59d1b8b63b51160800000000000000
+      internalID: 6995694870666778035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_81
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 47
+        width: 91
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b030d227c081718a0800000000000000
+      internalID: -6334567909139086581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_82
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 158
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cb4e489c066b640800000000000000
+      internalID: 5095366447050570901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_83
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 107
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5de984902a4f4660800000000000000
+      internalID: 7372192618820267359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_84
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 134
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cebb2a65a32e8e0800000000000000
+      internalID: -1665704768401838999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_85
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 100
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09d28d2650c5a9c0800000000000000
+      internalID: -3916512824565507826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_86
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 130
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09fd70123de18350800000000000000
+      internalID: 6017351376424532234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_87
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 102
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afac25ab268fb8010800000000000000
+      internalID: 1192319629286099706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_88
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 130
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cf27d5033416790800000000000000
+      internalID: -7538670426236191666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_89
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 5
+        width: 194
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037ca68c8e6680530800000000000000
+      internalID: 3821417433804752688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_90
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 122
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f775fa3a45eb33340800000000000000
+      internalID: 4842423295086122879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_91
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 111
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaae1ef21a4e74d0800000000000000
+      internalID: -3134986845169997107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf0ea1747f6ca1a0800000000000000
+      internalID: -6796935191694798883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_93
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 48
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06a50fab3072b3f0800000000000000
+      internalID: -886522774996802037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_94
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2
+        width: 33
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fe87cfc78ac3d20800000000000000
+      internalID: 3259665485074591539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_95
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 59
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfde2913f335c750800000000000000
+      internalID: 6324518370904301490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_96
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 75
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0d83c65dff93c20800000000000000
+      internalID: 3186859503450116303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_97
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 52
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daebba6ac7371a600800000000000000
+      internalID: 477790014687395501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bb37859ad8e3560800000000000000
+      internalID: 7295424204859751173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_99
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 4
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd81cec1523707090800000000000000
+      internalID: -8038798731620116260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_100
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 11
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aded4852c1f57fa0800000000000000
+      internalID: -5803466727789564504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_101
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 25
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f565ca89fe1a55480800000000000000
+      internalID: -8911038237251971489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_102
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 25
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57c7e76c52e4a8b0800000000000000
+      internalID: -5141735988042152100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_103
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 0
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec31f6d54cbbbc90800000000000000
+      internalID: -7152916575003001627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_104
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 8
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aec1d6e9edd0caf0800000000000000
+      internalID: -378058372029493598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_105
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 8
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329114d50ef5e0600800000000000000
+      internalID: 436391631143377187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_106
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 18
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c287f992a40fcb20800000000000000
+      internalID: 3156746960224355009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_107
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 5
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c682724967a410c80800000000000000
+      internalID: -8358317560270739348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_108
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 0
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507932a6b66fd3ea0800000000000000
+      internalID: -5891281796328089851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_E_destroyed_light_109
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f3e39f473340f10800000000000000
+      internalID: 2234967892573437737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hauntedhouse_E_destroyed_light_0: -751593821597981160
+      hauntedhouse_E_destroyed_light_1: -4278707518298799381
+      hauntedhouse_E_destroyed_light_10: 6272093594865634439
+      hauntedhouse_E_destroyed_light_100: -5803466727789564504
+      hauntedhouse_E_destroyed_light_101: -8911038237251971489
+      hauntedhouse_E_destroyed_light_102: -5141735988042152100
+      hauntedhouse_E_destroyed_light_103: -7152916575003001627
+      hauntedhouse_E_destroyed_light_104: -378058372029493598
+      hauntedhouse_E_destroyed_light_105: 436391631143377187
+      hauntedhouse_E_destroyed_light_106: 3156746960224355009
+      hauntedhouse_E_destroyed_light_107: -8358317560270739348
+      hauntedhouse_E_destroyed_light_108: -5891281796328089851
+      hauntedhouse_E_destroyed_light_109: 2234967892573437737
+      hauntedhouse_E_destroyed_light_11: -6903250806172075837
+      hauntedhouse_E_destroyed_light_12: 8556897340300553666
+      hauntedhouse_E_destroyed_light_13: -558062001998382455
+      hauntedhouse_E_destroyed_light_14: -7138638597743299609
+      hauntedhouse_E_destroyed_light_15: 2950003527250081206
+      hauntedhouse_E_destroyed_light_16: 4771765798294197304
+      hauntedhouse_E_destroyed_light_17: 2281163366635216735
+      hauntedhouse_E_destroyed_light_18: -7939822731105373770
+      hauntedhouse_E_destroyed_light_19: 4402464115545115298
+      hauntedhouse_E_destroyed_light_2: -7070420375185998234
+      hauntedhouse_E_destroyed_light_20: 6758221817823519353
+      hauntedhouse_E_destroyed_light_21: 7720152496168529975
+      hauntedhouse_E_destroyed_light_22: 3459801596607127732
+      hauntedhouse_E_destroyed_light_23: -1356685526499261515
+      hauntedhouse_E_destroyed_light_24: 4035087135304397166
+      hauntedhouse_E_destroyed_light_25: -4325410720506076075
+      hauntedhouse_E_destroyed_light_26: 2954560174032468186
+      hauntedhouse_E_destroyed_light_27: 65780322809512356
+      hauntedhouse_E_destroyed_light_28: 3640036784910136456
+      hauntedhouse_E_destroyed_light_29: -1104038700917541066
+      hauntedhouse_E_destroyed_light_3: 5055196029036259571
+      hauntedhouse_E_destroyed_light_30: 8690546394157300977
+      hauntedhouse_E_destroyed_light_31: -3145293286007653893
+      hauntedhouse_E_destroyed_light_32: -2681277986491864233
+      hauntedhouse_E_destroyed_light_33: -8142837202274487860
+      hauntedhouse_E_destroyed_light_34: 8865684765287416093
+      hauntedhouse_E_destroyed_light_35: 2401953854375554937
+      hauntedhouse_E_destroyed_light_36: -8683372332668271921
+      hauntedhouse_E_destroyed_light_37: 700122613097788742
+      hauntedhouse_E_destroyed_light_38: 1766733266739940374
+      hauntedhouse_E_destroyed_light_39: 5634737134182042877
+      hauntedhouse_E_destroyed_light_4: -1888151648657904724
+      hauntedhouse_E_destroyed_light_40: -2100001956591015678
+      hauntedhouse_E_destroyed_light_41: -8916739682154053323
+      hauntedhouse_E_destroyed_light_42: 8164396445509207283
+      hauntedhouse_E_destroyed_light_43: 2773618663271838942
+      hauntedhouse_E_destroyed_light_44: 2588216899789376098
+      hauntedhouse_E_destroyed_light_45: -2544306914023761826
+      hauntedhouse_E_destroyed_light_46: 919665554397365656
+      hauntedhouse_E_destroyed_light_47: 4535753578313808544
+      hauntedhouse_E_destroyed_light_48: 8619471911509286373
+      hauntedhouse_E_destroyed_light_49: -2687645105134270356
+      hauntedhouse_E_destroyed_light_5: 7717536869872863807
+      hauntedhouse_E_destroyed_light_50: -8416288227544870160
+      hauntedhouse_E_destroyed_light_51: 4592862724642125264
+      hauntedhouse_E_destroyed_light_52: -2636327561327893150
+      hauntedhouse_E_destroyed_light_53: -825026213453146260
+      hauntedhouse_E_destroyed_light_54: -4533882515056233752
+      hauntedhouse_E_destroyed_light_55: -1468195894849655748
+      hauntedhouse_E_destroyed_light_56: 8506270528283608277
+      hauntedhouse_E_destroyed_light_57: 6842972571298157042
+      hauntedhouse_E_destroyed_light_58: 4755966456872714286
+      hauntedhouse_E_destroyed_light_59: 3519174652205601432
+      hauntedhouse_E_destroyed_light_6: -6707326909894881388
+      hauntedhouse_E_destroyed_light_60: 7169106188415878932
+      hauntedhouse_E_destroyed_light_61: 4917098795176386937
+      hauntedhouse_E_destroyed_light_62: -2175764469154198976
+      hauntedhouse_E_destroyed_light_63: 5719419625739125602
+      hauntedhouse_E_destroyed_light_64: -881266016928996085
+      hauntedhouse_E_destroyed_light_65: -834660912961362816
+      hauntedhouse_E_destroyed_light_66: -7066195799515625649
+      hauntedhouse_E_destroyed_light_67: -343610393592754974
+      hauntedhouse_E_destroyed_light_68: -94940419359311948
+      hauntedhouse_E_destroyed_light_69: -6705645143034992752
+      hauntedhouse_E_destroyed_light_7: -4666792834591772139
+      hauntedhouse_E_destroyed_light_70: 4000940179509729029
+      hauntedhouse_E_destroyed_light_71: 3679506346801515417
+      hauntedhouse_E_destroyed_light_72: -1964158469906487710
+      hauntedhouse_E_destroyed_light_73: 2063034053796074938
+      hauntedhouse_E_destroyed_light_74: -6683050450787027031
+      hauntedhouse_E_destroyed_light_75: 7864245216707755947
+      hauntedhouse_E_destroyed_light_76: 3140958926366308287
+      hauntedhouse_E_destroyed_light_77: -7476648368856139935
+      hauntedhouse_E_destroyed_light_78: -4066093745358288036
+      hauntedhouse_E_destroyed_light_79: -8077155252794043518
+      hauntedhouse_E_destroyed_light_8: 4010293826300675782
+      hauntedhouse_E_destroyed_light_80: 6995694870666778035
+      hauntedhouse_E_destroyed_light_81: -6334567909139086581
+      hauntedhouse_E_destroyed_light_82: 5095366447050570901
+      hauntedhouse_E_destroyed_light_83: 7372192618820267359
+      hauntedhouse_E_destroyed_light_84: -1665704768401838999
+      hauntedhouse_E_destroyed_light_85: -3916512824565507826
+      hauntedhouse_E_destroyed_light_86: 6017351376424532234
+      hauntedhouse_E_destroyed_light_87: 1192319629286099706
+      hauntedhouse_E_destroyed_light_88: -7538670426236191666
+      hauntedhouse_E_destroyed_light_89: 3821417433804752688
+      hauntedhouse_E_destroyed_light_9: 1563327503656990317
+      hauntedhouse_E_destroyed_light_90: 4842423295086122879
+      hauntedhouse_E_destroyed_light_91: -3134986845169997107
+      hauntedhouse_E_destroyed_light_92: -6796935191694798883
+      hauntedhouse_E_destroyed_light_93: -886522774996802037
+      hauntedhouse_E_destroyed_light_94: 3259665485074591539
+      hauntedhouse_E_destroyed_light_95: 6324518370904301490
+      hauntedhouse_E_destroyed_light_96: 3186859503450116303
+      hauntedhouse_E_destroyed_light_97: 477790014687395501
+      hauntedhouse_E_destroyed_light_98: 7295424204859751173
+      hauntedhouse_E_destroyed_light_99: -8038798731620116260
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

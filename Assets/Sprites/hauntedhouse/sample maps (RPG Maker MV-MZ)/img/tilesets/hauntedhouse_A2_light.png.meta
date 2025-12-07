@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: a664be497bad8aa4cb5e6d4226e57e46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6421472984268565794
+    second: hauntedhouse_A2_light_0
+  - first:
+      213: 4563024646961015269
+    second: hauntedhouse_A2_light_1
+  - first:
+      213: -7562331356705154439
+    second: hauntedhouse_A2_light_2
+  - first:
+      213: -2873180932789114558
+    second: hauntedhouse_A2_light_3
+  - first:
+      213: -6607872779584768356
+    second: hauntedhouse_A2_light_4
+  - first:
+      213: -2975667615124920107
+    second: hauntedhouse_A2_light_5
+  - first:
+      213: -3990134230795849201
+    second: hauntedhouse_A2_light_6
+  - first:
+      213: 6633726879937772036
+    second: hauntedhouse_A2_light_7
+  - first:
+      213: 8108415823931151038
+    second: hauntedhouse_A2_light_8
+  - first:
+      213: 777072446279986757
+    second: hauntedhouse_A2_light_9
+  - first:
+      213: 4850089123421532672
+    second: hauntedhouse_A2_light_10
+  - first:
+      213: 5977991023352193499
+    second: hauntedhouse_A2_light_11
+  - first:
+      213: 4445388375281660923
+    second: hauntedhouse_A2_light_12
+  - first:
+      213: -417095354290607928
+    second: hauntedhouse_A2_light_13
+  - first:
+      213: 6875255887427590563
+    second: hauntedhouse_A2_light_14
+  - first:
+      213: -2261082592461592149
+    second: hauntedhouse_A2_light_15
+  - first:
+      213: 2644760451799658902
+    second: hauntedhouse_A2_light_16
+  - first:
+      213: -4518528371415356183
+    second: hauntedhouse_A2_light_17
+  - first:
+      213: -2969918662113928148
+    second: hauntedhouse_A2_light_18
+  - first:
+      213: -4205698502191974099
+    second: hauntedhouse_A2_light_19
+  - first:
+      213: 6130462215575802386
+    second: hauntedhouse_A2_light_20
+  - first:
+      213: 5361459498146431766
+    second: hauntedhouse_A2_light_21
+  - first:
+      213: -3589945070796794343
+    second: hauntedhouse_A2_light_22
+  - first:
+      213: -5610132707941878041
+    second: hauntedhouse_A2_light_23
+  - first:
+      213: -1125102895913297301
+    second: hauntedhouse_A2_light_24
+  - first:
+      213: -2879809507270482090
+    second: hauntedhouse_A2_light_25
+  - first:
+      213: -8127022235782380021
+    second: hauntedhouse_A2_light_26
+  - first:
+      213: 7420463112693060530
+    second: hauntedhouse_A2_light_27
+  - first:
+      213: 9179788456565198712
+    second: hauntedhouse_A2_light_28
+  - first:
+      213: 8998735122592105271
+    second: hauntedhouse_A2_light_29
+  - first:
+      213: 752112246647949030
+    second: hauntedhouse_A2_light_30
+  - first:
+      213: 849104790421464024
+    second: hauntedhouse_A2_light_31
+  - first:
+      213: 1054215827439172999
+    second: hauntedhouse_A2_light_32
+  - first:
+      213: -7546028496490120328
+    second: hauntedhouse_A2_light_33
+  - first:
+      213: -3850505263275489486
+    second: hauntedhouse_A2_light_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 385
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed297edd75852e6a0800000000000000
+      internalID: -6421472984268565794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 297
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9a67f8dbe135f30800000000000000
+      internalID: 4563024646961015269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 136
+        width: 382
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a9ac1b2b33d0790800000000000000
+      internalID: -7562331356705154439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 101
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249eda51a296028d0800000000000000
+      internalID: -2873180932789114558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_4
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 0
+        width: 242
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9670eb87be1c44a0800000000000000
+      internalID: -6607872779584768356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_5
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 127
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d868ded11e44b6d0800000000000000
+      internalID: -2975667615124920107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_6
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 108
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f027947ce0230a8c0800000000000000
+      internalID: -3990134230795849201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_7
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 108
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ab6a7437bbf0c50800000000000000
+      internalID: 6633726879937772036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_8
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 97
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2929c4b31e68070800000000000000
+      internalID: 8108415823931151038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_9
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 127
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e2345d547b8ca00800000000000000
+      internalID: 777072446279986757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_10
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 125
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002b6826c5afe4340800000000000000
+      internalID: 4850089123421532672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_11
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 119
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1a169b92716f250800000000000000
+      internalID: 5977991023352193499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf37055bc2131bd30800000000000000
+      internalID: 4445388375281660923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_13
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 111
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8ea023cfd263af0800000000000000
+      internalID: -417095354290607928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_14
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 95
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9d80e8dc0d96f50800000000000000
+      internalID: 6875255887427590563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_15
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 109
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9e184ac550f90e0800000000000000
+      internalID: -2261082592461592149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_16
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 99
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691358d4e9314b420800000000000000
+      internalID: 2644760451799658902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_17
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 3
+        width: 93
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec634ae266fa41c0800000000000000
+      internalID: -4518528371415356183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_18
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 72
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c55ec46bab8c6d0800000000000000
+      internalID: -2969918662113928148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_19
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 75
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d297478be7b52a5c0800000000000000
+      internalID: -4205698502191974099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_20
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 55
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212995c87e6c31550800000000000000
+      internalID: 6130462215575802386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_21
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 36
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61389a0e10bb76a40800000000000000
+      internalID: 5361459498146431766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_22
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 64
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9161efb7af3fd2ec0800000000000000
+      internalID: -3589945070796794343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6f250a60ec422b0800000000000000
+      internalID: -5610132707941878041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_24
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 48
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a135190e4d260f0800000000000000
+      internalID: -1125102895913297301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_25
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657a952d28cd808d0800000000000000
+      internalID: -2879809507270482090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_26
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 39
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b068d7ad554073f80800000000000000
+      internalID: -8127022235782380021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_27
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 36
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b395fcb2e7caf660800000000000000
+      internalID: 7420463112693060530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_28
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 31
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fccc2f6f8256f70800000000000000
+      internalID: 9179788456565198712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_29
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 36
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7330fe9aaede1ec70800000000000000
+      internalID: 8998735122592105271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_30
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 24
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e60cac7a1a007a00800000000000000
+      internalID: 752112246647949030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_31
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 27
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d36722ee40a8cb00800000000000000
+      internalID: 849104790421464024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_32
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 27
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d3b17a5b351ae00800000000000000
+      internalID: 1054215827439172999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_33
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 11
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b3bb1201f174790800000000000000
+      internalID: -7546028496490120328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_A2_light_34
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23741b82dd1409ac0800000000000000
+      internalID: -3850505263275489486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hauntedhouse_A2_light_0: -6421472984268565794
+      hauntedhouse_A2_light_1: 4563024646961015269
+      hauntedhouse_A2_light_10: 4850089123421532672
+      hauntedhouse_A2_light_11: 5977991023352193499
+      hauntedhouse_A2_light_12: 4445388375281660923
+      hauntedhouse_A2_light_13: -417095354290607928
+      hauntedhouse_A2_light_14: 6875255887427590563
+      hauntedhouse_A2_light_15: -2261082592461592149
+      hauntedhouse_A2_light_16: 2644760451799658902
+      hauntedhouse_A2_light_17: -4518528371415356183
+      hauntedhouse_A2_light_18: -2969918662113928148
+      hauntedhouse_A2_light_19: -4205698502191974099
+      hauntedhouse_A2_light_2: -7562331356705154439
+      hauntedhouse_A2_light_20: 6130462215575802386
+      hauntedhouse_A2_light_21: 5361459498146431766
+      hauntedhouse_A2_light_22: -3589945070796794343
+      hauntedhouse_A2_light_23: -5610132707941878041
+      hauntedhouse_A2_light_24: -1125102895913297301
+      hauntedhouse_A2_light_25: -2879809507270482090
+      hauntedhouse_A2_light_26: -8127022235782380021
+      hauntedhouse_A2_light_27: 7420463112693060530
+      hauntedhouse_A2_light_28: 9179788456565198712
+      hauntedhouse_A2_light_29: 8998735122592105271
+      hauntedhouse_A2_light_3: -2873180932789114558
+      hauntedhouse_A2_light_30: 752112246647949030
+      hauntedhouse_A2_light_31: 849104790421464024
+      hauntedhouse_A2_light_32: 1054215827439172999
+      hauntedhouse_A2_light_33: -7546028496490120328
+      hauntedhouse_A2_light_34: -3850505263275489486
+      hauntedhouse_A2_light_4: -6607872779584768356
+      hauntedhouse_A2_light_5: -2975667615124920107
+      hauntedhouse_A2_light_6: -3990134230795849201
+      hauntedhouse_A2_light_7: 6633726879937772036
+      hauntedhouse_A2_light_8: 8108415823931151038
+      hauntedhouse_A2_light_9: 777072446279986757
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

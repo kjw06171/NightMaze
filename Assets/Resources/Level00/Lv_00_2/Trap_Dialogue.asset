@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4209a4818db8f754989a9f54a39a2752, type: 3}
+  m_Name: Trap_Dialogue
+  m_EditorClassIdentifier: 
+  characterName: "\uC720\uB098"
+  portrait: {fileID: -3054714914345730600, guid: 426d945e422fedc43b761d519b502d1d, type: 3}
+  sentences:
+  - "\uC544! \uB9D9\uC18C\uC0AC\u2026 \uC9C4\uC9DC \uC720\uB9AC\uC600\uB124. \uAE30
+    \uC65C \uC774\uB7F0 \uAC8C \uC788\uB294 \uAC70\uC9C0\u2026?"
+  - "\uC870\uC2EC\uD574\uC11C \uC9C0\uB098\uAC00\uC57C\uACA0\uB2E4."

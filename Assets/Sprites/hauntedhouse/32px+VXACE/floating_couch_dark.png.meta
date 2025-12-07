@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 04c59c7cfe96d9a4abd1b6b5512781fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3262118092512677046
+    second: floating_couch_dark_0
+  - first:
+      213: 3135264845269617796
+    second: floating_couch_dark_1
+  - first:
+      213: -233772038553722105
+    second: floating_couch_dark_2
+  - first:
+      213: -697806816241155320
+    second: floating_couch_dark_3
+  - first:
+      213: 3223200464329478420
+    second: floating_couch_dark_4
+  - first:
+      213: 306204416414179525
+    second: floating_couch_dark_5
+  - first:
+      213: -4762925110755317955
+    second: floating_couch_dark_6
+  - first:
+      213: 1154630535926986435
+    second: floating_couch_dark_7
+  - first:
+      213: -5328360548104960872
+    second: floating_couch_dark_8
+  - first:
+      213: -871652255561297588
+    second: floating_couch_dark_9
+  - first:
+      213: -193759770952027379
+    second: floating_couch_dark_10
+  - first:
+      213: 1408740017925110123
+    second: floating_couch_dark_11
+  - first:
+      213: -4239245946040511964
+    second: floating_couch_dark_12
+  - first:
+      213: -5833251237626162401
+    second: floating_couch_dark_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: floating_couch_dark_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 453
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a433868d0e0aab2d0800000000000000
+      internalID: -3262118092512677046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 464
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cc013f3c2b28b20800000000000000
+      internalID: 3135264845269617796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_2
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 464
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703269bc19971ccf0800000000000000
+      internalID: -233772038553722105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_3
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 464
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8038914d564e056f0800000000000000
+      internalID: -697806816241155320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 389
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4119b3cbebb1bbc20800000000000000
+      internalID: 3223200464329478420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 400
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0e50d5b4bdf3400800000000000000
+      internalID: 306204416414179525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_6
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 398
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3724a9c8d0b6edb0800000000000000
+      internalID: -4762925110755317955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_7
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 389
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c63fbcda52160010800000000000000
+      internalID: 1154630535926986435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 325
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8948ff6ff4cdd06b0800000000000000
+      internalID: -5328360548104960872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_9
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 336
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41d99b44e447e3f0800000000000000
+      internalID: -871652255561297588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_10
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 335
+        width: 63
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03b4a0d380af4df0800000000000000
+      internalID: -193759770952027379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 325
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69bd4d1599dc8310800000000000000
+      internalID: 1408740017925110123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 272
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4229db6c54c2b25c0800000000000000
+      internalID: -4239245946040511964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floating_couch_dark_13
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 261
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f135fafb7e02c0fa0800000000000000
+      internalID: -5833251237626162401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      floating_couch_dark_0: -3262118092512677046
+      floating_couch_dark_1: 3135264845269617796
+      floating_couch_dark_10: -193759770952027379
+      floating_couch_dark_11: 1408740017925110123
+      floating_couch_dark_12: -4239245946040511964
+      floating_couch_dark_13: -5833251237626162401
+      floating_couch_dark_2: -233772038553722105
+      floating_couch_dark_3: -697806816241155320
+      floating_couch_dark_4: 3223200464329478420
+      floating_couch_dark_5: 306204416414179525
+      floating_couch_dark_6: -4762925110755317955
+      floating_couch_dark_7: 1154630535926986435
+      floating_couch_dark_8: -5328360548104960872
+      floating_couch_dark_9: -871652255561297588
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

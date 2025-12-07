@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 9b3473e257ca51644a7dea435b4dfe35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8762074581978613989
+    second: hauntedhouse_D_dark_0
+  - first:
+      213: 5667140765941912506
+    second: hauntedhouse_D_dark_1
+  - first:
+      213: 910686513777408422
+    second: hauntedhouse_D_dark_2
+  - first:
+      213: -6748813221083523745
+    second: hauntedhouse_D_dark_3
+  - first:
+      213: -2678969786787074048
+    second: hauntedhouse_D_dark_4
+  - first:
+      213: -61419929274269634
+    second: hauntedhouse_D_dark_5
+  - first:
+      213: 6799619471793241832
+    second: hauntedhouse_D_dark_6
+  - first:
+      213: -2554166793785558146
+    second: hauntedhouse_D_dark_7
+  - first:
+      213: 4860226634770099112
+    second: hauntedhouse_D_dark_8
+  - first:
+      213: -1720914136196512648
+    second: hauntedhouse_D_dark_9
+  - first:
+      213: 275299861211354108
+    second: hauntedhouse_D_dark_10
+  - first:
+      213: -985593515641281777
+    second: hauntedhouse_D_dark_11
+  - first:
+      213: 7607660989651333301
+    second: hauntedhouse_D_dark_12
+  - first:
+      213: -6190386031796901097
+    second: hauntedhouse_D_dark_13
+  - first:
+      213: -6071332930605511285
+    second: hauntedhouse_D_dark_14
+  - first:
+      213: 1594384364169197650
+    second: hauntedhouse_D_dark_15
+  - first:
+      213: -1940972293117084591
+    second: hauntedhouse_D_dark_16
+  - first:
+      213: 634505881140026039
+    second: hauntedhouse_D_dark_17
+  - first:
+      213: -6616678651410957644
+    second: hauntedhouse_D_dark_18
+  - first:
+      213: 5643180784544563504
+    second: hauntedhouse_D_dark_19
+  - first:
+      213: 69987710216878253
+    second: hauntedhouse_D_dark_20
+  - first:
+      213: 1845071654777278481
+    second: hauntedhouse_D_dark_21
+  - first:
+      213: -5972956021117784519
+    second: hauntedhouse_D_dark_22
+  - first:
+      213: 2752948441593089672
+    second: hauntedhouse_D_dark_23
+  - first:
+      213: -656609396301603727
+    second: hauntedhouse_D_dark_24
+  - first:
+      213: -1466289795579712670
+    second: hauntedhouse_D_dark_25
+  - first:
+      213: 914540342636064315
+    second: hauntedhouse_D_dark_26
+  - first:
+      213: 8243590674221724343
+    second: hauntedhouse_D_dark_27
+  - first:
+      213: 5978163157724646457
+    second: hauntedhouse_D_dark_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hauntedhouse_D_dark_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 290
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8805aa864299970800000000000000
+      internalID: 8762074581978613989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_D_dark_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 528
+        width: 290
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab35a16308ab5ae40800000000000000
+      internalID: 5667140765941912506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_D_dark_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 290
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9f07b2f8863ac00800000000000000
+      internalID: 910686513777408422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_D_dark_3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 288
+        width: 290
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f555bd5d1266752a0800000000000000
+      internalID: -6748813221083523745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_D_dark_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 290
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0007d863c2362dad0800000000000000
+      internalID: -2678969786787074048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hauntedhouse_D_dark_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 48
+        width: 290
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e304a7556eac52ff0800000000000000
+      internalID: -61419929274269634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 04f0753cba71a284b84a9dbb343c3729
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hauntedhouse_D_dark_0: 8762074581978613989
+      hauntedhouse_D_dark_1: 5667140765941912506
+      hauntedhouse_D_dark_2: 910686513777408422
+      hauntedhouse_D_dark_3: -6748813221083523745
+      hauntedhouse_D_dark_4: -2678969786787074048
+      hauntedhouse_D_dark_5: -61419929274269634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

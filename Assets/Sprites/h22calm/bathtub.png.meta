@@ -1,0 +1,1910 @@
+fileFormatVersion: 2
+guid: b066bc3d3b8290f44ae201d7496e8c45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5500563589954123544
+    second: hauntedhouse_B_destroyed_dark_0
+  - first:
+      213: -2529871915194065269
+    second: hauntedhouse_B_destroyed_dark_1
+  - first:
+      213: 7078118375288845545
+    second: hauntedhouse_B_destroyed_dark_2
+  - first:
+      213: 2702222586182406013
+    second: hauntedhouse_B_destroyed_dark_3
+  - first:
+      213: 2421509698491912699
+    second: hauntedhouse_B_destroyed_dark_4
+  - first:
+      213: -6607284775356018394
+    second: hauntedhouse_B_destroyed_dark_5
+  - first:
+      213: 1861476132033314941
+    second: hauntedhouse_B_destroyed_dark_6
+  - first:
+      213: 8806513959869345323
+    second: hauntedhouse_B_destroyed_dark_7
+  - first:
+      213: 3706484432605738758
+    second: hauntedhouse_B_destroyed_dark_8
+  - first:
+      213: 5989125331951519073
+    second: hauntedhouse_B_destroyed_dark_9
+  - first:
+      213: -4344356668949131478
+    second: hauntedhouse_B_destroyed_dark_10
+  - first:
+      213: -1507235505364174735
+    second: hauntedhouse_B_destroyed_dark_11
+  - first:
+      213: -5512187822015761409
+    second: hauntedhouse_B_destroyed_dark_12
+  - first:
+      213: -272789276452695215
+    second: hauntedhouse_B_destroyed_dark_13
+  - first:
+      213: 5405465698542152693
+    second: hauntedhouse_B_destroyed_dark_14
+  - first:
+      213: -8318084981091288697
+    second: hauntedhouse_B_destroyed_dark_15
+  - first:
+      213: 1827506007983205327
+    second: hauntedhouse_B_destroyed_dark_16
+  - first:
+      213: -6241712370243451929
+    second: hauntedhouse_B_destroyed_dark_17
+  - first:
+      213: 1398920450574590928
+    second: hauntedhouse_B_destroyed_dark_18
+  - first:
+      213: -4117520159596013675
+    second: hauntedhouse_B_destroyed_dark_19
+  - first:
+      213: 5902205915097563095
+    second: hauntedhouse_B_destroyed_dark_20
+  - first:
+      213: -6206471294271505676
+    second: hauntedhouse_B_destroyed_dark_21
+  - first:
+      213: -7245514024608934972
+    second: hauntedhouse_B_destroyed_dark_22
+  - first:
+      213: -4207784341983567841
+    second: hauntedhouse_B_destroyed_dark_23
+  - first:
+      213: -2496806892318417504
+    second: hauntedhouse_B_destroyed_dark_24
+  - first:
+      213: -9170375698315390319
+    second: hauntedhouse_B_destroyed_dark_25
+  - first:
+      213: 5762052639828040294
+    second: hauntedhouse_B_destroyed_dark_26
+  - first:
+      213: -5080469775064773627
+    second: hauntedhouse_B_destroyed_dark_27
+  - first:
+      213: 7397113408039878412
+    second: hauntedhouse_B_destroyed_dark_28
+  - first:
+      213: -3773104778172542997
+    second: hauntedhouse_B_destroyed_dark_29
+  - first:
+      213: -9126461566536521987
+    second: hauntedhouse_B_destroyed_dark_30
+  - first:
+      213: 6761203165686716018
+    second: hauntedhouse_B_destroyed_dark_31
+  - first:
+      213: -132060289573606426
+    second: hauntedhouse_B_destroyed_dark_32
+  - first:
+      213: -7901525376542869195
+    second: hauntedhouse_B_destroyed_dark_33
+  - first:
+      213: 3985216414533398358
+    second: hauntedhouse_B_destroyed_dark_34
+  - first:
+      213: 5009409246932656421
+    second: hauntedhouse_B_destroyed_dark_35
+  - first:
+      213: 29011581721292637
+    second: hauntedhouse_B_destroyed_dark_36
+  - first:
+      213: 885888850629671342
+    second: hauntedhouse_B_destroyed_dark_37
+  - first:
+      213: 1228719504468831449
+    second: hauntedhouse_B_destroyed_dark_38
+  - first:
+      213: -6153293969664032504
+    second: hauntedhouse_B_destroyed_dark_39
+  - first:
+      213: -4037647304584277809
+    second: hauntedhouse_B_destroyed_dark_40
+  - first:
+      213: -4527183174038478288
+    second: hauntedhouse_B_destroyed_dark_41
+  - first:
+      213: -3402994511829936455
+    second: hauntedhouse_B_destroyed_dark_42
+  - first:
+      213: -4633313577577659022
+    second: hauntedhouse_B_destroyed_dark_43
+  - first:
+      213: 4836665179703236822
+    second: hauntedhouse_B_destroyed_dark_44
+  - first:
+      213: 1930030756635865088
+    second: hauntedhouse_B_destroyed_dark_45
+  - first:
+      213: -735419799209940324
+    second: hauntedhouse_B_destroyed_dark_46
+  - first:
+      213: 9189487275220756230
+    second: hauntedhouse_B_destroyed_dark_47
+  - first:
+      213: 2993582349153574239
+    second: hauntedhouse_B_destroyed_dark_48
+  - first:
+      213: -5686438972745097585
+    second: hauntedhouse_B_destroyed_dark_49
+  - first:
+      213: 1884315788309412528
+    second: hauntedhouse_B_destroyed_dark_50
+  - first:
+      213: 6191174236321439604
+    second: hauntedhouse_B_destroyed_dark_51
+  - first:
+      213: -763806205201399858
+    second: hauntedhouse_B_destroyed_dark_52
+  - first:
+      213: 4711959936792885143
+    second: hauntedhouse_B_destroyed_dark_53
+  - first:
+      213: -1407963564506924276
+    second: hauntedhouse_B_destroyed_dark_54
+  - first:
+      213: 8745260121962084768
+    second: hauntedhouse_B_destroyed_dark_55
+  - first:
+      213: 8326360550707479690
+    second: hauntedhouse_B_destroyed_dark_56
+  - first:
+      213: -4108877107292836047
+    second: hauntedhouse_B_destroyed_dark_57
+  - first:
+      213: 1565765797679931558
+    second: hauntedhouse_B_destroyed_dark_58
+  - first:
+      213: 1072793250479996308
+    second: hauntedhouse_B_destroyed_dark_59
+  - first:
+      213: 3829316592209601925
+    second: hauntedhouse_B_destroyed_dark_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bathtub_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 698
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c769e0ecce5a2f941ae9ccf890f575dc
+      internalID: 1908048388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 698
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432b99a8ae4ac1f40934dedea5143bfe
+      internalID: -2014783884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 698
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebe01fac55d1f34e89d3472f3b2aaa8
+      internalID: -68383517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 698
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e15f43522cc874880f24d8223ac79c
+      internalID: 1238541898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_4
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 698
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938892880f6355e45a84c4f8646e4f2b
+      internalID: -192051614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 648
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cacda07c64e3834b98e656e1332bdf3
+      internalID: 661147489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 648
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1c8c886c608574d9b7450eca4e3a7d
+      internalID: -347905810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 648
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ad301695abeaf4a96c63bd455582c2
+      internalID: -1029532881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 648
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4e185c868d7634c90613b4dbb1381e
+      internalID: -926869625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_9
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 648
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b12d7b73044b3042aaab5e0f8bc36f5
+      internalID: -891335682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 598
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37a9972d8b66ef45a9f003f1cf95be0
+      internalID: 2017577411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 598
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d02811b73bd78e41a9a80874241502e
+      internalID: 185847433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 598
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526add02e5768494fa9523e894693702
+      internalID: -1657023195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 598
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa833dcf389a094a83bd5c149f6b926
+      internalID: 963427143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_14
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 598
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5330ee3cd6b3841847c47b99ce80d3
+      internalID: 1352599653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 548
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8eab4d12d183b44850eb71bd73369f
+      internalID: -639314935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 548
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb65cb60624b2754d9d8c62dad432fed
+      internalID: 838580550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_17
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 548
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45a928ef471f004f8921c34d89db263
+      internalID: -1591829062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 548
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8720e99cbbd23ba48b058a8e75ab0f19
+      internalID: -199640156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_19
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 548
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa790c86595d8d04b9c23d74033b95bf
+      internalID: 652443040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 498
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d79a11f8a12234ead4ce2bc4727153
+      internalID: -848986335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_21
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 498
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c15e88df26195b46920e3aae3c8b8fc
+      internalID: -1079577022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_22
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 498
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d06b42c94b6aa4f8ea0b8e6dbe7d83
+      internalID: -1912959169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_23
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 498
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef54146312dc9c4088ec67e6c49f417
+      internalID: -215333865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_24
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 498
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674b897eba338ec45b2cacbe5e7b981b
+      internalID: 1408719601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_25
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 448
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287e52f451ecbf34995bb009a4d9c078
+      internalID: 2107027672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_26
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 448
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c6e5007de3aac4db9afc1cb9297411
+      internalID: 284260381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_27
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 448
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9b25e375b3d53449ea49b2fe46ef73
+      internalID: -52786977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32052319c060d774b8769f2771fce2c5
+      internalID: -708204061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_29
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 448
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828007094a95fd640ac6f18119461fe9
+      internalID: 843574525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 398
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4907d8d556b5fc4bb8e17aa1a7a7564
+      internalID: -1749888662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_31
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 398
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265bb903df702e946ac89ef48785dafc
+      internalID: -1739712863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_32
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 398
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275c5b4d9043d6f46a5455042129892a
+      internalID: 1450139487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 398
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a4cf0f6f5959644ab296394d815606
+      internalID: -10967057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_34
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 398
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68daf076335bdf9439d812b4d89f1a75
+      internalID: 1790647503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_35
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 348
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1ea5d70f1f41c44a5b842e4fcab797
+      internalID: -1229081442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_36
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 348
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbf5ec3de27bca40b0ed5c9995417d6
+      internalID: 40743573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_37
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 348
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3644691b3a302e44eb8edaf1ebac8a42
+      internalID: 775073756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 348
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ef95ed2324f6141b3cfea8fa4eb11a
+      internalID: 1619777650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_39
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 348
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f59c90bf24f7246970e22ab4581443
+      internalID: -1763719543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_40
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 298
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c695cc17e9c5c468826bc4558d592a
+      internalID: 1956066984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_41
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 298
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c1da7c96ecac84a81c52ffc88c264e
+      internalID: -554167139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_42
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 298
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6bb5027653eca44981089d1b497b7e
+      internalID: -1264069999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 298
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fec6e5268fdc474e9794ea85cd1e4fc
+      internalID: 1584880014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_44
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 298
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0e358d7ba7e5d49b23afd7b7b537d6
+      internalID: -1431798033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_45
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 248
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895a056252c6b744bb7c328e02c1ca3b
+      internalID: 448064762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_46
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 248
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8b40cbb7aa03344a8e23f703566ef8
+      internalID: 1618227346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_47
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 248
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45a318fad3869f46a27c4bc86857854
+      internalID: 312636591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_48
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 248
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9682602e1d00ced46be5ef278682d9f3
+      internalID: -220303374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_49
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 248
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4f0216afba08844887f4402cfd31e8
+      internalID: -890616780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_50
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 198
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99694ffc5c70ece49aa6d15d57c5eee7
+      internalID: -64848928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_51
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 198
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2883b839c1febba4bb840aa9ca4df2a6
+      internalID: 149588701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_52
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 198
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78d2f4e2b7855440ad86b9d22e1c241
+      internalID: -1137969236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_53
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 198
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ca5bfee965b8b4db5f4ca9a71d60c1
+      internalID: 2001484599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_54
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 198
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1736d2931b91a45bf9027826166ef3
+      internalID: 9563029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_55
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 148
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe756d290e8fcee479fb4b6cb7d21ae4
+      internalID: 2115802571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_56
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 148
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88ce2f678873ff46a104b1ff5f2c259
+      internalID: 749177280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_57
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 148
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fe827e2e9c82547886896b36c86c6e
+      internalID: -429142347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_58
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 148
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d766c7ab5d742a54cad2e599fed8ae47
+      internalID: 109877407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_59
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 148
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8e71547b9ed1540ace285a5be8b9cb
+      internalID: -1580895087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_60
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 98
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc67257b50377764da81d4f570902b39
+      internalID: -22696038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_61
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 98
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82605259b2d070246a3dd97b10239168
+      internalID: 1655021292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_62
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 98
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4244476197fbaf9418faa6d63a72fcdb
+      internalID: -906408309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 98
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de495794e27e2714ca2d16a9ef86eb5b
+      internalID: -1676205547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_64
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 98
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4b5c113a5a847428e58268a36fb530
+      internalID: 1992757682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_65
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 48
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9bfceec89b0b042a2339828e4bdf25
+      internalID: -117578487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_66
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 48
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efab7880442715b4cb392182aec86340
+      internalID: 222976548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_67
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 48
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d6fd3d2ecd30148b41e747ffe77216
+      internalID: -1025531633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_68
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5fe73fd07acc64c89d23af395bbccf
+      internalID: 1950284314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathtub_69
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 48
+        width: 100
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984b4dae5ea0b5340a74e2b0d83605bd
+      internalID: 1541040573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 52b07e28ff9150a4f9719fae87032c6f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bathtub_0: 1908048388
+      bathtub_1: -2014783884
+      bathtub_10: 2017577411
+      bathtub_11: 185847433
+      bathtub_12: -1657023195
+      bathtub_13: 963427143
+      bathtub_14: 1352599653
+      bathtub_15: -639314935
+      bathtub_16: 838580550
+      bathtub_17: -1591829062
+      bathtub_18: -199640156
+      bathtub_19: 652443040
+      bathtub_2: -68383517
+      bathtub_20: -848986335
+      bathtub_21: -1079577022
+      bathtub_22: -1912959169
+      bathtub_23: -215333865
+      bathtub_24: 1408719601
+      bathtub_25: 2107027672
+      bathtub_26: 284260381
+      bathtub_27: -52786977
+      bathtub_28: -708204061
+      bathtub_29: 843574525
+      bathtub_3: 1238541898
+      bathtub_30: -1749888662
+      bathtub_31: -1739712863
+      bathtub_32: 1450139487
+      bathtub_33: -10967057
+      bathtub_34: 1790647503
+      bathtub_35: -1229081442
+      bathtub_36: 40743573
+      bathtub_37: 775073756
+      bathtub_38: 1619777650
+      bathtub_39: -1763719543
+      bathtub_4: -192051614
+      bathtub_40: 1956066984
+      bathtub_41: -554167139
+      bathtub_42: -1264069999
+      bathtub_43: 1584880014
+      bathtub_44: -1431798033
+      bathtub_45: 448064762
+      bathtub_46: 1618227346
+      bathtub_47: 312636591
+      bathtub_48: -220303374
+      bathtub_49: -890616780
+      bathtub_5: 661147489
+      bathtub_50: -64848928
+      bathtub_51: 149588701
+      bathtub_52: -1137969236
+      bathtub_53: 2001484599
+      bathtub_54: 9563029
+      bathtub_55: 2115802571
+      bathtub_56: 749177280
+      bathtub_57: -429142347
+      bathtub_58: 109877407
+      bathtub_59: -1580895087
+      bathtub_6: -347905810
+      bathtub_60: -22696038
+      bathtub_61: 1655021292
+      bathtub_62: -906408309
+      bathtub_63: -1676205547
+      bathtub_64: 1992757682
+      bathtub_65: -117578487
+      bathtub_66: 222976548
+      bathtub_67: -1025531633
+      bathtub_68: 1950284314
+      bathtub_69: 1541040573
+      bathtub_7: -1029532881
+      bathtub_8: -926869625
+      bathtub_9: -891335682
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
