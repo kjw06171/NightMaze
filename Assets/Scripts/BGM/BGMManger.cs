@@ -7,11 +7,12 @@ public class BGMManager : MonoBehaviour
     public static BGMManager Instance;
 
     private AudioSource audioSource;
-    public float fadeDuration = 1.5f;   // 페이드 인/아웃 시간
+    public float fadeDuration = 1.5f;
+
+    public float CurrentVolume => audioSource.volume;   // ⭐ 현재 볼륨 가져오기
 
     private void Awake()
     {
-        // 싱글톤 설정
         if (Instance == null)
         {
             Instance = this;
@@ -26,13 +27,11 @@ public class BGMManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         audioSource.playOnAwake = false;
         audioSource.loop = true;
-        audioSource.volume = 0f;   // 초기 볼륨 0 → FadeIn 때 채워짐
+        audioSource.volume = 0f;
         audioSource.clip = null;
     }
 
-    // ============================================================
-    // 🔥 씬이 로드될 때 자동으로 BGM 재생
-    // ============================================================
+    // 씬 로드 직후 자동으로 BGM 재생
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -45,26 +44,21 @@ public class BGMManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // 씬에 StageController가 있는지 찾기
         StageController sc = FindObjectOfType<StageController>();
 
         if (sc != null && sc.stageBGM != null)
         {
-            // 새로운 스테이지 BGM 시작
             FadeIn(sc.stageBGM, 0f, sc.bgmVolume);
         }
     }
 
-    // ============================================================
-    // 🔥 BGM 즉시 재생
-    // ============================================================
+    // ★ 즉시 재생
     public void PlayBGM(AudioClip newClip, float targetVolume = 1f)
     {
         if (newClip == null) return;
 
         StopAllCoroutines();
 
-        // AudioClip 변경
         audioSource.clip = newClip;
         audioSource.volume = targetVolume;
 
@@ -72,10 +66,8 @@ public class BGMManager : MonoBehaviour
             audioSource.Play();
     }
 
-    // ============================================================
-    // 🔥 부드러운 페이드 인 재생
-    // ============================================================
-    public void FadeIn(AudioClip newClip, float startVolume = 0f, float targetVolume = 1f)
+    // ★ 부드러운 페이드 인 (새 BGM 시작)
+    public void FadeIn(AudioClip newClip, float startVolume, float targetVolume)
     {
         if (newClip == null) return;
 
@@ -87,49 +79,39 @@ public class BGMManager : MonoBehaviour
         if (!audioSource.isPlaying)
             audioSource.Play();
 
-        StartCoroutine(FadeInCoroutine(targetVolume));
+        StartCoroutine(FadeToCoroutine(targetVolume, fadeDuration));
     }
 
-    // ============================================================
-    // 🔥 부드러운 페이드 아웃 후 정지
-    // ============================================================
+    // ★ 페이드 아웃 후 정지
     public void FadeOutAndStop()
     {
         StopAllCoroutines();
-        StartCoroutine(FadeOutCoroutine(0f));
+        StartCoroutine(FadeToCoroutine(0f, fadeDuration, stopAfterFade: true));
     }
 
-    // ============================================================
-    // 🔽 코루틴 내부 구현
-    // ============================================================
-    private IEnumerator FadeOutCoroutine(float targetVolume)
+    // ★ 원하는 볼륨으로 페이드 (스토리 패널용)
+    public void FadeTo(float targetVolume, float duration)
+    {
+        StopAllCoroutines();
+        StartCoroutine(FadeToCoroutine(targetVolume, duration));
+    }
+
+    // 공용 코루틴
+    private IEnumerator FadeToCoroutine(float targetVolume, float duration, bool stopAfterFade = false)
     {
         float startVolume = audioSource.volume;
         float timer = 0f;
 
-        while (timer < fadeDuration)
+        while (timer < duration)
         {
             timer += Time.unscaledDeltaTime;
-            audioSource.volume = Mathf.Lerp(startVolume, targetVolume, timer / fadeDuration);
+            audioSource.volume = Mathf.Lerp(startVolume, targetVolume, timer / duration);
             yield return null;
         }
 
         audioSource.volume = targetVolume;
-        audioSource.Stop();
-    }
 
-    private IEnumerator FadeInCoroutine(float targetVolume)
-    {
-        float startVolume = audioSource.volume;
-        float timer = 0f;
-
-        while (timer < fadeDuration)
-        {
-            timer += Time.unscaledDeltaTime;
-            audioSource.volume = Mathf.Lerp(startVolume, targetVolume, timer / fadeDuration);
-            yield return null;
-        }
-
-        audioSource.volume = targetVolume;
+        if (stopAfterFade)
+            audioSource.Stop();
     }
 }

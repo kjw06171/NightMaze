@@ -48,11 +48,15 @@ public class PauseMenu : MonoBehaviour
         if (DialogueManager.Instance != null && DialogueManager.Instance.IsActive())
             return;
 
-        // 3) 게임 오버 또는 타이틀 화면이면 ESC 막기
-        if (GameManager.IsGameOver || GameManager.IsTitleScreenActive)
+        // 🔥 3) 게임오버 UI 켜져 있으면 ESC 차단
+        if (GameOverUIActive())
             return;
-            
-        // 4) ESC 입력 처리
+
+        // 4) 타이틀 화면이면 ESC 차단
+        if (GameManager.IsTitleScreenActive)
+            return;
+
+        // 5) ESC 입력 처리
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isGamePaused)
@@ -61,6 +65,15 @@ public class PauseMenu : MonoBehaviour
                 Pause();
         }
     }
+
+    private bool GameOverUIActive()
+    {
+        // ⚠ 여기 이름만 네 프로젝트 UI 이름에 맞게 바꾸면 됨!
+        var goPanel = GameObject.Find("GameOverPanel");
+
+        return goPanel != null && goPanel.activeInHierarchy;
+    }
+
 
     /// <summary>
     /// 버튼 클릭 사운드 재생 (UI에서 OnClick으로 호출)

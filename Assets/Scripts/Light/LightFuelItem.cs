@@ -24,12 +24,19 @@ public class LightFuelItem : MonoBehaviour
 
     private bool playerInRange = false;
 
-    // 🔊 사운드 추가
+    // 🔊 기본 아이템 사운드
     [Header("아이템 사운드 설정 🔊")]
-    public AudioSource itemAudioSource;   // AudioSource
-    public AudioClip itemClip;            // 재생할 소리
+    public AudioSource itemAudioSource;
+    public AudioClip itemClip;
     [Range(0f, 1f)]
-    public float itemVolume = 1f;         // 볼륨 조절
+    public float itemVolume = 1f;
+
+    // 🔥 추가: 연료 가득 상태 사운드
+    [Header("연료 가득 사운드 설정 🔊")]
+    public AudioClip fullFuelSound;
+    [Range(0f, 1f)]
+    public float fullFuelSoundVolume = 1f;
+    public AudioSource fullFuelAudioSource; // 선택용 AudioSource
 
     void Update()
     {
@@ -88,9 +95,10 @@ public class LightFuelItem : MonoBehaviour
             return;
         }
 
-        // 이미 가득 차있는지 확인
+        // ⭐ 이미 가득 차있는 경우 → 전용 사운드 + 메시지
         if (lightControl.IsFuelFull())
         {
+            PlayFullFuelSound();  // 🔊 추가됨
             ShowFloatingMessage(transform.position, fullFuelMessage);
             return;
         }
@@ -101,7 +109,7 @@ public class LightFuelItem : MonoBehaviour
 
         ShowFloatingMessage(transform.position, $"+{RestoreDurationAmount:F0}초 만큼 연료 회복!");
 
-        // 🔊 아이템 소리 재생 (Pause 중에는 재생 X)
+        // 🔊 기본 아이템 소리 재생
         PlayItemSound();
 
         // Lv_00_2 → 스토리 → 대사 → Collect
@@ -116,16 +124,29 @@ public class LightFuelItem : MonoBehaviour
     }
 
     // ===================================================================
-    // 🔊 아이템 사운드 재생
+    // 🔊 기본 아이템 사운드 재생
     // ===================================================================
     private void PlayItemSound()
     {
-        if (PauseMenu.isGamePaused) return; // Pause 중 재생 금지
+        if (PauseMenu.isGamePaused) return;
 
         if (itemAudioSource != null && itemClip != null)
         {
             itemAudioSource.volume = itemVolume;
             itemAudioSource.PlayOneShot(itemClip);
+        }
+    }
+
+    // ===================================================================
+    // 🔥 연료 가득 사운드 재생 (신규 추가)
+    // ===================================================================
+    private void PlayFullFuelSound()
+    {
+        AudioSource src = fullFuelAudioSource != null ? fullFuelAudioSource : itemAudioSource;
+
+        if (src != null && fullFuelSound != null)
+        {
+            src.PlayOneShot(fullFuelSound, fullFuelSoundVolume);
         }
     }
 

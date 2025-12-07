@@ -6,6 +6,15 @@ public enum RatState { Idle, Chase, Return }
 
 public class RatAI : MonoBehaviour
 {
+    [Header("추격 사운드 설정 🔊")]
+    public AudioSource chaseAudioSource;   // 사운드 재생용 AudioSource
+    public AudioClip chaseClip;            // 추격 시작 효과음
+    [Range(0f, 1f)]
+    public float chaseVolume = 1f;         // 볼륨 조절
+
+    // ⭐ 모든 쥐 중 1마리만 추격 사운드를 재생하게 하는 글로벌 플래그
+    public static bool chaseSoundPlayedGlobal = false;
+
     // KEY_B 획득 여부 (전체 공유)
     public static bool keyBCollected = false;
 
@@ -38,7 +47,6 @@ public class RatAI : MonoBehaviour
 
     // 애니메이션
     private Animator animator;
-    private Vector2 lastPos;
 
     void Start()
     {
@@ -48,18 +56,16 @@ public class RatAI : MonoBehaviour
 
         startPosition = transform.position;
 
-        // 플레이어 찾기
         var playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null)
             playerHealth = playerObj.GetComponent<PlayerHealth>();
 
-        lastPos = transform.position;
         setter.target = null; // Idle default
     }
 
     void Update()
     {
-        // ⭐ 무리 전체 공격 종료 시 모든 쥐는 즉시 Return 상태로 전환
+        // ⭐ 무리 전체 공격이 이미 끝났으면 모두 Return
         if (RatAI.hasAttackedOnce && state != RatState.Return)
         {
             state = RatState.Return;
@@ -86,8 +92,35 @@ public class RatAI : MonoBehaviour
         UpdateAnimation();
     }
 
+    // ==========================================
+    // 🔊 추격 사운드 재생 (전역 1회)
+    // ==========================================
+    private void PlayChaseSound()
+    {
+        if (chaseSoundPlayedGlobal) return;            // 이미 재생했으면 무시
+        if (PauseMenu.isGamePaused) return;            // 퍼즈 중이면 금지
+        if (chaseAudioSource == null || chaseClip == null) return;
 
-    // 쥐끼리 겹치지 않게 Separation Force
+        chaseSoundPlayedGlobal = true;
+
+        chaseAudioSource.clip = chaseClip;
+        chaseAudioSource.volume = chaseVolume;
+        chaseAudioSource.loop = false;
+        chaseAudioSource.Play();
+    }
+
+    // ==========================================
+    // 🔊 추격 사운드 즉시 끊기
+    // ==========================================
+    private void StopChaseSound()
+    {
+        if (chaseAudioSource != null && chaseAudioSource.isPlaying)
+            chaseAudioSource.Stop();
+    }
+
+    // ==========================================
+    // Separation Force
+    // ==========================================
     private void ApplySeparationForce()
     {
         float separationRadius = 0.6f;
@@ -105,8 +138,9 @@ public class RatAI : MonoBehaviour
         }
     }
 
-
+    // ==========================================
     // Idle 상태
+    // ==========================================
     void HandleIdle()
     {
         if (SceneManager.GetActiveScene().name != "Lv_02")
@@ -117,6 +151,8 @@ public class RatAI : MonoBehaviour
             hasChasedOnce = true;
             state = RatState.Chase;
             setter.target = player;
+
+            PlayChaseSound();     // 🔥 추격 시작 시 사운드 재생
             return;
         }
 
@@ -139,56 +175,60 @@ public class RatAI : MonoBehaviour
         );
     }
 
-
-    // Chase
+    // ==========================================
+    // Chase 상태
+    // ==========================================
     void HandleChase()
     {
+        // ⭐ 방을 나가면 바로 Return + 소리 즉시 끊기
         if (!playerInsideRoom)
         {
+            StopChaseSound();   // 🔥 여기서 반드시 끊어야 함
             state = RatState.Return;
             setter.target = null;
             return;
         }
     }
 
-    // Return
+    // ==========================================
+    // Return 상태
+    // ==========================================
     void HandleReturn()
     {
         setter.target = null;
+
         aiPath.destination = startPosition;
 
         if (Vector2.Distance(transform.position, startPosition) < 0.25f)
             state = RatState.Idle;
     }
 
-    // ⭐ Trigger 방식 데미지 처리
+    // ==========================================
+    // 플레이어 충돌 → 공격 + Return
+    // ==========================================
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (!col.CompareTag("Player"))
-            return;
+        if (!col.CompareTag("Player")) return;
 
-        // ⭐ 쥐가 추격 중일 때만 공격 가능
-        if (state != RatState.Chase)
-            return;
+        if (state != RatState.Chase) return;
 
-        // ⭐ 무리가 이미 한 번 공격했으면 추가 공격 없음
-        if (RatAI.hasAttackedOnce)
-            return;
+        if (RatAI.hasAttackedOnce) return;
 
-        // 최초 1회 공격
         if (playerHealth != null)
             playerHealth.TakeDamage(1);
 
         RatAI.hasAttackedOnce = true;
 
-        // 공격 후 즉시 귀환
+        // 🔥 공격 성공하면 즉시 소리 끊기
+        StopChaseSound();
+
         state = RatState.Return;
         setter.target = null;
     }
 
-
-
+    // ==========================================
     // 애니메이션 처리
+    // ==========================================
     private void UpdateAnimation()
     {
         Vector2 movement = aiPath.velocity;
@@ -196,22 +236,17 @@ public class RatAI : MonoBehaviour
 
         animator.SetBool("isMoving", isMoving);
 
-        if (!isMoving)
-            return;
+        if (!isMoving) return;
 
-        // 🔥 1) 주요 방향 저장 로직 (부드러운 방향 유지)
         if (Mathf.Abs(movement.x) > Mathf.Abs(movement.y))
         {
-            // x 방향이 더 크면 x 방향 유지
             lastMajorDir = new Vector2(Mathf.Sign(movement.x), 0);
         }
         else
         {
-            // y 방향이 더 크면 y 방향 유지
             lastMajorDir = new Vector2(0, Mathf.Sign(movement.y));
         }
 
-        // 🔥 2) 애니메이션 결정은 "lastMajorDir" 기준으로만!
         if (lastMajorDir.x > 0)
             animator.Play("WalkRightRat");
         else if (lastMajorDir.x < 0)
@@ -221,5 +256,4 @@ public class RatAI : MonoBehaviour
         else if (lastMajorDir.y < 0)
             animator.Play("WalkDownRat");
     }
-
 }

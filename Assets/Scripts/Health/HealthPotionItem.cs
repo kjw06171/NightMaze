@@ -1,6 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;   // ← 🔥 추가: SceneManager 쓰려고
-                                     // (씬 이름 비교할 때 필요)
+using UnityEngine.SceneManagement;
 
 public class HealthPotionItem : MonoBehaviour
 {
@@ -8,19 +7,32 @@ public class HealthPotionItem : MonoBehaviour
     public int HealAmount = 1;
 
     [Header("UI 설정")]
-    public GameObject floatingTextPrefab; 
+    public GameObject floatingTextPrefab;
     public string fullHealthMessage = "체력이 이미 가득 찼습니다!";
 
     [Header("캔버스 설정")]
     public Canvas targetCanvas;
 
     [Header("튜토리얼 대사 연결 (Lv_00_2 전용)")]
-    public DialogueSO itemDialogue;   // ← 🔥 Inspector에서 SO 드래그해서 넣기
+    public DialogueSO itemDialogue;
 
     [Header("상호작용 메시지 옵션")]
     public bool showInteractMessage = true;
 
+    // -----------------------------------------------------------
+    // ⭐ 추가된 부분: 체력 가득 사운드 
+    // -----------------------------------------------------------
+    [Header("체력 가득 사운드 설정")]
+    public AudioClip fullHealthSound;
+    [Range(0f, 1f)]
+    public float fullHealthSoundVolume = 1f;
+
+    [Tooltip("사운드 재생용 오디오 소스")]
+    public AudioSource audioSource;
+
     private bool playerInRange = false;
+
+
 
     void Update()
     {
@@ -33,13 +45,11 @@ public class HealthPotionItem : MonoBehaviour
     // 🔥 아이템이 실제로 획득된 뒤 실행되는 처리
     private void Collect()
     {
-        // 퀘스트 진행도 1 증가
         if (QuestManager.Instance != null)
         {
             QuestManager.Instance.AddProgress("COLLECT_ITEMS", 1);
         }
 
-        // 아이템 파괴
         Destroy(gameObject);
     }
 
@@ -65,9 +75,22 @@ public class HealthPotionItem : MonoBehaviour
         }
     }
 
+    // -----------------------------------------------------------
+    // 🔊 체력 가득 사운드 재생 함수 (새로 추가된 것)
+    // -----------------------------------------------------------
+    private void PlayFullHealthSound()
+    {
+        if (audioSource != null && fullHealthSound != null)
+        {
+            audioSource.PlayOneShot(fullHealthSound, fullHealthSoundVolume);
+        }
+    }
+
+    // -----------------------------------------------------------
     private void TryHealPlayer()
     {
-        Transform playerRoot = FindObjectOfType<PlayerHealth>()?.transform.root; 
+        Transform playerRoot = FindObjectOfType<PlayerHealth>()?.transform.root;
+
         if (playerRoot == null)
         {
             ShowFloatingMessage(this.transform.position, "플레이어를 찾을 수 없습니다!");
@@ -78,32 +101,28 @@ public class HealthPotionItem : MonoBehaviour
 
         if (healthControl != null)
         {
+            // ⭐ 체력 가득 상태 처리
             if (healthControl.IsHealthFull())
             {
+                PlayFullHealthSound();  // 🔊 추가된 기능
+
                 ShowFloatingMessage(this.transform.position, fullHealthMessage);
                 return;
             }
 
-            // ✅ 체력 회복 적용
+            // 정상 회복
             healthControl.Heal(HealAmount);
-
-            // ✅ 회복 텍스트
             ShowFloatingMessage(this.transform.position, $"+{HealAmount:F0} HP 회복!");
 
-            // ✅ Lv_00_2에서만 대사 실행
+            // 대사 (Lv_00_2)
             if (SceneManager.GetActiveScene().name == "Lv_00_2")
             {
                 if (itemDialogue != null && DialogueManager.Instance != null)
                 {
                     DialogueManager.Instance.StartDialogue(itemDialogue);
                 }
-                else
-                {
-                    Debug.LogWarning("itemDialogue 또는 DialogueManager가 비어있음");
-                }
             }
 
-            // ✅ 실제 아이템 획득 처리 (퀘스트 진행 + 파괴)
             Collect();
         }
         else
@@ -111,6 +130,7 @@ public class HealthPotionItem : MonoBehaviour
             ShowFloatingMessage(this.transform.position, "체력 스크립트 오류!");
         }
     }
+
 
     private void ShowFloatingMessage(Vector3 position, string message)
     {

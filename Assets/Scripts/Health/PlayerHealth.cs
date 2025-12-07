@@ -142,11 +142,20 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("💀 플레이어 사망! 게임 오버");
 
+        // 🔥 1) 모든 게임 사운드 정지 (PauseMenu처럼)
+        AudioListener.pause = true;
+
+        // 🔥 2) 게임 정지
         Time.timeScale = 0;
 
+        // 🔥 3) GameManager에게 상태 전달 (PauseMenu에서 ESC 막기용)
+        GameManager.IsGameOver = true;
+
+        // 🔥 4) UI 표시
         if (deathUI != null)
             deathUI.SetActive(true);
     }
+
 
     // =========================================================
     // HP 공유 저장 함수

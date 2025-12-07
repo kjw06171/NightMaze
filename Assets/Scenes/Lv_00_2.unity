@@ -309,6 +309,9 @@ MonoBehaviour:
   itemAudioSource: {fileID: 1094741165}
   itemClip: {fileID: 8300000, guid: 4608f31ec2b349a45b098453bb6ac5d4, type: 3}
   itemVolume: 1
+  fullFuelSound: {fileID: 0}
+  fullFuelSoundVolume: 1
+  fullFuelAudioSource: {fileID: 0}
 --- !u!61 &57585407
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14307,7 +14310,6 @@ Transform:
   - {fileID: 1074065531}
   - {fileID: 1887065459}
   - {fileID: 1641401026}
-  - {fileID: 2093532879}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1074065530
@@ -15252,6 +15254,9 @@ MonoBehaviour:
   pickupVolume: 0.527
   lockedSound: {fileID: 8300000, guid: 9c0ce251e61c90b4390d0fb0de99e42d, type: 3}
   lockedVolume: 1
+  storyLoweredVolume: 0.31
+  storyFadeOutTime: 0.8
+  storyFadeInTime: 0.8
 --- !u!50 &1258037013
 Rigidbody2D:
   serializedVersion: 5
@@ -15557,6 +15562,7 @@ GameObject:
   - component: {fileID: 1328779049}
   - component: {fileID: 1328779048}
   - component: {fileID: 1328779047}
+  - component: {fileID: 1328779050}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -15640,18 +15646,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2093532878}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: PlayClickSound
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1328779048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15690,6 +15684,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1328779045}
   m_CullTransparentMesh: 1
+--- !u!114 &1328779050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328779045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a053b090375ba7e499059625f96306d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 1641401027}
+  clickClip: {fileID: 8300000, guid: aca964ccc48bce84f9806f917c5b9948, type: 3}
+  clickVolume: 1
 --- !u!1 &1347804721
 GameObject:
   m_ObjectHideFlags: 0
@@ -16777,6 +16786,8 @@ MonoBehaviour:
   doorOpenSound: {fileID: 8300000, guid: aeffc93b597ec90499b7a6dabbbf5b63, type: 3}
   doorLockedSound: {fileID: 8300000, guid: 9c0ce251e61c90b4390d0fb0de99e42d, type: 3}
   sfxVolume: 1
+  doorDialogue: {fileID: 11400000, guid: cf1c1c4850976ab46a80dd1474258890, type: 2}
+  playDialogueOnEnter: 1
 --- !u!58 &1372548320
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17331,6 +17342,9 @@ MonoBehaviour:
   targetCanvas: {fileID: 946314698}
   itemDialogue: {fileID: 0}
   showInteractMessage: 1
+  fullHealthSound: {fileID: 0}
+  fullHealthSoundVolume: 1
+  audioSource: {fileID: 0}
 --- !u!50 &1515409247
 Rigidbody2D:
   serializedVersion: 5
@@ -17933,7 +17947,7 @@ GameObject:
   - component: {fileID: 1660491436}
   - component: {fileID: 1660491435}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: GameOverPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18109,6 +18123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1744477011}
   - component: {fileID: 1744477010}
+  - component: {fileID: 1744477012}
   m_Layer: 0
   m_Name: GameOverManager
   m_TagString: Untagged
@@ -18128,6 +18143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a053b090375ba7e499059625f96306d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 1641401027}
+  clickClip: {fileID: 8300000, guid: aca964ccc48bce84f9806f917c5b9948, type: 3}
+  clickVolume: 1
 --- !u!4 &1744477011
 Transform:
   m_ObjectHideFlags: 0
@@ -18143,6 +18161,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1744477012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744477009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e1dafe7d8c4f184eb53dcf64e146fb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restartButton: {fileID: 1328779050}
 --- !u!1 &1753093971
 GameObject:
   m_ObjectHideFlags: 0
@@ -18890,7 +18921,7 @@ Transform:
   m_GameObject: {fileID: 1942179691}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.898883, y: 3.314606, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18898,6 +18929,7 @@ Transform:
   - {fileID: 1759847290}
   - {fileID: 739780720}
   - {fileID: 66709053}
+  - {fileID: 2093532879}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1972016788
@@ -18945,7 +18977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageBGM: {fileID: 8300000, guid: 22af319f5de208e479f3d72dad7bfb75, type: 3}
-  bgmVolume: 0.8
+  bgmVolume: 0.6
 --- !u!1 &1972041754
 GameObject:
   m_ObjectHideFlags: 0
@@ -105870,7 +105902,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1561312077}
-  m_Father: {fileID: 1066765919}
+  m_Father: {fileID: 1942179692}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2113463195
 GameObject:

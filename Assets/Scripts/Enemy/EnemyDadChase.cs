@@ -7,6 +7,7 @@ public class EnemyDadChase : MonoBehaviour
     // A* Pathfinding 컴포넌트
     public Seeker seeker;
     public AIPath aiPath;
+    
 
     [Header("Target & Light")]
     public Transform Player;
@@ -19,9 +20,36 @@ public class EnemyDadChase : MonoBehaviour
     public float ChaseDistance = 5f; // 플레이어 추격 시작 거리
     public float FleeDistance = 10f; // 도망갈 때 플레이어로부터 멀어지려는 거리
 
+    // 🔊 추격/배경 BGM 설정
+    [Header("Chase BGM Settings")]
+    [Tooltip("추격 중에만 별도의 BGM을 쓸지 여부")]
+    public bool useChaseBGM = true;
+
+    [Tooltip("추격 BGM을 재생할 AudioSource (적 오브젝트나 별도 오브젝트에 붙인 Source)")]
+    public AudioSource chaseAudioSource;
+
+    [Tooltip("추격 중에만 들릴 BGM 클립")]
+    public AudioClip chaseBGMClip;
+
+    [Tooltip("추격 중 Chase BGM 볼륨")]
+    [Range(0f, 1f)]
+    public float chaseBGMVolume = 1f;
+
+    [Tooltip("배경/추격 BGM 볼륨 페이드 시간 (초)")]
+    public float bgmFadeTime = 0.4f;
+
+    // 내부 상태
     private bool isChasing = false;
     private bool isFleeing = false;
-    
+
+    // BGM 상태
+    private bool isChaseBGMStarted = false;   // chaseAudioSource가 재생 시작된 적 있는지
+    private bool stageVolumeCaptured = false; // 배경 BGM 원래 볼륨 저장 여부
+    private float stageOriginalVolume = 1f;   // 추격 전 배경 BGM 볼륨
+
+    // 코루틴용
+    private Coroutine chaseBGMFadeRoutine;
+
     void Start()
     {
         if (aiPath == null) aiPath = GetComponent<AIPath>();
@@ -29,6 +57,20 @@ public class EnemyDadChase : MonoBehaviour
         if (patrolScript == null) patrolScript = GetComponent<MonsterPatrol_Random>();
 
         if (aiPath != null) aiPath.enabled = false; 
+
+        // 🔊 Chase BGM AudioSource 초기 세팅
+        if (useChaseBGM && chaseAudioSource != null && chaseBGMClip != null)
+        {
+            chaseAudioSource.clip = chaseBGMClip;
+            chaseAudioSource.loop = true;
+            chaseAudioSource.playOnAwake = false;
+            chaseAudioSource.volume = 0f; // 처음엔 안 들리게
+            chaseAudioSource.ignoreListenerPause = false; // 일시정지에도 계속 재생되게 할 거면
+
+            // 재생만 미리 시작해두고 볼륨만 0으로 유지 → 나중에 올리면 "이어듣기" 가능
+            chaseAudioSource.Play();
+            isChaseBGMStarted = true;
+        }
     }
 
     void Update()
@@ -84,7 +126,7 @@ public class EnemyDadChase : MonoBehaviour
             else
             {
                 // 아무 상태도 아니면 순찰 유지/시작
-                 if (!patrolScript.IsPatrolling)
+                if (!patrolScript.IsPatrolling)
                 {
                     patrolScript.StartPatrolling(); 
                 }
@@ -92,7 +134,7 @@ public class EnemyDadChase : MonoBehaviour
         }
 
         // ----------------------------------------------------
-        // 2. 이동 처리 (기존 로직 유지)
+        // 2. 이동 처리
         // ----------------------------------------------------
         
         if (isFleeing)
@@ -143,11 +185,41 @@ public class EnemyDadChase : MonoBehaviour
         aiPath.enabled = true;
         aiPath.maxSpeed = ChaseSpeed;
         Debug.Log("추격 시작!");
+
+        // 🔊 BGM 스위칭: 배경 ↓, 추격 ↑
+        if (useChaseBGM)
+        {
+            // 배경 BGM 원래 볼륨 저장 (처음 한 번만)
+            if (!stageVolumeCaptured && BGMManager.Instance != null)
+            {
+                stageOriginalVolume = BGMManager.Instance.CurrentVolume;
+                stageVolumeCaptured = true;
+            }
+
+            // 배경 BGM 볼륨 0으로 페이드
+            if (BGMManager.Instance != null)
+            {
+                BGMManager.Instance.FadeTo(0f, bgmFadeTime);
+            }
+
+            // 추격 BGM 볼륨 페이드 인
+            if (chaseAudioSource != null && chaseBGMClip != null)
+            {
+                if (!isChaseBGMStarted)
+                {
+                    // 혹시 재생 안 하고 있었으면 여기서 세팅 후 재생
+                    chaseAudioSource.clip = chaseBGMClip;
+                    chaseAudioSource.loop = true;
+                    chaseAudioSource.volume = 0f;
+                    chaseAudioSource.Play();
+                    isChaseBGMStarted = true;
+                }
+
+                StartFadeChaseBGM(chaseAudioSource.volume, chaseBGMVolume);
+            }
+        }
     }
 
-    // ----------------------------------------------
-    // ⭐ [완료 상태 보강] StopChasing 함수
-    // ----------------------------------------------
     void StopChasing()
     {
         isChasing = false;
@@ -161,36 +233,41 @@ public class EnemyDadChase : MonoBehaviour
         }
 
         Debug.Log("추격 중지!");
+
+        // 🔊 BGM 스위칭: 추격 ↓, 배경 ↑
+        if (useChaseBGM)
+        {
+            // 추격 BGM 볼륨 0으로
+            if (chaseAudioSource != null && isChaseBGMStarted)
+            {
+                StartFadeChaseBGM(chaseAudioSource.volume, 0f);
+            }
+
+            // 배경 BGM 원래 볼륨으로 복귀
+            if (BGMManager.Instance != null && stageVolumeCaptured)
+            {
+                BGMManager.Instance.FadeTo(stageOriginalVolume, bgmFadeTime);
+            }
+        }
     }
     
-    // ----------------------------------------------
-    // ⭐ [보강] StartFleeing 함수: aiPath.target 명시적 null 설정
-    // ----------------------------------------------
     void StartFleeing()
     {
         isFleeing = true;
         
-        // ⭐ 추가: 도망은 destination을 사용하므로, target을 확실히 null로 만듭니다.
         aiPath.target = null; 
-
         aiPath.enabled = true;
         aiPath.maxSpeed = FleeSpeed;
         Debug.Log("불 감지! 도망 시작!");
     }
 
-    // ----------------------------------------------
-    // ⭐ [완료 상태 보강] StopFleeing 함수
-    // ----------------------------------------------
     void StopFleeing()
     {
         isFleeing = false;
         
-        // Chase 상태가 아니라면 AIPath를 끄고 경로를 취소합니다.
         if (!isChasing) 
         {
-            // ⭐ 추가: target을 명시적으로 null로 설정하여 cleanup을 완성합니다.
             aiPath.target = null; 
-            
             aiPath.enabled = false;
             seeker.CancelCurrentPathRequest();
         }
@@ -201,5 +278,37 @@ public class EnemyDadChase : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // 충돌 처리 (필요 시 확장)
+    }
+
+    // ------------------------------------------------------
+    // 🔊 Chase BGM 페이드 코루틴
+    // ------------------------------------------------------
+    private void StartFadeChaseBGM(float from, float to)
+    {
+        if (chaseBGMFadeRoutine != null)
+            StopCoroutine(chaseBGMFadeRoutine);
+
+        chaseBGMFadeRoutine = StartCoroutine(FadeChaseBGMCoroutine(from, to, bgmFadeTime));
+    }
+
+    private IEnumerator FadeChaseBGMCoroutine(float from, float to, float duration)
+    {
+        if (chaseAudioSource == null || duration <= 0f)
+        {
+            if (chaseAudioSource != null)
+                chaseAudioSource.volume = to;
+            yield break;
+        }
+
+        float t = 0f;
+        while (t < duration)
+        {
+            t += Time.unscaledDeltaTime;
+            float lerp = Mathf.Clamp01(t / duration);
+            chaseAudioSource.volume = Mathf.Lerp(from, to, lerp);
+            yield return null;
+        }
+
+        chaseAudioSource.volume = to;
     }
 }

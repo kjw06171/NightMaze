@@ -9997,7 +9997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageBGM: {fileID: 8300000, guid: 22af319f5de208e479f3d72dad7bfb75, type: 3}
-  bgmVolume: 0.8
+  bgmVolume: 0.6
 --- !u!4 &676608645
 Transform:
   m_ObjectHideFlags: 0
@@ -11135,6 +11135,8 @@ MonoBehaviour:
   doorOpenSound: {fileID: 8300000, guid: aeffc93b597ec90499b7a6dabbbf5b63, type: 3}
   doorLockedSound: {fileID: 8300000, guid: 9c0ce251e61c90b4390d0fb0de99e42d, type: 3}
   sfxVolume: 1
+  doorDialogue: {fileID: 0}
+  playDialogueOnEnter: 1
 --- !u!1 &841974987
 GameObject:
   m_ObjectHideFlags: 0
@@ -102719,6 +102721,9 @@ MonoBehaviour:
   pickupVolume: 1
   lockedSound: {fileID: 0}
   lockedVolume: 1
+  storyLoweredVolume: 0.25
+  storyFadeOutTime: 0.8
+  storyFadeInTime: 0.8
 --- !u!50 &2006101033
 Rigidbody2D:
   serializedVersion: 5
