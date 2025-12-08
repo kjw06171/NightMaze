@@ -27,7 +27,8 @@ public class DialogueManager : MonoBehaviour
 
     [Header("UI 요소 연결")]
     public GameObject dialoguePanel;
-    public TextMeshProUGUI dialogueText;
+    public TextMeshProUGUI dialogueText;            // 기존 캐릭터 대사
+    public TextMeshProUGUI dialogueTextNarration;   // 🔥 새로 추가 — 내레이션 전용(Text (1))
     public TextMeshProUGUI speakerNameText;
     public Image characterPortrait;
     public GameObject pauseMenuCanvas;
@@ -37,9 +38,8 @@ public class DialogueManager : MonoBehaviour
     public AudioClip typingSoundClip;
 
     [Tooltip("사운드를 얼마나 자주 재생할지 결정하는 간격(초)")]
-    public float typingSoundInterval = 0.05f;  // ★ 핵심 옵션
-
-    private float typingSoundCooldown = 0f;     // ★ 쿨다운 타이머
+    public float typingSoundInterval = 0.05f;  
+    private float typingSoundCooldown = 0f;
 
     [Range(0f, 1f)]
     public float defaultTypingVolume = 0.5f;
@@ -85,8 +85,12 @@ public class DialogueManager : MonoBehaviour
         }
 
         dialoguePanel.SetActive(false);
+
         if (characterPortrait != null)
             characterPortrait.gameObject.SetActive(false);
+
+        if (dialogueTextNarration != null)
+            dialogueTextNarration.gameObject.SetActive(false);
 
         Time.timeScale = 1f;
     }
@@ -100,8 +104,6 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    // ------------------------------------------------------------
-    // 타이핑 볼륨 조절
     // ------------------------------------------------------------
     public void SetTypingVolume(float volume)
     {
@@ -120,24 +122,34 @@ public class DialogueManager : MonoBehaviour
                 StopCoroutine(typingCoroutine);
 
             isTyping = false;
-
-            // 🔊 타이핑 즉시 종료 → 오디오도 즉시 꺼짐
             if (typingAudioSource != null)
                 typingAudioSource.Stop();
 
-            dialogueText.text = currentDialogueData.sentences[currentSentenceIndex];
+            // 기존 sentences 방식
+            if (currentDialogueData.dialogueSentences == null || currentDialogueData.dialogueSentences.Length == 0)
+            {
+                dialogueText.text = currentDialogueData.sentences[currentSentenceIndex];
+            }
+            else
+            {
+                var line = currentDialogueData.dialogueSentences[currentSentenceIndex];
+                if (string.IsNullOrEmpty(line.speakerName))
+                    dialogueTextNarration.text = line.sentence;
+                else
+                    dialogueText.text = line.sentence;
+            }
             return;
         }
 
-
         currentSentenceIndex++;
 
-        if (currentDialogueData != null && currentSentenceIndex < currentDialogueData.SentenceCount)
+        if (currentSentenceIndex < currentDialogueData.SentenceCount)
             DisplayCurrentSentence();
         else
             EndDialogue();
     }
 
+    // ------------------------------------------------------------
     public void StartDialogue(DialogueSO dialogueData, Action onEnd = null)
     {
         if (isDialogueActive) return;
@@ -166,18 +178,14 @@ public class DialogueManager : MonoBehaviour
             pauseMenuCanvas.SetActive(false);
         }
 
-        speakerNameText.text = dialogueData.characterName;
-
-        if (characterPortrait != null)
-        {
-            characterPortrait.sprite = dialogueData.portrait;
-            characterPortrait.gameObject.SetActive(dialogueData.portrait != null);
-        }
-
         DisplayCurrentSentence();
+
         OnDialogueStart?.Invoke();
     }
 
+    // ------------------------------------------------------------
+    // 🔥 핵심: 캐릭터 대사 vs 내레이션 UI 스위칭
+    // ------------------------------------------------------------
     private void DisplayCurrentSentence()
     {
         if (currentSentenceIndex >= currentDialogueData.SentenceCount)
@@ -186,17 +194,80 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        string sentence = currentDialogueData.sentences[currentSentenceIndex];
+        bool multi = currentDialogueData.dialogueSentences != null &&
+                     currentDialogueData.dialogueSentences.Length > 0;
 
+        if (multi)
+        {
+            var line = currentDialogueData.dialogueSentences[currentSentenceIndex];
+            bool hasSpeaker = !string.IsNullOrEmpty(line.speakerName);
+
+            if (hasSpeaker)
+            {
+                // 캐릭터 대사 모드
+                dialogueText.gameObject.SetActive(true);
+                dialogueTextNarration.gameObject.SetActive(false);
+
+                speakerNameText.text = line.speakerName;
+                speakerNameText.gameObject.SetActive(true);
+
+                if (line.portrait != null)
+                {
+                    characterPortrait.sprite = line.portrait;
+                    characterPortrait.gameObject.SetActive(true);
+                }
+                else
+                {
+                    characterPortrait.gameObject.SetActive(false);
+                }
+
+                StartTyping(line.sentence);
+            }
+            else
+            {
+                // 내레이션 모드
+                dialogueText.gameObject.SetActive(false);
+                dialogueTextNarration.gameObject.SetActive(true);
+
+                speakerNameText.gameObject.SetActive(false);
+                characterPortrait.gameObject.SetActive(false);
+
+                StartTypingNarration(line.sentence);
+            }
+
+            return;
+        }
+
+        // ------------------------------------------------------------
+        // 🔥 기존 코드(단일 캐릭터) 그대로 유지
+        // ------------------------------------------------------------
+        dialogueText.gameObject.SetActive(true);
+        dialogueTextNarration.gameObject.SetActive(false);
+
+        speakerNameText.text = currentDialogueData.characterName;
+
+        if (currentDialogueData.portrait != null)
+        {
+            characterPortrait.sprite = currentDialogueData.portrait;
+            characterPortrait.gameObject.SetActive(true);
+        }
+        else
+        {
+            characterPortrait.gameObject.SetActive(false);
+        }
+
+        StartTyping(currentDialogueData.sentences[currentSentenceIndex]);
+    }
+
+    // ------------------------------------------------------------
+    private void StartTyping(string sentence)
+    {
         if (typingCoroutine != null)
             StopCoroutine(typingCoroutine);
 
         typingCoroutine = StartCoroutine(TypeSentence(sentence));
     }
 
-    // ------------------------------------------------------------
-    // ★ 타이핑 효과: 쿨다운 방식 적용 (겹침 방지)
-    // ------------------------------------------------------------
     IEnumerator TypeSentence(string sentence)
     {
         isTyping = true;
@@ -207,7 +278,6 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueText.text += letter;
 
-            // 🔊 사운드 재생 (쿨다운 방식)
             if (typingAudioSource != null && typingSoundClip != null)
             {
                 typingSoundCooldown -= Time.unscaledDeltaTime;
@@ -224,8 +294,47 @@ public class DialogueManager : MonoBehaviour
 
         isTyping = false;
         typingCoroutine = null;
-        typingAudioSource.Stop();   // ★ 타이핑 종료 시 즉시 사운드 정지
+        typingAudioSource.Stop();
+    }
 
+    // ------------------------------------------------------------
+    // 🔥 내레이션 타이핑
+    // ------------------------------------------------------------
+    private void StartTypingNarration(string sentence)
+    {
+        if (typingCoroutine != null)
+            StopCoroutine(typingCoroutine);
+
+        typingCoroutine = StartCoroutine(TypeSentenceNarration(sentence));
+    }
+
+    IEnumerator TypeSentenceNarration(string sentence)
+    {
+        isTyping = true;
+        dialogueTextNarration.text = "";
+        typingSoundCooldown = 0f;
+
+        foreach (char letter in sentence.ToCharArray())
+        {
+            dialogueTextNarration.text += letter;
+
+            if (typingAudioSource != null && typingSoundClip != null)
+            {
+                typingSoundCooldown -= Time.unscaledDeltaTime;
+
+                if (typingSoundCooldown <= 0f)
+                {
+                    typingAudioSource.PlayOneShot(typingSoundClip);
+                    typingSoundCooldown = typingSoundInterval;
+                }
+            }
+
+            yield return new WaitForSecondsRealtime(typingSpeed);
+        }
+
+        isTyping = false;
+        typingCoroutine = null;
+        typingAudioSource.Stop();
     }
 
     // ------------------------------------------------------------
@@ -234,7 +343,7 @@ public class DialogueManager : MonoBehaviour
         isDialogueActive = false;
 
         if (typingAudioSource != null)
-        typingAudioSource.Stop();
+            typingAudioSource.Stop();
 
         dialoguePanel.SetActive(false);
 
@@ -242,6 +351,7 @@ public class DialogueManager : MonoBehaviour
             characterPortrait.gameObject.SetActive(false);
 
         dialogueText.text = "";
+        dialogueTextNarration.text = "";
         speakerNameText.text = "";
 
         onDialogueEndCallback?.Invoke();

@@ -1,22 +1,57 @@
 using UnityEngine;
 
-// 💡 프로젝트에서 Assets -> Create -> Dialogue/Dialogue Data 로 새 대화 에셋을 만들 수 있습니다.
+[System.Serializable]
+public class DialogueSentence
+{
+    [Header("화자 이름 (비우면 내레이션)")]
+    public string speakerName;
+
+    [Header("초상화 (없으면 비활성화)")]
+    public Sprite portrait;
+
+    [Header("대사 내용")]
+    [TextArea(3, 10)]
+    public string sentence;
+}
+
 [CreateAssetMenu(fileName = "New Dialogue", menuName = "Dialogue/Dialogue Data", order = 1)]
 public class DialogueSO : ScriptableObject
 {
-    [Header("대화 정보")]
-    // 💡 대화창에 캐릭터 이름을 표시할 경우를 대비하여 추가
-    public string characterName = "이름 없음"; 
-    
-    [Header("캐릭터 초상화")]
-    // 💡 캐릭터 초상화 이미지 (DialogueManager의 characterPortrait에 할당됨)
-    public Sprite portrait; 
-    
-    [Header("대화 문장 목록")]
-    [TextArea(3, 10)] // 인스펙터에서 여러 줄 입력을 쉽게 하도록 설정
-    // 💡 큐에 들어갈 모든 대화 문장입니다.
-    public string[] sentences; 
+    // -----------------------------------------------------------
+    // 🔥 새로운 확장형 대사 배열 (여러 캐릭터 지원)
+    // -----------------------------------------------------------
+    [Header("여러 캐릭터 대사 지원 (확장형)")]
+    public DialogueSentence[] dialogueSentences;
 
-    // 💡 대화 문장의 개수 확인용
-    public int SentenceCount => sentences != null ? sentences.Length : 0;
+
+    // -----------------------------------------------------------
+    // 🔥 기존 구조 (하위 호환)
+    // → 기존 대화 파일들이 깨지지 않도록 그대로 유지
+    // -----------------------------------------------------------
+    [Header("기존 단일 캐릭터 대사 (하위 호환용)")]
+    public string characterName = "이름 없음";
+    public Sprite portrait;
+
+    [TextArea(3, 10)]
+    public string[] sentences;
+
+
+    // -----------------------------------------------------------
+    // 🔥 대사 개수 자동 계산
+    // → 새 구조(dialogueSentences)가 있으면 그걸 우선 사용
+    // → 없으면 기존 sentences[] 사용
+    // -----------------------------------------------------------
+    public int SentenceCount
+    {
+        get
+        {
+            if (dialogueSentences != null && dialogueSentences.Length > 0)
+                return dialogueSentences.Length;
+
+            if (sentences != null)
+                return sentences.Length;
+
+            return 0;
+        }
+    }
 }
