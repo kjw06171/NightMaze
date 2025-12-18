@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: yuna_0
+      name: Yuna_0
       rect:
         serializedVersion: 2
-        x: 49
+        x: 0
         y: 0
-        width: 337
-        height: 440
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5cbd826f61bdacca0800000000000000
-      internalID: -5995739062224757819
+      spriteID: 530a992d3c3801a44b251af5c0bc823e
+      internalID: -794526486
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7dafd6d65a8ddb1429ed1ec27312aa35
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Yuna_0: -794526486
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

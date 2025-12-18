@@ -11,6 +11,19 @@ public class MansionDoorController : MonoBehaviour
     public string doorQuestID = "MANSION_KEY";
     public string prerequisiteID = "CANDLE_TOGGLE";
 
+    // ==========================================================
+    // 🔥 UI 문구 설정 (Inspector에서 수정 가능)
+    // ==========================================================
+    [Header("UI 문구 설정")]
+    [Tooltip("문을 열 수 있을 때 표시되는 문구")]
+    public string openDoorMessage = "E 키를 눌러 문 열기";
+
+    [Tooltip("선행 퀘스트 미완료 시 표시되는 문구")]
+    public string lockedDoorMessage = "[잠김] 선행 퀘스트를 완수하세요.";
+
+    // ==========================================================
+    // 🔊 사운드 설정
+    // ==========================================================
     [Header("사운드 설정")]
     public AudioSource audioSource;
 
@@ -23,17 +36,17 @@ public class MansionDoorController : MonoBehaviour
     [Range(0f, 1f)]
     public float sfxVolume = 1f;
 
-    // =============================================
+    // ==========================================================
     // 🔥 문 앞 자동 대화 기능 (선택 사항)
-    // =============================================
+    // ==========================================================
     [Header("문 앞 대화 설정 (선택 사항)")]
-    public DialogueSO doorDialogue;         // 넣지 않으면 자동 대화 없음
-    public bool playDialogueOnEnter = true; // 켜고 끌 수 있음
-    private bool dialoguePlayed = false;    // 1회 제한
+    public DialogueSO doorDialogue;         
+    public bool playDialogueOnEnter = true; 
+    private bool dialoguePlayed = false;    
 
     private bool playerInRange = false;
 
-
+    // ==========================================================
     void Update()
     {
         if (!playerInRange) return;
@@ -55,7 +68,7 @@ public class MansionDoorController : MonoBehaviour
         if (!prereqCleared)
         {
             if (ui != null)
-                ui.ShowNotification("[잠김] 선행 퀘스트를 완수하세요.", false);
+                ui.ShowNotification(lockedDoorMessage, false);
 
             // E 입력 시 "잠김" 소리
             if (Input.GetKeyDown(KeyCode.E))
@@ -66,7 +79,7 @@ public class MansionDoorController : MonoBehaviour
 
         // 🔓 문 열 수 있는 상태
         if (ui != null)
-            ui.ShowNotification("E 키를 눌러 문 열기", false);
+            ui.ShowNotification(openDoorMessage, false);
 
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -86,10 +99,10 @@ public class MansionDoorController : MonoBehaviour
     // ==========================================================
     private void TryPlayDoorDialogue()
     {
-        if (dialoguePlayed) return;                   // 이미 실행됨
-        if (!playDialogueOnEnter) return;             // 기능 꺼져 있음
-        if (doorDialogue == null) return;             // 대화 데이터 없음
-        if (DialogueManager.Instance == null) return; // DialogueManager 없음
+        if (dialoguePlayed) return;
+        if (!playDialogueOnEnter) return;
+        if (doorDialogue == null) return;
+        if (DialogueManager.Instance == null) return;
 
         // ⭐ 선행 퀘스트 미완료 상태라면 대사 실행하지 않음
         if (!string.IsNullOrEmpty(prerequisiteID))
@@ -101,7 +114,6 @@ public class MansionDoorController : MonoBehaviour
                 return;
         }
 
-        // 선행 퀘 완료된 경우에만 대사 시작
         DialogueManager.Instance.StartDialogue(doorDialogue, null);
         dialoguePlayed = true;
     }

@@ -8,6 +8,9 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 3;
     private int currentHealth;
 
+    // ⭐ 추가: 방금 리스폰 여부
+    public bool IsJustRespawned { get; private set; }
+
     // 🔥 체크포인트 위치 저장용
     private Vector3 respawnPosition;
 
@@ -53,26 +56,26 @@ public class PlayerHealth : MonoBehaviour
 
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
 
-        // GameOverManager 자동 찾기 (연결 안 했을 경우 대비)
+        // GameOverManager 자동 찾기
         if (gameOverManager == null)
             gameOverManager = FindObjectOfType<GameOverManager>();
     }
 
-    // 🚩 체크포인트에서 호출하는 함수
+    // 🚩 체크포인트에서 호출
     public void UpdateRespawnPosition(Vector3 newPosition)
     {
         respawnPosition = newPosition;
         Debug.Log("🚩 체크포인트 저장 완료: " + newPosition);
     }
 
-    // ⚔️ 데미지 입는 함수
+    // ⚔️ 데미지
     public void TakeDamage(int damageAmount)
     {
         if (currentHealth <= 0) return;
 
         currentHealth = Mathf.Max(0, currentHealth - damageAmount);
         SaveSharedHealth();
-        
+
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
         PlayDamageSound();
         StartCoroutine(HitFlash());
@@ -83,63 +86,64 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    // 💀 죽었을 때 (게임 멈추고 UI 띄움)
+    // 💀 사망
     private void Die()
     {
         Debug.Log("💀 사망! 게임 정지 및 UI 호출");
-        
-        // 매니저에게 "게임 오버 처리해줘"라고 요청
+
         if (gameOverManager != null)
         {
             gameOverManager.OnGameOver();
         }
         else
         {
-            // 매니저가 없으면 비상용으로 그냥 시간만 멈춤
             Time.timeScale = 0;
             Debug.LogError("GameOverManager가 연결되지 않았습니다!");
         }
     }
 
-    // 🔄 부활 처리 (UI 버튼이 누르면 GameOverManager가 이 함수를 실행)
-    // 🔄 부활 처리 (완전 초기화 버전)
+    // 🔄 부활 처리 (풀피 유지)
     public void Respawn()
     {
-        Debug.Log("✨ 부활! 상태 완전 초기화");
-
-        // [중요 1] 죽을 때 실행되던 모든 깜빡임(Coroutine) 강제 종료
-        StopAllCoroutines(); 
-
-        // [중요 2] 혹시 빨간색인 상태로 멈췄을 수 있으니, 강제로 원래 색(흰색)으로 복구
+        StopAllCoroutines();
         SetPlayerColor(Color.white);
 
-        // [중요 3] 죽을 때 지르던 비명 소리가 남아있다면 끊기
         if (damageAudioSource != null)
-        {
             damageAudioSource.Stop();
+
+        // ⭐ 빛 즉시 풀 충전
+        LightControl light = FindObjectOfType<LightControl>();
+        if (light != null)
+        {
+            light.ForceFullRecharge();
         }
 
-        // 1. 체력 100% 회복
+        // ⭐ 풀피 리스폰 (기존 기능 유지)
         currentHealth = maxHealth;
+        IsJustRespawned = true; // ⭐ 추가
+
         SaveSharedHealth();
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
 
-        // 2. 위치 이동
         if (playerMove != null)
-        {
             playerMove.Teleport(respawnPosition);
-        }
         else
-        {
             transform.position = respawnPosition;
-        }
 
-        // 3. 이제 피격 효과(빨간불)는 내지 말고, 치유 소리만 한번 딱 재생
-        // StartCoroutine(HitFlash()); // <--- 이거 삭제함 (이게 있으면 부활할 때 빨개짐)
-        PlayHealSound(); 
+        PlayHealSound();
+
+        // ⭐ 일정 시간 후 리스폰 상태 해제
+        StartCoroutine(ClearRespawnFlag());
     }
 
-    // ❤️ 회복 함수 (삭제되어서 에러났던 부분 복구!)
+    // ⭐ 추가: 리스폰 상태 자동 해제
+    private IEnumerator ClearRespawnFlag()
+    {
+        yield return new WaitForSeconds(3f);
+        IsJustRespawned = false;
+    }
+
+    // ❤️ 회복
     public void Heal(int amount)
     {
         if (amount > 0 && currentHealth >= maxHealth)
@@ -154,7 +158,6 @@ public class PlayerHealth : MonoBehaviour
         PlayHealSound();
     }
 
-    // ❓ 체력이 꽉 찼는지 확인 (삭제되어서 에러났던 부분 복구!)
     public bool IsHealthFull()
     {
         return currentHealth >= maxHealth;
@@ -170,7 +173,7 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    // 🔊 사운드 재생
+    // 🔊 사운드
     private void PlayDamageSound()
     {
         if (damageAudioSource != null && damageClip != null)
@@ -189,17 +192,17 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    // ✨ 깜빡임 효과 (내용 복구!)
+    // ✨ 깜빡임 효과
     private IEnumerator HitFlash()
     {
         if (renderers == null) yield break;
 
         for (int i = 0; i < flashCount; i++)
         {
-            SetPlayerColor(new Color(1f, 0.3f, 0.3f)); // 빨강
+            SetPlayerColor(new Color(1f, 0.3f, 0.3f));
             yield return new WaitForSeconds(flashDuration);
 
-            SetPlayerColor(Color.white); // 원상복구
+            SetPlayerColor(Color.white);
             yield return new WaitForSeconds(flashDuration);
         }
     }

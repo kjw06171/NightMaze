@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSentences:
   - speakerName: "\uC720\uB098"
-    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    portrait: {fileID: -794526486, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
     sentence: "\uC778\uD615... \uCC3D\uACE0... \uAE68\uC9C4 \uC811\uC2DC... \uADF8\uB798...
       \uC804\uBD80 \uADF8 \uC0AC\uB78C\uC774 \uD55C \uC9D3\uC774\uC5C8\uC5B4."
   - speakerName: "\uC720\uB098"
-    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    portrait: {fileID: -794526486, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
     sentence: "\uC7A0\uAE50... \uADF8\uB7EC\uBA74 \uB098\uB97C \uCAD3\uC544\uC624\uB358
       \uADF8 \uADF8\uB9BC\uC790 \uAD34\uBB3C\uC740..."
   - speakerName: 

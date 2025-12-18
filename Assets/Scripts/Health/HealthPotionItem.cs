@@ -60,7 +60,7 @@ public class HealthPotionItem : MonoBehaviour
             playerInRange = true;
 
             if (showInteractMessage && FloatingNotificationUI.Instance != null)
-                FloatingNotificationUI.Instance.ShowNotification("E키를 눌러 열기", false);
+                FloatingNotificationUI.Instance.ShowNotification("E키를 눌러 획득", false);
         }
     }
 

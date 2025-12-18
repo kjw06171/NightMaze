@@ -211,4 +211,18 @@ public class LightControl : MonoBehaviour
 
         typing.volume = originalVolume;
     }
+
+    // 🔥 부활 전용: 즉시 빛 풀 회복
+    public void ForceFullRecharge()
+    {
+        timer = 0f;
+        isLightDepleted = false;
+
+        float t = 0f;
+        playerLight.pointLightOuterRadius = startRadius;
+        playerLight.intensity = startIntensity;
+
+        SaveSharedLight();
+    }
+
 }

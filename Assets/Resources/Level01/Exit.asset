@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSentences: []
   characterName: "\uC720\uB098"
-  portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+  portrait: {fileID: -794526486, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
   sentences:
   - "\uC774 \uC9D1\u2026 \uB108\uBB34 \uC775\uC219\uD574. \r\n\uBD84\uBA85 \uAE30\uC5B5\uC774
     \uB0A0 \uAC83 \uAC19\uC740\uB370\u2026"

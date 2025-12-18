@@ -13,24 +13,23 @@ public class TrapDamage : MonoBehaviour
     [Header("튜토리얼 퀘스트 ID")]
     public string trapQuestID = "TRAP_TUTORIAL";
 
+    [Header("튜토리얼 종료 퀘스트 ID")]
+    public string tutorialEndQuestID = "TUTORIAL_END";
+
     private float lastDamageTime = -999f;
     private bool tutorialTriggered = false;
 
-    // 🔊 트랩 밟을 때 나는 소리
     [Header("트랩 사운드")]
-    public AudioSource trapAudioSource;  // 붙여줄 오디오소스
-    public AudioClip trapSoundClip;      // 재생할 소리
+    public AudioSource trapAudioSource;
+    public AudioClip trapSoundClip;
     [Range(0f, 1f)]
-    public float trapVolume = 1f;        // 볼륨 조절 가능
-    public bool ignoreListenerPause = true; // 퍼즈 때도 소리 나게 할건지
+    public float trapVolume = 1f;
+    public bool ignoreListenerPause = true;
 
     private void Awake()
     {
-        // 옵션 적용
         if (trapAudioSource != null)
-        {
             trapAudioSource.ignoreListenerPause = ignoreListenerPause;
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -40,49 +39,70 @@ public class TrapDamage : MonoBehaviour
         PlayerHealth playerHealth = other.GetComponentInParent<PlayerHealth>();
         if (playerHealth == null) return;
 
-        // 쿨타임 체크
         if (Time.time - lastDamageTime < damageCooldown) return;
 
-        // 데미지 적용
         playerHealth.TakeDamage(damageAmount);
         lastDamageTime = Time.time;
 
-        // 🔊 트랩 사운드 재생
         PlayTrapSound();
-
-        Debug.Log("함정 데미지 적용됨 (입장 시)");
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         if (!other.CompareTag("PlayerFeet")) return;
-
+        if (SceneManager.GetActiveScene().name != "Lv_00_2") return;
         if (tutorialTriggered) return;
 
-        if (SceneManager.GetActiveScene().name != "Lv_00_2") return;
+        // =========================
+        // 1️⃣ 첫 번째 함정 (조건 없음)
+        // =========================
+        if (!GameState.TrapTutorialSeen)
+        {
+            TriggerTrapTutorial();
+            GameState.TrapTutorialSeen = true;
+            tutorialTriggered = true;
+            return;
+        }
+
+        // =========================
+        // 2️⃣ 이후 함정 (COLLECT_ITEMS 완료 필요)
+        // =========================
+        if (QuestManager.Instance == null ||
+            !QuestManager.Instance.IsQuestDone("COLLECT_ITEMS"))
+        {
+            return;
+        }
+
+        TriggerTrapTutorial();
+
+        // ⭐ 튜토리얼 종료 퀘스트 완료 (여기서만!)
+        QuestManager.Instance.CompleteQuest(tutorialEndQuestID);
+        Debug.Log("🏁 TUTORIAL_END 퀘스트 완료!");
 
         tutorialTriggered = true;
+    }
 
-        // 퀘스트 완료
+    // ---------------------------------------------------------
+    // 🔥 트랩 튜토리얼 공통 처리
+    // ---------------------------------------------------------
+    private void TriggerTrapTutorial()
+    {
         if (QuestManager.Instance != null)
         {
             QuestManager.Instance.CompleteQuest(trapQuestID);
             Debug.Log("🎉 TRAP_TUTORIAL 퀘스트 완료!");
         }
 
-        // 대화 실행
         if (DialogueManager.Instance != null && trapTutorialDialogue != null)
         {
             DialogueManager.Instance.StartDialogue(trapTutorialDialogue);
-            Debug.Log("💬 함정 튜토리얼 대화 시작 (트랩 벗어났을 때)");
-        }
-        else
-        {
-            Debug.LogWarning("⚠ trapTutorialDialogue 또는 DialogueManager가 설정되지 않음");
+            Debug.Log("💬 함정 튜토리얼 대화 시작");
         }
     }
 
-    // 🔊 소리 재생 함수
+    // ---------------------------------------------------------
+    // 🔊 트랩 사운드
+    // ---------------------------------------------------------
     private void PlayTrapSound()
     {
         if (trapAudioSource != null && trapSoundClip != null)

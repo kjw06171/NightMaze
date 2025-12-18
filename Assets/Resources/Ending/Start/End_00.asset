@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4209a4818db8f754989a9f54a39a2752, type: 3}
+  m_Name: End_00
+  m_EditorClassIdentifier: 
+  dialogueSentences:
+  - speakerName: "\uC720\uB098"
+    portrait: {fileID: -794526486, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    sentence: "\uC800 \uC800\uD0DD\uC740..."
+  - speakerName: "\uC720\uB098"
+    portrait: {fileID: -794526486, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    sentence: "\uADF8\uB798 \uC800 \uC800\uD0DD\uC740 \uC61B\uB0A0 \uC6B0\uB9AC\uC9D1\uC774\uC5C8\uC5B4..."
+  - speakerName: "\uC720\uB098"
+    portrait: {fileID: -794526486, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    sentence: "\uC9C0\uC625\uAC19\uB358 \uADF8\uACF3..."
+  - speakerName: 
+    portrait: {fileID: 0}
+    sentence: "\uBAB8\uC744 \uB3CC\uB9AC\uACE0 \uC800\uD0DD \uC815\uC6D0\uC744 \uBE60\uC838\uB098\uAC00\uB824\uB358
+      \uC21C\uAC04, \uBA40\uB9AC\uC11C \uB2E4\uAE09\uD558\uAC8C \uB0B4 \uC774\uB984\uC744
+      \uBD80\uB974\uB294 \uC18C\uB9AC\uAC00 \uB4E4\uB838\uB2E4."
+  characterName: 
+  portrait: {fileID: 0}
+  sentences: []

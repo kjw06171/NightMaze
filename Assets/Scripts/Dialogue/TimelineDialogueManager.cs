@@ -9,21 +9,31 @@ public class TimelineDialogueManager : MonoBehaviour
 {
     public static TimelineDialogueManager Instance { get; private set; }
 
+    // UI 요소 (기존 유지)
     public GameObject dialoguePanel;
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI speakerNameText;
     public Image speakerPortrait; // 초상화 이미지
     public GameObject narrationPanel; // 내레이션 UI 패널 (내레이션 전용 UI)
-    
     public TextMeshProUGUI narrationText; // 내레이션 텍스트 (대사) 
 
+    // 🔊 오디오 요소 (기존 유지)
+    [Header("오디오 설정")]
+    public AudioSource typingAudioSource;
+    public AudioClip typingSoundClip;
+    
+    [Tooltip("사운드를 얼마나 자주 재생할지 결정하는 간격(초)")]
+    public float typingSoundInterval = 0.05f; 
+    [Range(0f, 1f)]
+    public float defaultTypingVolume = 0.5f;
+    private float typingSoundCooldown = 0f;
+
+    // 상태 변수 (기존 유지)
     private DialogueSO currentDialogueData;
     private int currentSentenceIndex = 0;
     private bool isDialogueActive = false;
-
     private bool isTyping = false;
     private Coroutine typingCoroutine;
-
     public Action onDialogueEndCallback;
 
     void Awake()
@@ -44,6 +54,14 @@ public class TimelineDialogueManager : MonoBehaviour
             Debug.LogError("DialogueManager UI 연결 안 됨!");
             gameObject.SetActive(false);
             return;
+        }
+        
+        // 🔊 오디오 설정 초기화
+        if (typingAudioSource != null)
+        {
+            typingAudioSource.volume = defaultTypingVolume;
+            typingAudioSource.loop = false;
+            typingAudioSource.playOnAwake = false;
         }
 
         dialoguePanel.SetActive(false);
@@ -70,7 +88,11 @@ public class TimelineDialogueManager : MonoBehaviour
                 StopCoroutine(typingCoroutine);
 
             isTyping = false;
-
+            
+            // 🔊 오디오 중지 추가
+            if (typingAudioSource != null)
+                typingAudioSource.Stop(); 
+            
             var currentSentence = currentDialogueData.dialogueSentences[currentSentenceIndex];
             
             // 텍스트를 즉시 전체 표시
@@ -79,16 +101,7 @@ public class TimelineDialogueManager : MonoBehaviour
             else
                 dialogueText.text = currentSentence.sentence;
             
-            // 🟢 [수정]: 마지막 문장을 스킵한 경우, 즉시 EndDialogue 호출 (타임스케일 복구 포함)
-            if (currentSentenceIndex == currentDialogueData.SentenceCount - 1)
-            {
-                EndDialogue();
-                return; 
-            }
-            
-            // 중간 문장의 스킵은 타이핑만 완료하고 다음 E 입력을 기다림 (아래의 else 경로로 진입하기 위해 return 제거)
-            // 즉, 스킵 후 한 번 더 E를 눌러야 다음 문장으로 넘어갑니다.
-            return;
+            return; 
         }
 
         // 2. 타이핑이 완료되었거나 이미 스킵된 상태라면 다음 문장으로 진행
@@ -100,12 +113,12 @@ public class TimelineDialogueManager : MonoBehaviour
         }
         else
         {
-            // 모든 문장이 끝났을 때 EndDialogue 호출 (타이핑 코루틴에서 처리되지만, 혹시 모를 경우를 대비)
+            // 모든 문장이 끝났을 때 EndDialogue 호출
             EndDialogue();
         }
     }
 
-    // 대화 시작
+    // 대화 시작 (기존 유지)
     public void StartDialogue(DialogueSO dialogueData, Action onEnd = null)
     {
         if (isDialogueActive) return;
@@ -123,7 +136,6 @@ public class TimelineDialogueManager : MonoBehaviour
 
         DisplayCurrentSentence();
         
-        // 🟢 대화가 시작되는 순간 Time.timeScale = 0f로 정지
         Time.timeScale = 0f;
     }
 
@@ -141,15 +153,16 @@ public class TimelineDialogueManager : MonoBehaviour
         // UI 토글 로직
         bool isNarration = string.IsNullOrEmpty(line.speakerName);
         
-        // 내레이션일 때는 dialoguePanel을 비활성화하고, narrationPanel을 활성화
         narrationPanel.SetActive(isNarration);
-        dialoguePanel.SetActive(!isNarration); // 대화일 때는 dialoguePanel을 활성화하고 narrationPanel을 비활성화
+        dialoguePanel.SetActive(!isNarration); 
 
         TextMeshProUGUI targetText;
 
         if (isNarration)
         {
             targetText = narrationText;
+            // ⭐️ 내레이션 모드일 때도 오디오를 포함하는 통합 함수 호출
+            StartTypingWithAudio(targetText, line.sentence);
         }
         else
         {
@@ -166,50 +179,62 @@ public class TimelineDialogueManager : MonoBehaviour
             {
                 speakerPortrait.gameObject.SetActive(false);
             }
+            
+            // ⭐️ 캐릭터 대사 모드일 때 오디오를 포함하는 통합 함수 호출
+            StartTypingWithAudio(targetText, line.sentence);
         }
-        
-        // 타이핑 시작
-        StartTyping(targetText, line.sentence);
     }
 
 
+    // ------------------------------------------------------------
+    // 🔊 통합 타이핑 시작 함수 (내레이션/캐릭터 공통)
+    // ------------------------------------------------------------
 
-    // StartTyping 함수
-    private void StartTyping(TextMeshProUGUI targetText, string sentence)
+    // StartTypingWithAudio 함수
+    private void StartTypingWithAudio(TextMeshProUGUI targetText, string sentence)
     {
         if (typingCoroutine != null)
             StopCoroutine(typingCoroutine);
-
-        typingCoroutine = StartCoroutine(TypeSentence(targetText, sentence));
+        
+        // 💡 모든 타이핑은 이제 오디오 로직을 포함한 TypeSentenceWithAudio 코루틴을 사용합니다.
+        typingCoroutine = StartCoroutine(TypeSentenceWithAudio(targetText, sentence));
     }
 
-    // TypeSentence 코루틴 
-    IEnumerator TypeSentence(TextMeshProUGUI targetText, string sentence)
+    // TypeSentenceWithAudio 코루틴 (오디오 로직 포함)
+    IEnumerator TypeSentenceWithAudio(TextMeshProUGUI targetText, string sentence)
     {
         isTyping = true;
-        targetText.text = ""; 
+        targetText.text = "";
+
+        // 타자 소리 간격을 초기화
+        typingSoundCooldown = 0f; // 오디오 재생 여부를 결정하는 변수 (DialogueManager 로직 유지)
+        float typingSpeed = 0.05f; // 기존 코드의 yield 값 사용
 
         foreach (char letter in sentence.ToCharArray())
         {
             targetText.text += letter;
-            yield return new WaitForSecondsRealtime(0.05f); 
+
+            // 🔊 타자 소리가 끝나고 난 후 다음 타자 소리를 재생
+            // (DialogueManager에서 이식된 로직)
+            if (typingAudioSource != null && typingSoundClip != null && !typingAudioSource.isPlaying)
+            {
+                // 타자 소리 재생
+                typingAudioSource.PlayOneShot(typingSoundClip);
+
+                // 타자 소리 다음 재생까지 대기하는 시간 설정 (로직 유지를 위해 남김)
+                typingSoundCooldown = typingSoundInterval;
+            }
+
+            // 타자 속도만큼 대기
+            yield return new WaitForSecondsRealtime(typingSpeed); 
         }
 
         isTyping = false;
         typingCoroutine = null;
-
-        // 🟢 [수정]: 타이핑이 끝났을 때, 마지막 문장이라면 즉시 EndDialogue 호출 (E 입력 불필요)
-        // 특정 씬에서는 타이핑이 끝나면 자동으로 대화창을 종료
-        if (currentSentenceIndex == currentDialogueData.SentenceCount - 1)
-        {
-            string sceneName = SceneManager.GetActiveScene().name;
-
-            if (sceneName == "SpecificScene") // 특정 씬에서는 자동 종료
-            {
-                EndDialogue();
-            }
-        }
+        if (typingAudioSource != null)
+            typingAudioSource.Stop();
     }
+
 
     // 대화 종료
     public void EndDialogue()
@@ -229,7 +254,16 @@ public class TimelineDialogueManager : MonoBehaviour
         currentSentenceIndex = 0;
         onDialogueEndCallback?.Invoke();
 
-        // 🟢 [최종]: 대화가 완전히 끝났을 때만 Time.timeScale 재개 (요청하신 기능 구현)
+        // 🔊 오디오 정지
+        if (typingAudioSource != null)
+            typingAudioSource.Stop(); 
+
         Time.timeScale = 1f; 
+    }
+    
+    // PauseMenu 스크립트에서 참조할 수 있도록 IsActive() 함수 추가
+    public bool IsActive()
+    {
+        return isDialogueActive;
     }
 }

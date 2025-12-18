@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: c7d554af6dd46834294d7ef5f08f14b2
+guid: 35db01f72d14f404f84f6337d94d9a72
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6109554817898918433
-    second: Enemy.right_run_0
+      213: -1716302071226790401
+    second: Dad_Down_Run_0
   - first:
-      213: -6019381003516729897
-    second: Enemy.right_run_1
+      213: 5068836484977442899
+    second: Dad_Down_Run_1
   - first:
-      213: 6881751138018771956
-    second: Enemy.right_run_2
+      213: 6520105178100819078
+    second: Dad_Down_Run_2
   - first:
-      213: -3581541616398853627
-    second: Enemy.right_run_3
-  - first:
-      213: 8708047235529445811
-    second: Enemy.right_run_4
-  - first:
-      213: -5157803626284334894
-    second: Enemy.right_run_5
-  - first:
-      213: 4987060070627038611
-    second: Enemy.right_run_6
-  - first:
-      213: -8987200939491444539
-    second: Enemy.right_run_7
+      213: -4513857677649457015
+    second: Dad_Down_Run_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 52
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,12 +109,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy.right_run_0
+      name: Dad_Down_Run_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 155
+        width: 160
         height: 240
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -134,21 +122,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 12234a0bcbf79c450800000000000000
-      internalID: 6109554817898918433
+      spriteID: 6fcdb705e1c935d48b8abaea053e7fc3
+      internalID: -15764952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy.right_run_1
+      name: Dad_Down_Run_1
       rect:
         serializedVersion: 2
-        x: 170
+        x: 160
         y: 0
-        width: 155
+        width: 160
         height: 240
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -156,21 +144,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7d5a6ad8edcd67ca0800000000000000
-      internalID: -6019381003516729897
+      spriteID: 4a24061f70fa1b24085f4ddc8751e835
+      internalID: 886484531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy.right_run_2
+      name: Dad_Down_Run_2
       rect:
         serializedVersion: 2
-        x: 330
+        x: 320
         y: 0
-        width: 155
+        width: 160
         height: 240
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -178,21 +166,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4f3cf3ee234e08f50800000000000000
-      internalID: 6881751138018771956
+      spriteID: ac124f68cde564b49a239a2471dd41a5
+      internalID: 824467316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy.right_run_3
+      name: Dad_Down_Run_3
       rect:
         serializedVersion: 2
-        x: 500
+        x: 480
         y: 0
-        width: 155
+        width: 160
         height: 240
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -200,98 +188,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 50a944e20eecb4ec0800000000000000
-      internalID: -3581541616398853627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy.right_run_4
-      rect:
-        serializedVersion: 2
-        x: 670
-        y: 0
-        width: 150
-        height: 240
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b11e01d2d239d870800000000000000
-      internalID: 8708047235529445811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy.right_run_5
-      rect:
-        serializedVersion: 2
-        x: 840
-        y: 0
-        width: 145
-        height: 240
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d0c91addeccb68b0800000000000000
-      internalID: -5157803626284334894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy.right_run_6
-      rect:
-        serializedVersion: 2
-        x: 1005
-        y: 0
-        width: 120
-        height: 240
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 395524f26b8953540800000000000000
-      internalID: 4987060070627038611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy.right_run_7
-      rect:
-        serializedVersion: 2
-        x: 1175
-        y: 0
-        width: 120
-        height: 240
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c83e8c9c5c074380800000000000000
-      internalID: -8987200939491444539
+      spriteID: 464a7efb1315709449294ac317b00c2e
+      internalID: 1585508224
       vertices: []
       indices: 
       edges: []
@@ -300,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 879a9544175a86449aa329b82a6913b6
+    spriteID: addef7c82b2cbc449905331d6a96f2fb
     internalID: 0
     vertices: []
     indices: 
@@ -310,14 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Enemy.right_run_0: 6109554817898918433
-      Enemy.right_run_1: -6019381003516729897
-      Enemy.right_run_2: 6881751138018771956
-      Enemy.right_run_3: -3581541616398853627
-      Enemy.right_run_4: 8708047235529445811
-      Enemy.right_run_5: -5157803626284334894
-      Enemy.right_run_6: 4987060070627038611
-      Enemy.right_run_7: -8987200939491444539
+      Dad_Down_Run_0: -15764952
+      Dad_Down_Run_1: 886484531
+      Dad_Down_Run_2: 824467316
+      Dad_Down_Run_3: 1585508224
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

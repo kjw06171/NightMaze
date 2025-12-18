@@ -36,6 +36,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Lv_02.unity
     guid: bdc644ea585b6854dadc4d7cba6d937c
   - enabled: 1
+    path: Assets/Scenes/LoadingScene 3.unity
+    guid: 9b99f83a8ffc9474692bb8eda23ff06a
+  - enabled: 1
+    path: Assets/Scenes/Ending_00.unity
+    guid: cdcd3e0a07f5fe44594a4b040dbdcef5
+  - enabled: 1
+    path: Assets/Scenes/Ending_A.unity
+    guid: 95dc4de6d9e299e4b80cfb3e8a2bbc9e
+  - enabled: 1
+    path: Assets/Scenes/Ending_B.unity
+    guid: 0696d122fe89dbd419e6d73eb6d7fbc9
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene 4.unity
+    guid: dd7e927109f0d224ab2deabdc0ba3e61
+  - enabled: 0
     path: Assets/Scenes/GameOverScene.unity
     guid: 184c5105d8e4abe49839393184e3749b
   m_configObjects:

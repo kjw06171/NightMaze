@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSentences:
   - speakerName: "\uC720\uB098"
-    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    portrait: {fileID: -794526486, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
     sentence: "\uC7A0\uACA8\uC788\uB124? \uBB50\uC57C \uC774 \uBB38\u2026\r\n"
   - speakerName: 
     portrait: {fileID: 0}
@@ -22,10 +22,10 @@ MonoBehaviour:
       \uB3D9\uC77C\uD558\uB2E4. \uC774\uB97C \uD1B5\uD574 \uBB38\uC744 \uC5F4 \uC218
       \uC788\uC744 \uAC83 \uAC19\uB2E4."
   - speakerName: "\uC720\uB098"
-    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    portrait: {fileID: -794526486, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
     sentence: "\uADF8 \uC870\uAC01\uC73C\uB85C \uC5F4 \uC218 \uC788\uB294\uAC74\uAC00..."
   - speakerName: "\uC720\uB098"
-    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    portrait: {fileID: -794526486, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
     sentence: "\uD55C\uBC88 \uB07C\uC6CC\uBD10\uC57C\uACA0\uB2E4."
   characterName: 
   portrait: {fileID: 0}

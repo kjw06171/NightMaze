@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4209a4818db8f754989a9f54a39a2752, type: 3}
+  m_Name: CheckPoint
+  m_EditorClassIdentifier: 
+  dialogueSentences:
+  - speakerName: 
+    portrait: {fileID: 0}
+    sentence: "\uCC45\uC744 \uC218\uC9D1\uD558\uBA74 \uB9C8\uC9C0\uB9C9\uC73C\uB85C
+      \uC218\uC9D1\uB41C \uC7A5\uC18C\uC5D0\uC11C \uC0B4\uC544\uB0A9\uB2C8\uB2E4.\n(\uCCB4\uD06C\uD3EC\uC778\uD2B8
+      \uAE30\uB2A5\uC740 \uD29C\uD1A0\uB9AC\uC5BC \uB2E8\uACC4\uC5D0\uC11C\uB294
+      \uC9C4\uD589\uB418\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.)"
+  characterName: "\uC720\uB098"
+  portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+  sentences: []

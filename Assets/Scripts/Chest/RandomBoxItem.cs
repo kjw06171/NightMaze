@@ -29,12 +29,16 @@ public class RandomBoxItem : MonoBehaviour
 
     // 🔊 랜덤박스 사운드
     [Header("랜덤박스 사운드 설정 🔊")]
-    public AudioSource boxAudioSource;   // Inspector에 연결할 AudioSource
-    public AudioClip boxClip;            // 재생할 소리
+    public AudioSource boxAudioSource;
+    public AudioClip boxClip;
     [Range(0f, 1f)]
-    public float boxVolume = 1f;         // 볼륨 조절
+    public float boxVolume = 1f;
 
     private bool playerInRange = false;
+
+    // ⭐ 핵심 1: 상자 1회성 락
+    private bool isOpened = false;
+
     private List<RandomEffect> possibleEffects;
 
     void Awake()
@@ -56,47 +60,59 @@ public class RandomBoxItem : MonoBehaviour
 
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        if (!playerInRange) return;
+        if (isOpened) return;
+
+        if (Input.GetKeyDown(KeyCode.E))
         {
             OpenRandomBox();
         }
     }
 
+    // =========================================================
+    // 🔥 Trigger 처리 (콜라이더 여러 개 대응)
+    // =========================================================
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = true;
+        if (!other.CompareTag("Player")) return;
+        if (isOpened) return;
 
-            if (showInteractMessage && FloatingNotificationUI.Instance != null)
-                FloatingNotificationUI.Instance.ShowNotification("E키를 눌러 획득", false);
-        }
+        playerInRange = true;
+
+        if (showInteractMessage && FloatingNotificationUI.Instance != null)
+            FloatingNotificationUI.Instance.ShowNotification("E키를 눌러 획득", false);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = false;
+        if (!other.CompareTag("Player")) return;
+        if (isOpened) return;
 
-            if (showInteractMessage && FloatingNotificationUI.Instance != null)
-                FloatingNotificationUI.Instance.HideNotification();
-        }
+        playerInRange = false;
+
+        if (showInteractMessage && FloatingNotificationUI.Instance != null)
+            FloatingNotificationUI.Instance.HideNotification();
     }
 
+    // =========================================================
+    // 🔥 상자 열기 (E 입력 시 1회만 실행)
+    // =========================================================
     private void OpenRandomBox()
     {
+        if (isOpened) return;
+        isOpened = true;   // ⭐ 여기서 락
+
         Transform playerRoot = FindObjectOfType<PlayerHealth>()?.transform.root;
         if (playerRoot == null)
         {
-            ShowFloatingMessage(transform.position, "플레이어 없음!", Color.red);
+            Debug.LogError("플레이어를 찾을 수 없습니다.");
             return;
         }
 
         PlayerHealth healthControl = playerRoot.GetComponentInChildren<PlayerHealth>();
         LightControl lightControl = playerRoot.GetComponentInChildren<LightControl>();
 
-        // 🔥 Lv_00_2일 때는 빛 감소만 가능
+        // 효과 선택
         RandomEffect selectedEffect;
 
         if (SceneManager.GetActiveScene().name == "Lv_00_2")
@@ -114,42 +130,59 @@ public class RandomBoxItem : MonoBehaviour
 
         Debug.Log($"📦 랜덤 상자 → {selectedEffect.message}");
 
+        // =================================================
         // 🔥 효과 적용
+        // =================================================
         if (selectedEffect.type == EffectType.Health && healthControl != null)
         {
-            healthControl.Heal((int)selectedEffect.value);
+            int value = (int)selectedEffect.value;
+
+            if (value < 0)
+            {
+                // 데미지는 TakeDamage로만
+                healthControl.TakeDamage(Mathf.Abs(value));
+            }
+            else
+            {
+                healthControl.Heal(value);
+            }
         }
         else if (selectedEffect.type == EffectType.Light && lightControl != null)
         {
             lightControl.RestoreLight(selectedEffect.value);
         }
 
-        // 🔥 메시지 출력
+        // 메시지
         ShowFloatingMessage(transform.position, selectedEffect.message, selectedEffect.color);
 
-        // 🔥 퀘스트 증가
-        QuestManager.Instance.AddProgress("COLLECT_ITEMS", 1);
+        // 퀘스트
+        if (QuestManager.Instance != null)
+            QuestManager.Instance.AddProgress("COLLECT_ITEMS", 1);
 
-        // 🔥 아이템 설명 대사 (Lv_00_2 전용)
+        // Lv_00_2 전용 대사
         if (SceneManager.GetActiveScene().name == "Lv_00_2")
         {
             if (itemDialogue != null && DialogueManager.Instance != null)
                 DialogueManager.Instance.StartDialogue(itemDialogue);
         }
 
-        // 🔊 소리 재생 (Pause 중에는 재생 X)
+        // 사운드
         PlayBoxSound();
 
-        // 🔥 상자 삭제
+        // UI 정리
+        if (FloatingNotificationUI.Instance != null)
+            FloatingNotificationUI.Instance.HideNotification();
+
+        // 삭제
         Destroy(gameObject);
     }
 
-    // ---------------------------------------------------------
-    // 🔊 랜덤박스 사운드
-    // ---------------------------------------------------------
+    // =========================================================
+    // 🔊 사운드
+    // =========================================================
     private void PlayBoxSound()
     {
-        if (PauseMenu.isGamePaused) return;  // Pause 중 재생 금지
+        if (PauseMenu.isGamePaused) return;
 
         if (boxAudioSource != null && boxClip != null)
         {
@@ -158,40 +191,31 @@ public class RandomBoxItem : MonoBehaviour
         }
     }
 
-    // ---------------------------------------------------------
-    // 🔥 UI 메시지 표시
-    // ---------------------------------------------------------
+    // =========================================================
+    // 🔥 플로팅 메시지
+    // =========================================================
     private void ShowFloatingMessage(Vector3 position, string message, Color color)
     {
         if (targetCanvas == null)
             targetCanvas = FindObjectOfType<Canvas>();
 
         if (floatingTextPrefab == null || targetCanvas == null || Camera.main == null)
-        {
-            Debug.LogError("🚨 FloatingText 생성 실패: 프리팹 / Canvas / Camera 필요!");
             return;
-        }
 
-        Camera cam = Camera.main;
-        Vector2 screenPoint = cam.WorldToScreenPoint(position);
-        Vector2 localPoint;
-
+        Vector2 screenPoint = Camera.main.WorldToScreenPoint(position);
         RectTransformUtility.ScreenPointToLocalPointInRectangle(
             targetCanvas.GetComponent<RectTransform>(),
             screenPoint,
             targetCanvas.worldCamera,
-            out localPoint
+            out Vector2 localPoint
         );
 
         GameObject messageObj = Instantiate(floatingTextPrefab, targetCanvas.transform);
         RectTransform rect = messageObj.GetComponent<RectTransform>();
 
-        if (rect != null)
-        {
-            localPoint.y -= 40f;
-            rect.localPosition = localPoint;
-            rect.localScale = Vector3.one;
-        }
+        localPoint.y -= 40f;
+        rect.localPosition = localPoint;
+        rect.localScale = Vector3.one;
 
         FloatingMessage fm = messageObj.GetComponent<FloatingMessage>();
         if (fm != null)

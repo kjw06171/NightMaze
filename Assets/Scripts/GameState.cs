@@ -14,6 +14,9 @@ public static class GameState
     // 🔥 LightControl 공유 타이머 (0~duration 사이 값)
     public static float SharedLightTimer = 0f;
 
+    public static bool TrapTutorialSeen = false;
+
+
     // ==========================================================
     // ⭐ KEY_A, KEY_B, KEY_C 상태 변수 추가 (재탕을 위해 필요)
     // ==========================================================
