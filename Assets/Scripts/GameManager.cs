@@ -42,7 +42,6 @@ public class GameManager : MonoBehaviour
         Debug.Log("🔄 GameState 초기화 완료");
     }
 
-
     // =========================================================
     // 🔥 기본 GameManager 기능
     // =========================================================
@@ -57,7 +56,7 @@ public class GameManager : MonoBehaviour
         if (titleScreenPanel != null)
             titleScreenPanel.SetActive(true);
 
-        Time.timeScale = 0f;
+        Time.timeScale = 0f;  // 게임을 멈추기 위해 Time.timeScale = 0
         IsTitleScreenActive = true;
     }
 
@@ -66,12 +65,13 @@ public class GameManager : MonoBehaviour
         if (titleScreenPanel != null)
             titleScreenPanel.SetActive(false);
 
-        if (!StoryUIFader.IsStoryPlaying &&
-            !(DialogueManager.Instance != null && DialogueManager.Instance.IsActive()))
-        {
-            Time.timeScale = 1f;
-        }
+        // 게임 시작 시 Time.timeScale을 1로 설정 (기존 코드 기능을 그대로 유지)
+        Time.timeScale = 1f;
 
+        // 게임 상태 초기화 (StartGame()에서만 호출)
+        ResetKeyStates();
+
+        // 타이틀 화면이 비활성화되면 게임 진행 가능
         IsTitleScreenActive = false;
     }
 

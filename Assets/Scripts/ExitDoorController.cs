@@ -1,5 +1,6 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // 💡 씬 관리 기능을 사용하기 위해 추가
+using UnityEngine.SceneManagement;
+using TMPro; // TextMeshPro 사용
 
 public class ExitDoorController : MonoBehaviour
 {
@@ -11,7 +12,8 @@ public class ExitDoorController : MonoBehaviour
     private string unlockedMessage = "E를 눌러 탈출!";
 
     private bool isPlayerNearby = false;
-    private bool isDoorOpen = false;
+    private bool isDoorOpen = false; // 문이 열렸는지 확인하는 변수
+    private bool hasPlayedOpenSound = false; // 소리가 이미 재생된 여부를 확인
 
     private SpriteRenderer doorRenderer;
     private Collider2D doorCollider;
@@ -34,6 +36,10 @@ public class ExitDoorController : MonoBehaviour
     [Tooltip("문 소리를 재생할 AudioSource")]
     public AudioSource audioSource;
 
+    // 대화 SO 연결
+    [Header("대화 데이터 (DialogueSO)")]
+    public DialogueSO dialogueData; // 대화 데이터 연결
+
     void Awake()
     {
         doorRenderer = GetComponent<SpriteRenderer>();
@@ -50,13 +56,11 @@ public class ExitDoorController : MonoBehaviour
         }
     }
 
-
     void Update()
     {
         if (isPlayerNearby && Input.GetKeyDown(KeyCode.E))
             HandleInteraction();
     }
-
 
     // =========================================================
     // 🔥 문 상호작용 처리 (E를 눌렀을 때만 실행됨)
@@ -72,29 +76,33 @@ public class ExitDoorController : MonoBehaviour
         {
             PlayAvailableSound();  // E 눌렀을 때만 재생
 
-            OpenDoor();
-
-            if (!string.IsNullOrEmpty(nextSceneName))
-                SceneManager.LoadScene(nextSceneName);
-
+            // 대화창 표시
+            ShowExitDialogue(() =>
+            {
+                OpenDoor();
+                if (!string.IsNullOrEmpty(nextSceneName))
+                    SceneManager.LoadScene(nextSceneName);
+            });
             return;
         }
 
         // 🔒 열쇠 부족
         PlayLockedSound();  // E 눌렀을 때만 재생
 
-        if (FloatingNotificationUI.Instance != null)
-            FloatingNotificationUI.Instance.ShowNotification($"잠김: {lockedMessage}");
+        // 🔥 FloatingMessage 사용하여 메시지 표시
+        ShowFloatingMessage(lockedMessage);
     }
-
 
     // =========================================================
     // 🔊 사운드 재생 함수 (E 입력 시에만 호출됨)
     // =========================================================
     private void PlayAvailableSound()
     {
-        if (audioSource != null && interactAvailableSound != null)
+        if (audioSource != null && interactAvailableSound != null && !hasPlayedOpenSound)
+        {
             audioSource.PlayOneShot(interactAvailableSound, interactAvailableVolume);
+            hasPlayedOpenSound = true; // 소리가 재생되었으므로 한 번만 재생되도록 설정
+        }
     }
 
     private void PlayLockedSound()
@@ -103,7 +111,6 @@ public class ExitDoorController : MonoBehaviour
             audioSource.PlayOneShot(interactLockedSound, interactLockedVolume);
     }
 
-
     private void OpenDoor()
     {
         isDoorOpen = true;
@@ -111,7 +118,6 @@ public class ExitDoorController : MonoBehaviour
         if (FloatingNotificationUI.Instance != null)
             FloatingNotificationUI.Instance.HideNotification();
     }
-
 
     // =========================================================
     // 🔥 범위 진입 / 이탈
@@ -129,7 +135,6 @@ public class ExitDoorController : MonoBehaviour
             FloatingNotificationUI.Instance.ShowNotification(messageToShow, false);
     }
 
-
     void OnTriggerExit2D(Collider2D other)
     {
         if (!other.CompareTag("Player") || isDoorOpen) return;
@@ -138,5 +143,42 @@ public class ExitDoorController : MonoBehaviour
 
         if (FloatingNotificationUI.Instance != null)
             FloatingNotificationUI.Instance.HideNotification();
+    }
+
+    // =========================================================
+    // 🔥 대화창 표시 (Exit 대화)
+    // =========================================================
+    private void ShowExitDialogue(System.Action onDialogueEnd)
+    {
+        // 대화창 표시
+        if (DialogueManager.Instance != null && dialogueData != null)
+        {
+            DialogueManager.Instance.StartDialogue(dialogueData, () =>
+            {
+                // 대화가 끝난 후, 문을 열고 씬을 전환
+                onDialogueEnd?.Invoke();
+            });
+        }
+    }
+
+    // =========================================================
+    // 🔥 FloatingMessage UI 표시 (문과 관련된 메시지)
+    // =========================================================
+    private void ShowFloatingMessage(string message)
+    {
+        // 새로운 FloatingMessage 객체를 생성하여 메시지를 화면에 표시합니다.
+        GameObject floatingMessageObj = new GameObject("FloatingMessage");
+        TextMeshProUGUI messageText = floatingMessageObj.AddComponent<TextMeshProUGUI>();
+        messageText.text = message;
+
+        // FloatingMessage UI 설정
+        RectTransform rectTransform = messageText.GetComponent<RectTransform>();
+        rectTransform.SetParent(transform); // ExitDoorController 오브젝트 아래에 배치
+
+        // 위치 설정 (오브젝트 아래로 위치하도록)
+        rectTransform.anchoredPosition = new Vector2(0f, -50f); // 오브젝트 아래로 50px
+
+        // FloatingMessage 생명 주기 설정 (일정 시간 후 삭제)
+        Destroy(floatingMessageObj, 1.5f); // 1.5초 후에 메시지 제거
     }
 }

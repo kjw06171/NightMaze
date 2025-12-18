@@ -2,32 +2,49 @@ using UnityEngine;
 
 public class GameOverManager : MonoBehaviour
 {
-    [Header("Restart Button Script 연결")]
-    public Restart restartButton;
+    [Header("설정: 게임오버 UI 패널")]
+    public GameObject gameOverPanel; 
 
-    // 📌 게임오버 UI에서 호출됨
-    public void OnGameOver()
+    [Header("설정: 플레이어 스크립트")]
+    public PlayerHealth playerHealth;
+
+    // 🔥 [추가된 부분] 게임 시작할 때 UI를 강제로 끕니다.
+    void Start()
     {
-        // 🔇 퍼즈 메뉴처럼 모든 게임 사운드 정지
-        AudioListener.pause = true;
-
-        // 다른 게임오버 처리 필요 시 여기에 추가 가능
-        Debug.Log("🎮 Game Over: 모든 게임 사운드 정지됨");
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(false); // 시작하자마자 안 보이게 끄기
+        }
     }
 
-    // 📌 UI Button → OnClick() 에서 이 함수만 호출하면 됨!
+    // 💀 플레이어가 죽었을 때 호출됨
+    public void OnGameOver()
+    {
+        Debug.Log("🎮 Game Over UI 활성화");
+        AudioListener.pause = true;
+        Time.timeScale = 0;
+
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true); // 죽으면 켜기
+        }
+    }
+
+    // 🔄 UI 버튼(다시하기)에 연결할 함수
     public void RestartGameCall()
     {
-        if (restartButton != null)
-        {
-            // 재시작 전 사운드 정상화
-            AudioListener.pause = false;
+        Debug.Log("🔄 다시하기 버튼 클릭됨");
+        AudioListener.pause = false;
+        Time.timeScale = 1;
 
-            restartButton.RestartGame();
-        }
-        else
+        if (gameOverPanel != null)
         {
-            Debug.LogError("🚨 GameOverManager: restartButton이 Inspector에서 연결되지 않았습니다!");
+            gameOverPanel.SetActive(false); // 다시 시작하면 끄기
+        }
+
+        if (playerHealth != null)
+        {
+            playerHealth.Respawn();
         }
     }
 }

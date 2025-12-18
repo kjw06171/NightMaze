@@ -4,16 +4,15 @@ using System.Collections;
 
 public class MonsterPatrol_Random : MonoBehaviour
 {
-    [Header("Random Patrol Settings")]
-    public float patrolRadius = 5f;
-    public float arrivalThreshold = 0.4f;   // 더 작은 값 추천
+    [Header("Patrol Area Settings")]
+    // ▼ 여기가 핵심! 이제 숫자(Radius) 대신 콜라이더(영역)를 넣게 바뀝니다.
+    public Collider2D patrolZone; 
+    public float arrivalThreshold = 0.4f;
     public Transform player;
 
     private AIPath aiPath;
     private Seeker seeker;
-
     private Transform randomTarget;
-
     private bool patrolActive = false;
     private bool hasDestination = false;
 
@@ -24,37 +23,25 @@ public class MonsterPatrol_Random : MonoBehaviour
         aiPath = GetComponent<AIPath>();
         seeker = GetComponent<Seeker>();
 
-        if (aiPath == null) Debug.LogError("AIPath component is missing on " + gameObject.name);
-        if (seeker == null) Debug.LogError("Seeker component is missing on " + gameObject.name);
+        // 만약 Inspector에서 깜빡하고 영역을 안 넣었으면 에러 메시지 띄움
+        if (patrolZone == null) Debug.LogError("⛔ [중요] 몬스터에게 순찰할 구역(Patrol Zone)을 연결해주세요!");
 
         randomTarget = new GameObject("RandomPatrolTarget").transform;
-        // 몬스터 오브젝트의 자식으로 설정하여 Hierarchy를 정리합니다.
         randomTarget.SetParent(transform.parent); 
 
-        // ⭐ AIPath의 도착 거리를 스크립트의 arrivalThreshold와 통일
         aiPath.endReachedDistance = arrivalThreshold;
-        
         aiPath.enabled = false;
     }
-
-    // --------------------------------------------------------
-    // 외부 제어 함수: Chase/Flee 종료 후 호출됨
-    // --------------------------------------------------------
 
     public void StartPatrolling()
     {
         if (patrolActive) return;
-
         patrolActive = true;
         
-        // ⭐ [핵심 안정화] 이전 상태(Chase/Flee)의 경로 정보를 완전히 지웁니다.
-        // 이를 통해 몬스터가 이전 목표 지점에서 멈칫거리는 현상을 방지합니다.
-        aiPath.destination = transform.position; // 현재 위치로 경로 목표 초기화
-        aiPath.target = randomTarget; // 타겟 트랜스폼 재설정
-
+        aiPath.destination = transform.position; 
+        aiPath.target = randomTarget; 
         aiPath.enabled = true;
         
-        // hasDestination = false 상태로 시작하여 새 목표를 찾습니다.
         hasDestination = false;
         SetNewRandomDestination();
     }
@@ -63,30 +50,19 @@ public class MonsterPatrol_Random : MonoBehaviour
     {
         patrolActive = false;
         hasDestination = false;
-
         CancelInvoke(nameof(SetNewRandomDestination));
-
         aiPath.enabled = false;
         seeker.CancelCurrentPathRequest();
-        
-        // ⭐ AIPath.target도 명시적으로 null 처리하여 cleanup을 완성합니다.
         aiPath.target = null; 
     }
 
     void Update()
     {
-        // 순찰 중이 아니거나, 아직 목표가 설정되지 않았다면 return
-        if (!patrolActive || !hasDestination)
-            return;
+        if (!patrolActive || !hasDestination) return;
 
-        // ⭐ [변경] AIPath의 내장된 도착 판정 사용 (EndReachedDistance 활용)
-        // A* Pathfinding이 경로 완료를 판단하는 로직을 사용합니다.
         if (aiPath.reachedDestination)
         {
-            // 목표에 도착했으므로, 다음 목표를 찾기 전까지 hasDestination을 false로 설정
             hasDestination = false; 
-            
-            // 0.2초 딜레이 후 다음 목표 설정 (멈춤 효과)
             Invoke(nameof(SetNewRandomDestination), 0.2f); 
         }
     }
@@ -96,31 +72,47 @@ public class MonsterPatrol_Random : MonoBehaviour
         if (hasDestination) return; 
         if (!patrolActive) return;
 
-        // 플레이어 위치를 중심으로 순찰할지, 현재 몬스터 위치를 중심으로 순찰할지 결정
-        Vector3 basePos = (player != null) ? player.position : transform.position;
+        // 콜라이더 범위 안에서 랜덤 위치 뽑기
+        Vector3? targetPos = GetRandomPointInCollider(patrolZone);
 
-        Vector2 rand = Random.insideUnitCircle * patrolRadius;
-        Vector3 randomPos = basePos + new Vector3(rand.x, rand.y, 0); 
-
-        // A* Pathfinding Project를 사용하여 가장 가까운 유효한 노드를 찾음
-        NNInfo node = AstarPath.active.GetNearest(randomPos);
-        Vector3 finalPos = node.position;
-
-        // ⭐ 유효성 검사 추가: 만약 유효한 노드를 찾지 못했거나 접근 불가능하다면 재시도
-        if (node.node == null || !node.node.Walkable) 
+        if (targetPos == null)
         {
-            Debug.LogWarning("랜덤 목표 위치가 유효하지 않습니다. 0.2초 후 재시도.");
-            Invoke(nameof(SetNewRandomDestination), 0.2f);
+            // 영역을 못 찾았거나 설정이 안 되어있으면 잠시 후 재시도
+            Invoke(nameof(SetNewRandomDestination), 0.5f);
             return;
         }
 
-        // 새로운 목표 위치 설정 및 경로 탐색 시작
-        randomTarget.position = finalPos;
+        Vector3 finalPos = targetPos.Value;
+        NNInfo node = AstarPath.active.GetNearest(finalPos);
+        
+        if (node.node == null || !node.node.Walkable) 
+        {
+            Invoke(nameof(SetNewRandomDestination), 0.1f);
+            return;
+        }
+
+        randomTarget.position = node.position;
         aiPath.target = randomTarget;
-
         aiPath.SearchPath(); 
-
-        // 새로운 목표가 설정되었으므로 도착 판정 활성화
         hasDestination = true;
+    }
+
+    Vector3? GetRandomPointInCollider(Collider2D collider)
+    {
+        if (collider == null) return null;
+
+        Bounds bounds = collider.bounds;
+        for (int i = 0; i < 10; i++)
+        {
+            float randX = Random.Range(bounds.min.x, bounds.max.x);
+            float randY = Random.Range(bounds.min.y, bounds.max.y);
+            Vector2 randomPoint = new Vector2(randX, randY);
+
+            if (collider.OverlapPoint(randomPoint))
+            {
+                return new Vector3(randomPoint.x, randomPoint.y, 0);
+            }
+        }
+        return null;
     }
 }

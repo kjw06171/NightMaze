@@ -12,8 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4209a4818db8f754989a9f54a39a2752, type: 3}
   m_Name: Key_A_Acquire_Dialogue
   m_EditorClassIdentifier: 
+  dialogueSentences:
+  - speakerName: "\uC720\uB098"
+    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    sentence: "\uC774 \uC778\uD615... \uC5B4\uCA50\uC9C0 \uC190\uC5D0 \uC775\uC5B4.
+      \uC5B4\uB9B4 \uB54C \uB0B4\uAC00 \uB9DD\uAC00\uC9C8 \uB54C\uAE4C\uC9C0 \uC950\uACE0
+      \uB2E4\uB154\uB358\u2026 \uB531 \uADF8 \uC778\uD615\uC774\uB791 \uB611\uAC19\uC544."
+  - speakerName: 
+    portrait: {fileID: 0}
+    sentence: "\uB0A1\uC740 \uC19C \uC778\uD615\uC5D0\uC11C \uD76C\uBBF8\uD558\uC9C0\uB9CC
+      \uB0AF\uC120 \uC704\uC548\uC758 \uD5A5\uC774 \uB290\uAEF4\uC9C4\uB2E4. \uADF8\uB7EC\uB098
+      \uACE7 \uBD88\uC548\uAC10\uC774 \uC5C4\uC2B5\uD55C\uB2E4."
+  - speakerName: "\uC720\uB098"
+    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    sentence: "\uC65C \uD558\uD544 \uC774\uAC8C \uC5EC\uAE30\uC5D0 \uC788\uC9C0?
+      \uC774\uC0C1\uD574... \uC774 \uC800\uD0DD, \uADF8\uB0E5 \uBE48 \uACF5\uAC04\uC774
+      \uC544\uB2CC \uAC83 \uAC19\uC544."
   characterName: "\uC720\uC720\uC720"
   portrait: {fileID: -3054714914345730600, guid: 426d945e422fedc43b761d519b502d1d, type: 3}
-  sentences:
-  - "\uC5F4\uC1E0\uB2E4!"
-  - "\uC774\uAC78 \uBAA8\uC544\uC11C \uD0C8\uCD9C\uD560 \uC218 \uC788\uC744\uAC83\uAC19\uB2E4."
+  sentences: []

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4209a4818db8f754989a9f54a39a2752, type: 3}
+  m_Name: Key_A_Acquire_Dialogue
+  m_EditorClassIdentifier: 
+  dialogueSentences:
+  - speakerName: 
+    portrait: {fileID: 0}
+    sentence: "\uC18D\uC774 \uB9E4\uC2A4\uAECD\uACE0 \uBA38\uB9AC\uAC00 \uD130\uC9C8
+      \uB4EF \uC544\uD30C\uC628\uB2E4. \uC628\uBAB8\uC758 \uC2E0\uACBD\uC774 \uADF9\uB3C4\uB85C
+      \uC608\uBBFC\uD574\uC9C0\uB294 \uACE0\uD1B5\uC774\uB2E4."
+  - speakerName: "\uC720\uB098"
+    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    sentence: "\uBCBD \uB108\uBA38\uC5D0\uC11C... \uB298 \uC800\uB7F0 \uC18C\uB9AC\uAC00
+      \uB4E4\uB838\uB358 \uAC83 \uAC19\uC544. \uB054\uCC0D\uD558\uAC8C \uD070 \uC18C\uB9AC\uAC00..."
+  - speakerName: "\uC720\uB098"
+    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    sentence: "\uB9DE\uC544... \uB098\uB294... \uADF8\uB798\uC11C \uD56D\uC0C1 \uC5EC\uAE30\uC5D0
+      \uC6C5\uD06C\uB824 \uC549\uC544 \uC228\uC8FD\uC774\uACE0 \uC788\uC5C8\uB358
+      \uAC70\uAD6C\uB098. \uC6C0\uC9C1\uC774\uBA74 \uC548 \uB410\uC73C\uB2C8\uAE4C..."
+  characterName: "\uC720\uB098"
+  portrait: {fileID: -5995739062224757819, guid: 7ddc45cad700d904d9d230edc9314da8, type: 3}
+  sentences: []

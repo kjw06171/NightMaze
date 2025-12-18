@@ -18,8 +18,9 @@ public class DialogueManager : MonoBehaviour
             if (_instance == null)
             {
                 _instance = FindObjectOfType<DialogueManager>();
-                if (_instance == null)
-                    Debug.LogError("DialogueManager instance not found!");
+                // ❌ [수정]: 인스턴스를 찾지 못했을 때 Debug.LogError를 출력하지 않습니다.
+                // if (_instance == null)
+                //     Debug.LogError("DialogueManager instance not found!"); 
             }
             return _instance;
         }
@@ -27,8 +28,8 @@ public class DialogueManager : MonoBehaviour
 
     [Header("UI 요소 연결")]
     public GameObject dialoguePanel;
-    public TextMeshProUGUI dialogueText;            // 기존 캐릭터 대사
-    public TextMeshProUGUI dialogueTextNarration;   // 🔥 새로 추가 — 내레이션 전용(Text (1))
+    public TextMeshProUGUI dialogueText; 	 	 // 기존 캐릭터 대사
+    public TextMeshProUGUI dialogueTextNarration; // 🔥 새로 추가 — 내레이션 전용(Text (1))
     public TextMeshProUGUI speakerNameText;
     public Image characterPortrait;
     public GameObject pauseMenuCanvas;
@@ -38,7 +39,7 @@ public class DialogueManager : MonoBehaviour
     public AudioClip typingSoundClip;
 
     [Tooltip("사운드를 얼마나 자주 재생할지 결정하는 간격(초)")]
-    public float typingSoundInterval = 0.05f;  
+    public float typingSoundInterval = 0.05f; 
     private float typingSoundCooldown = 0f;
 
     [Range(0f, 1f)]
@@ -195,7 +196,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         bool multi = currentDialogueData.dialogueSentences != null &&
-                     currentDialogueData.dialogueSentences.Length > 0;
+                        currentDialogueData.dialogueSentences.Length > 0;
 
         if (multi)
         {
@@ -208,6 +209,7 @@ public class DialogueManager : MonoBehaviour
                 dialogueText.gameObject.SetActive(true);
                 dialogueTextNarration.gameObject.SetActive(false);
 
+                // 화자 이름을 설정 (매 대사마다 업데이트)
                 speakerNameText.text = line.speakerName;
                 speakerNameText.gameObject.SetActive(true);
 
@@ -229,7 +231,8 @@ public class DialogueManager : MonoBehaviour
                 dialogueText.gameObject.SetActive(false);
                 dialogueTextNarration.gameObject.SetActive(true);
 
-                speakerNameText.gameObject.SetActive(false);
+                // 내레이션일 때는 이름을 숨김
+                speakerNameText.gameObject.SetActive(false); 
                 characterPortrait.gameObject.SetActive(false);
 
                 StartTypingNarration(line.sentence);
@@ -244,7 +247,13 @@ public class DialogueManager : MonoBehaviour
         dialogueText.gameObject.SetActive(true);
         dialogueTextNarration.gameObject.SetActive(false);
 
-        speakerNameText.text = currentDialogueData.characterName;
+        // 이름을 설정할 때 null 체크 후 업데이트 (빈 값이면 "Unknown" 사용)
+        speakerNameText.text = !string.IsNullOrEmpty(currentDialogueData.characterName)
+            ? currentDialogueData.characterName
+            : "Unknown";
+
+        // 단일 캐릭터 대사일 때는 이름을 다시 표시
+        speakerNameText.gameObject.SetActive(true);
 
         if (currentDialogueData.portrait != null)
         {
@@ -259,6 +268,9 @@ public class DialogueManager : MonoBehaviour
         StartTyping(currentDialogueData.sentences[currentSentenceIndex]);
     }
 
+
+
+
     // ------------------------------------------------------------
     private void StartTyping(string sentence)
     {
@@ -272,30 +284,35 @@ public class DialogueManager : MonoBehaviour
     {
         isTyping = true;
         dialogueText.text = "";
+
+        // 타자 소리 간격을 초기화
         typingSoundCooldown = 0f;
 
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
 
-            if (typingAudioSource != null && typingSoundClip != null)
+            // 타자 소리가 끝나고 난 후 다음 타자 소리를 재생
+            if (typingAudioSource != null && typingSoundClip != null && !typingAudioSource.isPlaying)
             {
-                typingSoundCooldown -= Time.unscaledDeltaTime;
+                // 타자 소리 재생
+                typingAudioSource.PlayOneShot(typingSoundClip);
 
-                if (typingSoundCooldown <= 0f)
-                {
-                    typingAudioSource.PlayOneShot(typingSoundClip);
-                    typingSoundCooldown = typingSoundInterval;
-                }
+                // 타자 소리 다음 재생까지 대기하는 시간 설정
+                typingSoundCooldown = typingSoundInterval;
             }
 
+            // 타자 속도만큼 대기
             yield return new WaitForSecondsRealtime(typingSpeed);
         }
 
         isTyping = false;
         typingCoroutine = null;
-        typingAudioSource.Stop();
+        if (typingAudioSource != null)
+            typingAudioSource.Stop();
     }
+
+
 
     // ------------------------------------------------------------
     // 🔥 내레이션 타이핑
@@ -318,28 +335,28 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueTextNarration.text += letter;
 
-            if (typingAudioSource != null && typingSoundClip != null)
+            // 타자 소리가 끝난 후, 다음 타자 소리 재생
+            if (typingAudioSource != null && typingSoundClip != null && !typingAudioSource.isPlaying)
             {
-                typingSoundCooldown -= Time.unscaledDeltaTime;
-
-                if (typingSoundCooldown <= 0f)
-                {
-                    typingAudioSource.PlayOneShot(typingSoundClip);
-                    typingSoundCooldown = typingSoundInterval;
-                }
+                typingAudioSource.PlayOneShot(typingSoundClip);
+                typingSoundCooldown = typingSoundInterval;
             }
 
+            // 타자 속도만큼 대기
             yield return new WaitForSecondsRealtime(typingSpeed);
         }
 
         isTyping = false;
         typingCoroutine = null;
-        typingAudioSource.Stop();
+        if (typingAudioSource != null)
+            typingAudioSource.Stop();
     }
 
     // ------------------------------------------------------------
     public void EndDialogue()
     {
+        if (!isDialogueActive) return; 
+
         isDialogueActive = false;
 
         if (typingAudioSource != null)

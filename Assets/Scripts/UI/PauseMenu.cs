@@ -54,7 +54,10 @@ public class PauseMenu : MonoBehaviour
 
         // 4) 타이틀 화면이면 ESC 차단
         if (GameManager.IsTitleScreenActive)
-            return;
+        {
+             GameManager.IsTitleScreenActive = false;
+             Debug.Log("GameManager: 타이틀 화면 플래그를 튜토리얼 씬에서 해제했습니다.");
+        }
 
         // 5) ESC 입력 처리
         if (Input.GetKeyDown(KeyCode.Escape))

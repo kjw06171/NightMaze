@@ -12,9 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4209a4818db8f754989a9f54a39a2752, type: 3}
   m_Name: Starter
   m_EditorClassIdentifier: 
+  dialogueSentences:
+  - speakerName: "\uC720\uB098"
+    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    sentence: "\uC800\uD0DD \uB0B4\uBD80\uC5D0 \uB4E4\uC5B4\uC624\uB2C8 \uB354 \uC5B4\uB450\uC6CC\uC84C\uB124."
+  - speakerName: 
+    portrait: {fileID: 0}
+    sentence: "\uC800\uD0DD \uC548\uC73C\uB85C \uBC1C\uC744 \uB4E4\uC5EC\uB193\uC790,
+      \uBCF5\uC7A1\uD55C \uBBF8\uB85C\uAC00 \uD3BC\uCCD0\uC9C0\uBA70, \uB4E4\uC5B4\uC654\uB358
+      \uBB38\uC774 \uAD73\uAC8C \uC7A0\uACBC\uB2E4."
+  - speakerName: "\uC720\uB098"
+    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    sentence: "\uBB50\uC57C, \uC774\uC81C \uB3CC\uC544\uAC08 \uAE38\uB3C4 \uC5C6\uC796\uC544!"
+  - speakerName: "\uC720\uB098"
+    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    sentence: "\uC5B4\uCA54 \uC218 \uC5C6\uC774, \uC55E\uC73C\uB85C \uAC00\uB294
+      \uC218\uBC16\uC5D0 \uC5C6\uACA0\uB124..."
   characterName: "\uC720\uB098"
-  portrait: {fileID: -3054714914345730600, guid: 426d945e422fedc43b761d519b502d1d, type: 3}
-  sentences:
-  - "\uC800\uD0DD \uB0B4\uBD80\uC5D0 \uB4E4\uC5B4\uC624\uB2C8 \uB354 \uC5B4\uB450\uC6CC\uC84C\uB124."
-  - "\uC9D1\uC73C\uB85C \uB3CC\uC544\uAC08 \uC218 \uC788\uB294 \uBC29\uBC95\uC744
-    \uCC3E\uC544\uBCF4\uC790."
+  portrait: {fileID: -5995739062224757819, guid: 7ddc45cad700d904d9d230edc9314da8, type: 3}
+  sentences: []

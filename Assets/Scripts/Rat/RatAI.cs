@@ -215,13 +215,14 @@ public class RatAI : MonoBehaviour
         if (RatAI.hasAttackedOnce) return;
 
         if (playerHealth != null)
-            playerHealth.TakeDamage(1);
+        {
+            playerHealth.TakeDamage(1);  // 플레이어 체력 차감
+            StopChaseSound();  // 공격 후 추격 소리 끊기
+        }
 
         RatAI.hasAttackedOnce = true;
 
         // 🔥 공격 성공하면 즉시 소리 끊기
-        StopChaseSound();
-
         state = RatState.Return;
         setter.target = null;
     }

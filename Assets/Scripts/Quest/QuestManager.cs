@@ -86,10 +86,11 @@ public class QuestManager : MonoBehaviour
     {
         var quest = initialQuestItems.Find(q => q.questID == questID);
         if (quest == null)
-        {
-            Debug.LogError($"존재하지 않는 진행형 퀘스트: {questID}");
-            return;
-        }
+{
+    // LogError를 LogWarning으로 변경
+    Debug.LogWarning($"[QuestManager] 존재하지 않는 퀘스트 무시됨: {questID}");
+    return; // ★ 이 return은 절대 지우면 안 됩니다! (중요 퀘스트 보호용)
+}
 
         quest.currentCount += amount;
 
@@ -107,7 +108,7 @@ public class QuestManager : MonoBehaviour
     // ------------------------------------
     // 🔥 최초 퀘스트 초기화
     // ------------------------------------
-    private void InitializeQuests()
+    public void InitializeQuests()
     {
         keyQuests.Clear();
         requiredKeyCount = 0;
@@ -179,7 +180,7 @@ public class QuestManager : MonoBehaviour
         if (questText == null) return;
 
         StringBuilder sb = new StringBuilder();
-        sb.AppendLine("🔑 메인 퀘스트");
+        sb.AppendLine("메인 퀘스트");
 
         int index = 1;
 
@@ -218,7 +219,7 @@ public class QuestManager : MonoBehaviour
             }
 
             // 모든 퀘스트 완료 시
-            sb.AppendLine("✨ 모든 퀘스트 완료!");
+            sb.AppendLine("모든 퀘스트 완료!");
             questText.text = sb.ToString();
             return;
         }
@@ -239,14 +240,14 @@ public class QuestManager : MonoBehaviour
                 string progress = $"{item.currentCount}/{item.targetCount}";
 
                 display = done
-                    ? $"<color=#62B76B><b>{sceneQuestOffset + index}. {item.displayName} 완료 ({progress})</b></color>"
+                    ? $"<color=#4B9354><b>{sceneQuestOffset + index}. {item.displayName} 획득 ({progress})</b></color>"
                     : $"{sceneQuestOffset + index}. {item.displayName} ({progress})";
             }
             else
             {
                 // 일반 퀘스트
                 display = done
-                    ? $"<color=#62B76B><b>{sceneQuestOffset + index}. {item.displayName} 완료</b></color>"
+                    ? $"<color=#4B9354><b>{sceneQuestOffset + index}. {item.displayName} 획득</b></color>"
                     : $"{sceneQuestOffset + index}. {item.displayName}";
             }
 

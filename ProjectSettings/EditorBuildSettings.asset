@@ -9,17 +9,35 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/TitleScene.unity
+    guid: 93e5cc629e58b7a4caefec49548a3b3d
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 104a988ca09d8224ca811d6704d6c012
+  - enabled: 1
     path: Assets/Scenes/Lv_00_1.unity
     guid: d2b034c3746eb13489d9f36720ae348a
   - enabled: 1
     path: Assets/Scenes/Lv_00_2.unity
     guid: 9dde46a06119c314183ca494c8443219
   - enabled: 1
+    path: Assets/Scenes/LoadingScene 1.unity
+    guid: ee2007b918b344b4ab338d5d0516abc2
+  - enabled: 1
     path: Assets/Scenes/Lv_01.unity
     guid: 835a810776d38c74abf467c32a49f350
   - enabled: 1
-    path: Assets/Scenes/Lv_02.unity
+    path: Assets/Scenes/LoadingScene 2.unity
+    guid: 54646bc5d42e4134bb11502980088dcf
+  - enabled: 1
+    path: Assets/Scenes/Lv_02_Start.unity
     guid: 524936e65c3d4eb479dca5996761e956
+  - enabled: 1
+    path: Assets/Scenes/Lv_02.unity
+    guid: bdc644ea585b6854dadc4d7cba6d937c
+  - enabled: 1
+    path: Assets/Scenes/GameOverScene.unity
+    guid: 184c5105d8e4abe49839393184e3749b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

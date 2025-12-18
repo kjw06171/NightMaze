@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4209a4818db8f754989a9f54a39a2752, type: 3}
+  m_Name: Start 3
+  m_EditorClassIdentifier: 
+  dialogueSentences:
+  - speakerName: "\uC720\uB098"
+    portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+    sentence: "...\uC800\uB9AC\uAC00!"
+  - speakerName: 
+    portrait: {fileID: 0}
+    sentence: "\uAE09\uD558\uAC8C \uAC00\uC9C0\uACE0 \uC788\uB358 \uD683\uBD88\uC744
+      \uB4E4\uC5B4 \uADF8\uB9BC\uC790\uAD34\uBB3C\uC744 \uD5A5\uD574 \uC190\uC744
+      \uC800\uC5C7\uB2E4."
+  characterName: "\uC720\uB098"
+  portrait: {fileID: -5995739062224757819, guid: 1a90747706f61ac4ab54ada0de1d2602, type: 3}
+  sentences: []

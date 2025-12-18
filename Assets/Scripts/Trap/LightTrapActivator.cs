@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LightTrapActivator2D : MonoBehaviour
 {
-    public RollingRock2D rollingRock;
+    public RollingRock rollingRock;
 
     private bool playerInRange = false; 
     private bool trapActivated = false; 

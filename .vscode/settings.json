@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "NightMaze02-master.sln"
+    "dotnet.defaultSolution": "NightMaze02.sln"
 }
